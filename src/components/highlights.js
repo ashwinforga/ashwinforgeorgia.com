@@ -1,71 +1,108 @@
 import React from 'react';
 import circle from 'uswds/img/circle-124.png';
+import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
+import still1 from '../images/still 1.png';
+import still2 from '../images/still 2.png';
+import headshot from '../images/headshot-square.jpeg';
+import still from '../images/still.jpeg';
+import leafblowers from '../images/leaf blowers.jpeg';
+import jif from '../images/jif-fellows.jpeg';
+import sossa from '../images/sossa.jpg';
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
 */
 
 const Highlights = () => (
-  <section className="usa-graphic-list usa-section usa-section--dark">
+  <>
+  <hr />
+  <section className="usa-graphic-list usa-section">  {/* usa-section--dark" */}
+    <h1>Ashwin works on the <strong>REAL</strong> issues.<br />In 2020...</h1>
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={still} alt="Shawn Still" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Graphic headings can vary.
+              Shawn Still was trying to overturn the results of Georgia's election.
             </h3>
             <p>
-              Graphic headings can be used a few different ways, depending on
-              what your landing page is for. Highlight your values, specific
-              program areas, or results.
+              <img src={still2} />
             </p>
           </div>
         </div>
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Stick to 6 or fewer words.
+              Ashwin worked with Secretary of State Raffensperger's office to secure Georgia's elections.
             </h3>
             <p>
-              Keep body text to about 30 words. They can be shorter, but try to
-              be somewhat balanced across all four. It creates a clean
-              appearance with good spacing.
+              <img src={ashwinMvp} />
             </p>
           </div>
         </div>
       </div>
-      <div className="usa-graphic-list__row grid-row grid-gap">
-        <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-              Never highlight anything without a goal.
-            </h3>
-            <p>
-              For anything you want to highlight here, understand what your
-              users know now, and what activity or impression you want from them
-              after they see it.
-            </p>
+      <hr />
+      <h1>In 2022...</h1>
+      <div className="grid-container">
+        <div className="usa-graphic-list__row grid-row grid-gap">
+          <div className="usa-media-block tablet:grid-col">
+            <img className="usa-media-block__img" src={still} alt="Shawn Still" />
+            <div className="usa-media-block__body">
+              <h3 className="usa-graphic-list__heading">
+                Shawn Still focused his legislative work on the LEAF Act, which would ban gas-powered leaf blowers.
+              </h3>
+              <p>
+                <img src={leafblowers} />
+                {/* TODO: add attribution - https://commons.wikimedia.org/wiki/File:Husqvarna_leaf_blowers.jpg */}
+              </p>
+            </div>
+          </div>
+          <div className="usa-media-block tablet:grid-col">
+            <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
+            <div className="usa-media-block__body">
+              <h3 className="usa-graphic-list__heading">
+                Ashwin's research led Congress to introduce a bill on securing our small businesses through open source software.
+              </h3>
+              <p>
+                <img src={sossa} />
+              </p>
+            </div>
           </div>
         </div>
-        <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-              Could also have 2 or 6.
-            </h3>
-            <p>
-              In addition to your goal, find out your users’ goals. What do they
-              want to know or do that supports your mission? Use these headings
-              to show those.
-            </p>
+      </div>
+      <hr />
+      <h1>In 2023...</h1>
+      <div className="grid-container">
+        <div className="usa-graphic-list__row grid-row grid-gap">
+          <div className="usa-media-block tablet:grid-col">
+            <img className="usa-media-block__img" src={still} alt="Shawn Still" />
+            <div className="usa-media-block__body">
+              <h3 className="usa-graphic-list__heading">
+                Shawn Still got indicted for impersonating a public officer and forgery in the first degreee.
+              </h3>
+              <p>
+                <img src={still1} />
+              </p>
+            </div>
+          </div>
+          <div className="usa-media-block tablet:grid-col">
+            <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
+            <div className="usa-media-block__body">
+              <h3 className="usa-graphic-list__heading">
+                Ashwin helped provide state and local courts with technologists to improve court access for people without lawyers.
+              </h3>
+              <p>
+                <img src={jif} />
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  </>
 );
 
 export default Highlights;

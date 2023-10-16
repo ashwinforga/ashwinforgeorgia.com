@@ -69,3 +69,17 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 * {
   font-family: 'Trebuchet MS';
 }
+
+.usa-media-block__img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  // font-family: 'Trebuchet MS';
+  text-align: center;
+}
+
+.usa-section--dark h1 {
+  color: white !important;
+}

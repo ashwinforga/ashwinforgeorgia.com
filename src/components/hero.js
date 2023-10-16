@@ -13,7 +13,7 @@ const Hero = () => (
           Let's get things done. 👋
         </h2>
         <p>
-          I'm Ashwin Ramaswami, and let's work together on the issues that really matter in Georgia's 48th state senate district: North Fulton, South Forsyth, and Northwest Gwinnett.
+          I'm Ashwin Ramaswami. Let's work together to transform our future on the issues that really matter in Georgia's 48th state senate district.
         </p>
         <a className="usa-button" href="/">
           Join Us
