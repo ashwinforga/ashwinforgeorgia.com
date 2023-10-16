@@ -9,15 +9,14 @@ const Hero = () => (
     <div className="grid-container">
       <div className="usa-hero__callout">
         <h2 className="usa-hero__heading">
-          <span className="usa-hero__heading--alt">Hero callout:</span>Bring
-          attention to a project priority
+          {/* <span className="usa-hero__heading--alt">Let's get things done.</span> */}
+          Let's get things done. 👋
         </h2>
         <p>
-          Support the callout with some short explanatory text. You don’t need
-          more than a couple of sentences.
+          I'm Ashwin Ramaswami, and let's work together on the issues that really matter in Georgia's 48th state senate district: North Fulton, South Forsyth, and Northwest Gwinnett.
         </p>
         <a className="usa-button" href="/">
-          Call to action
+          Join Us
         </a>
       </div>
     </div>

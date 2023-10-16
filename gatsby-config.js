@@ -3,32 +3,33 @@ module.exports = {
     // Replace the Site URL with your domain, ex. https://example.gov
     siteUrl: 'https://example.gov',
     author: 'Foo',
-    title: `Agency Name`,
+    title: `Ashwin for State Senate`,
     description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
     navigation: [
       {
+        title: '',
         items: [{ text: 'Home', link: '/' }],
       },
+      // {
+      //   items: [{ text: 'Blog', link: '/blog' }],
+      // },
       {
-        items: [{ text: 'Blog', link: '/blog' }],
-      },
-      {
-        items: [{ text: 'Document', link: '/document' }],
+        items: [{ text: 'About', link: '/document' }],
       },
       {
         items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
+          { text: 'Issues', link: '/document-with-sidenav' },
         ],
       },
-      {
-        title: 'Document submenu',
-        items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-        ],
-      },
+      // {
+      //   title: 'Document submenu',
+      //   items: [
+      //     { text: 'Navigation link', link: '/' },
+      //     { text: 'Navigation link', link: '/' },
+      //     { text: 'Navigation link', link: '/' },
+      //   ],
+      // },
     ],
     secondaryLinks: [
       { text: 'Secondary link', link: '/' },

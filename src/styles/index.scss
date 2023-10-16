@@ -51,3 +51,21 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
     display: block;
   }
 }
+
+
+.usa-hero {
+  background: url("../images/solo-wide.jpg");
+  min-height: 50vw;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 640px) {
+    .grid-container {
+      margin-top: 55vw;
+    }
+  }
+}
+
+* {
+  font-family: 'Trebuchet MS';
+}

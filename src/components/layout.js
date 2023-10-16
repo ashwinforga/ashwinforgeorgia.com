@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
-      <Banner />
+      {/* <Banner /> */}
       <div className="usa-overlay" />
       <Header siteTitle={title}>
         <Nav {...{ navigation, secondaryLinks }} />
