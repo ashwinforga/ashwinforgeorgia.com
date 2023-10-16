@@ -1,7 +1,7 @@
 import React from 'react';
 import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
-import still1 from '../images/still 1.png';
+import suspended from '../images/suspended.png';
 import still2 from '../images/still 2.png';
 import headshot from '../images/headshot-square.jpeg';
 import still from '../images/still.jpeg';
@@ -80,10 +80,10 @@ const Highlights = () => (
             <img className="usa-media-block__img" src={still} alt="Shawn Still" />
             <div className="usa-media-block__body">
               <h3 className="usa-graphic-list__heading">
-                Shawn Still got indicted for impersonating a public officer and forgery in the first degreee.
+                Shawn Still got indicted for impersonating a public officer and forgery in the first degree and is currently awaiting trial.
               </h3>
               <p>
-                <img src={still1} />
+                <img src={suspended} />
               </p>
             </div>
           </div>

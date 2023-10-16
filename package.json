@@ -13,7 +13,7 @@
     "pages": "npm run pages:build && npm run pages:copy",
     "pages:build": "gatsby build --prefix-paths",
     "pages:copy": "mkdir -p _site && rm -rf _site/* && cp -r public/* _site/",
-    "deploy": "gatsby build --prefix-paths && cp CNAME build/CNAME && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && cp CNAME public/CNAME && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^5.11.0",
