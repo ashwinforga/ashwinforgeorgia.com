@@ -44,7 +44,7 @@ const Tagline = () => (
         We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on gas-powered lawn movers and overturning the 2020 election results rather than the issues that affect our communities every day, such as healthcare costs, reproductive rights, gun control, public safety, and public transit and transportation infrastructure. We are facing bigger issues around technology, from education and ChatGPT/AI to childrens’ safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
         </p>
         <p>
-        Moreover, I'm the first South Asian Hindu to be a Georgia state legislator in Georgia. In May 2024, I'll also finish my law degree (J.D.) at Georgetown University Law Center. I look forward to bringing my experience in law and federal policy to help address issues in our state.
+        Moreover, I'd be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. In May 2024, I'll also finish my law degree (J.D.) at Georgetown University Law Center. I look forward to bringing my experience in law and federal policy to help address issues in our state.
         </p>
       </div>
     </div>
