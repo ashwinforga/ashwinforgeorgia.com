@@ -12,7 +12,8 @@
     "serve": "gatsby serve",
     "pages": "npm run pages:build && npm run pages:copy",
     "pages:build": "gatsby build --prefix-paths",
-    "pages:copy": "mkdir -p _site && rm -rf _site/* && cp -r public/* _site/"
+    "pages:copy": "mkdir -p _site && rm -rf _site/* && cp -r public/* _site/",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^5.11.0",
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^6.0.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2"
   },

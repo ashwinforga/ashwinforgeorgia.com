@@ -169,4 +169,8 @@ This project is in the worldwide [public domain](LICENSE). As stated in [CONTRIB
 
 ### notes
 
+npm install
+npm run develop
+npm run deploy
+
 : North Fulton, South Forsyth, and Northwest Gwinnett.
