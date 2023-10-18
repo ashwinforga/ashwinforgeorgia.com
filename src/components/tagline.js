@@ -78,7 +78,7 @@ const Tagline = () => (
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-        We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on gas-powered lawn mowers and overturning the 2020 election results rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity. Increasingly, we are also facing bigger issues around technology, from education and ChatGPT/AI to childrens’ safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
+        We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on gas-powered lawn mowers and overturning the 2020 election results rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity. Increasingly, we are also facing bigger issues around technology, from education and ChatGPT/AI to children's safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
         </p>
         <p>
         Moreover, I'd be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. In May 2024, I'll also finish my law degree (J.D.) at Georgetown University Law Center. I look forward to bringing my experience in law and federal policy to help address issues in our state.
