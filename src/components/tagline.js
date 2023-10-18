@@ -1,7 +1,6 @@
 import React from 'react';
-import ashwinBv from "../images/ashwin-bv.jpeg";
 import ashwinRun from "../images/ashwin.run.jpg";
-import nsb from "../images/nsb.jpeg";
+import nsb3 from "../images/nsb3.jpeg";
 import nsb2 from "../images/nsb2-cropped.jpeg";
 import court from "../images/court 3.jpg";
 import atlTrains from "../images/atl-trains.jpg";
@@ -23,7 +22,7 @@ const Tagline = () => (
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
           My background and values<br /><br />
 
-          <img src={ashwinBv} />
+          <img src={nsb3} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
