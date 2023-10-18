@@ -174,3 +174,5 @@ npm run develop
 npm run deploy
 
 : North Fulton, South Forsyth, and Northwest Gwinnett.
+
+But when you give a banquet, invite the poor, the crippled, the lame, the blind, 14 and you will be blessed. Although they cannot repay you, you will be repaid at the resurrection of the righteous.”
