@@ -1,8 +1,10 @@
 import React from 'react';
-import ashwinRun from "../images/ashwin.run.jpg";
+import court from "../images/court.jpg";
 import nsb3 from "../images/nsb3.jpeg";
-import nsb2 from "../images/nsb2-cropped.jpeg";
-import court from "../images/court 3.jpg";
+import twins from "../images/twins.jpg";
+import solo from "../images/solo.jpg";
+import formal from "../images/headshot1.jpeg";
+import panel from "../images/thind.jpg";
 import atlTrains from "../images/atl-trains.jpg";
 import startups from "../images/ashwin-teaching.jpeg";
 import police from "../images/police.jpeg";
@@ -22,7 +24,7 @@ const Tagline = () => (
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
           My background and values<br /><br />
 
-          <img src={nsb3} />
+          <img src={solo} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
@@ -47,7 +49,7 @@ const Tagline = () => (
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
           My experience<br /><br />
 
-          <img src={ashwinRun} />
+          <img src={panel} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
@@ -73,7 +75,7 @@ const Tagline = () => (
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
           Why now?<br /><br />
 
-          <img src={court} />
+          <img src={capitol} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
@@ -113,7 +115,7 @@ const Tagline = () => (
     <div className="grid-row grid-gap">
       <div className="tablet:grid-col-4">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
-          <img src={nsb2} />
+          <img src={nsb3} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">

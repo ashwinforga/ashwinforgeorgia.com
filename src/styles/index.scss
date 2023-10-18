@@ -54,15 +54,27 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 
 
 .usa-hero {
-  background: url("../images/solo-wide.jpg");
-  min-height: 50vw;
-  background-size: 100% auto;
+  min-height: 90vh;
+  min-height: calc(100vh - 140px);
+  background-size: cover;
   background-repeat: no-repeat;
 
   @media screen and (max-width: 640px) {
-    .grid-container {
-      margin-top: 55vw;
-    }
+    min-height: 40vh;
+    min-height: calc(50vh - 48px);
+  }
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .hidden-mobile {
+    display: none;
+  }
+  .hidden-desktop {
+    display: block;
   }
 }
 
@@ -75,8 +87,20 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   border-radius: 50%;
 }
 
+.usa-hero .usa-hero__callout {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  // @media screen and (max-width: 640px) {
+  //   position: static;
+  // }
+}
+
+.usa-hero__callout p {
+  color: white;
+}
+
 h1 {
-  // font-family: 'Trebuchet MS';
   text-align: center;
 }
 
@@ -86,4 +110,8 @@ h1 {
 
 .grid-gap {
   margin-bottom: 10px;
+}
+
+.usa-media-block__body img {
+  // display: none;
 }
