@@ -105,7 +105,7 @@ const Tagline = () => (
             <li><strong>Collaborate with venture capital, Silicon Valley</strong> and beyond through university and public-private partnerships.</li>
             <li><strong>Establish a Metro Atlanta venture studio</strong>, a public-private partnership to help create jobs right here and businesses in the public interest.</li>
             <li><strong>Create many high-paying jobs</strong> in the technology and public interest sector and attracting the next wave of innovation to GA: AI and digital infrastructure companies.</li>
-          </ul><br /><br />
+          </ul>
         </p>
       </div>
     </div>
