@@ -98,7 +98,7 @@ const Tagline = () => (
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
-      <h3>Let's make Metro Atlanta the Next Silicon Valley (but better).</h3>
+      <h3>Let's make Metro Atlanta a Sustainable Tech Hub for the South</h3>
         <p>
         Metro Atlanta has enormous potential to become the nation's leader in technology and entrepreneurship. I will:
           <ul>
