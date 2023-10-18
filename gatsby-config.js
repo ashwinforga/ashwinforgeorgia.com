@@ -15,11 +15,11 @@ module.exports = {
       //   items: [{ text: 'Blog', link: '/blog' }],
       // },
       {
-        items: [{ text: 'About', link: '/document' }],
+        items: [{ text: 'About', link: '#about' }],
       },
       {
         items: [
-          { text: 'Issues', link: '/document-with-sidenav' },
+          { text: 'Issues', link: '#issues' },
         ],
       },
       // {

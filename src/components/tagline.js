@@ -1,4 +1,6 @@
 import React from 'react';
+import ashwinBv from "../images/ashwin-bv.jpeg";
+import ashwinRun from "../images/ashwin.run.jpg";
 import nsb from "../images/nsb.jpeg";
 import nsb2 from "../images/nsb2-cropped.jpeg";
 import court from "../images/court 3.jpg";
@@ -15,22 +17,52 @@ import capitol from "../images/capitol.jpeg";
 const Tagline = () => (
   <>
   <section className="grid-container usa-section usa-prose">
+  <h1 id="about">About Ashwin</h1><br /><br />
     <div className="grid-row grid-gap">
       <div className="tablet:grid-col-4">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
-          About Ashwin<br /><br />
+          My background and values<br /><br />
 
-          <img src={nsb} />
+          <img src={ashwinBv} />
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-          I was born and grew up in Johns Creek, GA, in Bridgestone Farms. I grew up coding and building technology for nonprofit organizations. I studied computer science at Stanford University and now own a tech consulting business that works to support startups with new ideas around the world. After that, I worked in the federal government at the Cybersecurity and Infrastructure Security Agency on protecting the nation's critical infrastructure — and election systems — from cyberattacks.
-          
-           My life has been a series of instances of incredible opportunities that were only made possible through the education resources offered to me and my family when growing up: Chattahoochee High School, the dual enrollment program, and the HOPE and Zell Miller Scholarship. It's time for me to pay it forward and be an advocate for the futures of young people in our community.
+          I was born and grew up in Johns Creek, GA, in Bridgestone Farms. Throughout my life, I've worked to make positive change through nonprofits, religious communities, Silicon Valley startups, lawyers and policy advocates, philanthropic foundations, and more. My life has been a series of instances of incredible opportunities that were only made possible through the education resources offered to me and my family when growing up: Chattahoochee High School, the dual enrollment program, and the HOPE and Zell Miller Scholarship. It's time for me to pay it forward and be an advocate for the futures of young people — and everyone — in our community.
         </p>
         <p>
-        By running for office, I’d like to help others have the same, or better, opportunities than I have had. Everyone should have the opportunities and resources to succeed.
+        By running for office, I’d like to help others have the same, or better, opportunities than I have had. Everyone should have the opportunities and resources to succeed. My values come from my upbringing from the Dharmic traditions as a Hindu American:
+        <ul>
+          <li><strong>Listen to others' viewpoints.</strong> Each viewpoint has a person who holds it, and that person has a reason why they hold it: the values, circumstances and experiences unique to each of us. I accept and embrace the differences in our community.</li>
+          <li><strong>Be an advocate for those who can't.</strong> Those in positions of privilege have the obligation to listen to others, and act to empower those who don't have the same voice.</li>
+          <li><strong>Do the right thing.</strong> Regardless of political pressure or what donors say, I will stay honest with my consituents and do the right thing.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section className="grid-container usa-section usa-prose">
+    <div className="grid-row grid-gap">
+      <div className="tablet:grid-col-4">
+        <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
+          My experience<br /><br />
+
+          <img src={ashwinRun} />
+        </h2>
+      </div>
+      <div className="tablet:grid-col-8 usa-prose">
+        <p>
+          My experience has ranged from technology, government, and philanthropy, and I've worked with others on a bipartisan basis:
+          <ul>
+            <li><strong>Election Security:</strong> I worked under both President Trump and President Biden in the federal government; I was at the Cybersecurity and Infrastructure Security Agency, where I protected the nation's critical infrastructure — and election systems — from cyberattacks during the 2020 and 2022 elections.</li>
+            <li><strong>State Government:</strong> I worked as a Janet D. Steiger Fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, where I worked to protect Georgians from business scams.</li>
+            <li><strong>Philanthropy:</strong> While working at Schmidt Futures — a philanthropy led by Eric Schmidt, the first CEO of Google — I established $6 million in new initiatives around open source software, sustaining the digital infrastructure that powers our small businesses.</li>
+            <li><strong>Venture Capital:</strong> I worked at Sequoia Capital as a Technology Law & Policy Fellow, where I helped inform their investment strategy.</li>
+            <li><strong>Software:</strong> I studied computer science at Stanford University and now own a tech consulting business that works to support startups with new ideas around the world.</li>
+            <li><strong>Religion: </strong>I helped run the Dharmic Life chaplaincy at <strong>Georgetown University</strong>, which supports Hindu, Buddhist, Jain, and Sikh students, and raised $100K to establish an endowment. I also worked on interreligious advocacy and understanding.</li>
+          </ul>
+           
         </p>
       </div>
     </div>
@@ -47,7 +79,7 @@ const Tagline = () => (
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-        We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on gas-powered lawn mowers and overturning the 2020 election results rather than the issues that affect our communities every day, such as healthcare costs, reproductive rights, gun control, public safety, and public transit and transportation infrastructure. We are facing bigger issues around technology, from education and ChatGPT/AI to childrens’ safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
+        We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on gas-powered lawn mowers and overturning the 2020 election results rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity. Increasingly, we are also facing bigger issues around technology, from education and ChatGPT/AI to childrens’ safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
         </p>
         <p>
         Moreover, I'd be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. In May 2024, I'll also finish my law degree (J.D.) at Georgetown University Law Center. I look forward to bringing my experience in law and federal policy to help address issues in our state.
@@ -57,7 +89,7 @@ const Tagline = () => (
   </section>
   <hr />
     <section className="grid-container usa-section usa-prose" style={{paddingTop: 30}}>
-      <h1>The Issues</h1><br /><br />
+      <h1 id="issues">The Issues</h1><br /><br />
 
 
     <div className="grid-row grid-gap">
