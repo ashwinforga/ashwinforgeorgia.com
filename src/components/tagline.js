@@ -204,7 +204,7 @@ const Tagline = () => (
       <div className="tablet:grid-col-8 usa-prose">
       <h3>Build State and Local Government Capacity</h3>
         <p>
-        Your experience at the DMV or courts may be terrible, but that's beacuse we haven't given it the resources and talent we need to suceed. Civil servants are amazing and dedicated and we need to support them. I will:
+        Your experience at the DMV or courts may be terrible, but that's because we haven't given it the resources and talent we need to suceed. Civil servants are amazing and dedicated and we need to support them. I will:
           <ul>
             <li><strong>Place technologists</strong> into our court systems and other state and local agencies to bring an <strong>Agile methodology</strong> to government: improving access to justice and the user experience for all.</li>
             <li><strong>Increase salaries</strong> of our civil servants so that we can hire and retain more talented people.</li>
