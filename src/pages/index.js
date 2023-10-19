@@ -2,16 +2,120 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Hero from '../components/hero';
-import Tagline from '../components/tagline';
-import Highlights from '../components/highlights';
+// import img from "../images/solo-wide.jpg";
+// import img from "../images/writing-club.jpg";
+import img from "../images/thind.jpg";
+import capitol from "../images/capitol.jpeg";
+import district from "../images/2023SD48.png";
+
+const Callout = (props) => (
+  <div {...props}>
+    <div className="usa-hero__callout">
+      <h2 className="usa-hero__heading">
+        Let's get things done. 👋
+      </h2>
+      <p>
+        I'm Ashwin Ramaswami. Let's work together on the issues that really matter in Georgia's 48th state senate district.
+      </p>
+      <a className="usa-button" href="/">
+        Join Us
+      </a>
+    </div>
+  </div>
+)
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero />
-    <Tagline />
-    <Highlights />
+    <section className="usa-hero" style={{ backgroundImage: `url(${img})` }}>
+      <div className="grid-container">
+        <Callout className="hidden-mobile" />
+      </div>
+    </section>
+    <Callout className="hidden-desktop" />
+    <section className="grid-container usa-section usa-prose">
+      <div className="grid-row grid-gap">
+        <div className="tablet:grid-col-4">
+          <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
+            Why now?<br /><br />
+
+            <img src={capitol} />
+          </h2>
+        </div>
+        <div className="tablet:grid-col-8 usa-prose">
+          <p>
+            We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on overturning the 2020 election results and gas-powered lawn mowers rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity.
+          </p>
+          <p>
+            Increasingly, we are also facing bigger issues around technology, from education and ChatGPT/AI to children's safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
+          </p>
+          <p>
+            I'd be a Senator for all, as the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. I look forward to bringing my experience in law and federal policy to help address issues in our state.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div className="grid-row grid-gap">
+        <div className="tablet:grid-col-4">
+          <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
+            About Senate District 48<br />
+
+
+          </h2>
+          <p>
+            Senate District 48 contains parts of North Fulton County, South Forsyth County, and North Gwinnett County and parts of Johns Creek, Cumming, and Sugar Hill. To see if you live in the district, check your voter registration at <a target="_blank" href="https://mvp.sos.ga.gov/">mvp.sos.ga.gov</a> or look up your address on <a target="_blank" href="https://georgia.redistrictingandyou.org/?districtType=sd&propA=current_2012&propB=genassm_20211104&selected=-84.150,34.082&opacity=2#%26map=12.29/34.15027/-84.1564">this search tool</a>.
+          </p>
+        </div>
+        <div className="tablet:grid-col-8 usa-prose">
+
+          <a target="_blank" href="https://www.senate.ga.gov/senators/Documents/Maps/2023SD48.pdf"><img src={district} /></a>
+          <p style={{ textAlign: "center" }}><strong>Schools in this district:</strong></p>
+          <div className="grid-row" style={{marginTop: 0}}>
+            <ul className="tablet:grid-col-6">
+              {/* <li>Abbotts Hill Elementary School</li>
+            <li>Barnwell Elementary School</li>
+            <li>Big Creek Elementary School</li>
+            <li>Creek View Elementary School</li>
+            <li>Daves Creek Elementary School</li>
+            <li>Dolvin Elementary School</li>
+            <li>Findley Oaks Elementary School</li>
+            <li>Johns Creek Elementary School</li>
+            <li>Lake Windward Elementary School</li>
+            <li>Ocee Elementary School</li>
+            <li>Medlock Bridge Elementary School</li>
+            <li>Roberts Elementary School</li>
+            <li>Riverside Elementary School</li>
+            <li>Settles Bridge Elementary Schol</li>
+            <li>Shakerag Elementary School</li>
+            <li>Sharon Elementary School</li>
+            <li>State Bridge Crossing Elementary School</li>
+            <li>Sugar Hill Elementary School</li>
+            <li>Sycamore Elementary School</li>
+            <li>White Oak Elementary School</li>
+            <li>Wilson Creek Elementary School</li> */}
+
+              <li>Autrey Mill Middle School</li>
+              <li>Lanier Middle School</li>
+              <li>Riverwatch Middle School</li>
+              <li>River Trail Middle School</li>
+              <li>South Forsyth Middle School</li>
+              <li>Taylor Road Middle School</li>
+              <li>Webb Bridge Middle School</li>
+
+            </ul>
+            <ul className="tablet:grid-col-6">
+              <li>Chattahoochee High School</li>
+              <li>Johns Creek High School</li>
+              <li>Lambert High School</li>
+              <li>Northview High School</li>
+              <li>North Gwinnett High School</li>
+              <li>South Forsyth High School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
   </Layout>
 );
 

@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
 import suspended from '../images/suspended.png';
@@ -9,15 +12,12 @@ import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
 
-/*
-  Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
-*/
-
-const Highlights = () => (
-  <>
-  <hr />
-  <section className="usa-graphic-list usa-section">  {/* usa-section--dark" */}
-    <h1>Ashwin works on the <strong>REAL</strong> issues.<br />In 2020...</h1>
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Why not Shawn Still?" />
+    <section className="usa-graphic-list usa-section" style={{paddingTop: 0}}>  {/* usa-section--dark" */}
+    <h1>Why not Shawn Still? Ashwin works on the REAL issues.</h1>
+    <h1>In 2020...</h1>
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
@@ -102,7 +102,8 @@ const Highlights = () => (
       </div>
     </div>
   </section>
-  </>
+
+  </Layout>
 );
 
-export default Highlights;
+export default IndexPage;
