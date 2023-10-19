@@ -3,7 +3,7 @@ module.exports = {
     // Replace the Site URL with your domain, ex. https://example.gov
     siteUrl: 'https://example.gov',
     author: 'Foo',
-    title: `Ashwin Ramaswami for Senate`,
+    title: `Ashwin Ramaswami for State Senate`,
     description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
     navigation: [
