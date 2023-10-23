@@ -10,7 +10,6 @@ import oss from "../images/oss.png";
 import solo from "../images/solo.jpg";
 import formal from "../images/headshot1.jpeg";
 import panel from "../images/thind.jpg";
-import { WhyNot } from './shawn-still';
 
 const IndexPage = () => (
   <Layout>
