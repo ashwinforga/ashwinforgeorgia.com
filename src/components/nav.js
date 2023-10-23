@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import React from 'react';
 
 import close from 'uswds/img/close.svg';
-import SearchForm from './search-form';
 
 const Nav = ({ navigation, secondaryLinks }) => (
   <nav role="navigation" className="usa-nav">
@@ -11,6 +10,9 @@ const Nav = ({ navigation, secondaryLinks }) => (
         <img src={close} alt="close" />
       </button>
       <ul className="usa-accordion usa-nav__primary">
+        <li className="usa-nav__primary-item ">
+          <a href="/"><span>Ashwin Ramaswami for State Senate</span></a>
+        </li>
         {navigation.map((navGroup, idx) => (
           <li key={idx} className="usa-nav__primary-item">
             {navGroup.items.length > 1 ? (
@@ -48,7 +50,7 @@ const Nav = ({ navigation, secondaryLinks }) => (
           </li>
         ))}
       </ul>
-      <div className="usa-nav__secondary">
+      {/* <div className="usa-nav__secondary">
         <ul className="usa-nav__secondary-links">
           {secondaryLinks.map((secondaryLink, idx) => (
             <li key={idx} className="usa-nav__secondary-item">
@@ -56,8 +58,8 @@ const Nav = ({ navigation, secondaryLinks }) => (
             </li>
           ))}
         </ul>
-        {/* <SearchForm /> */}
-      </div>
+        <SearchForm />
+      </div> */}
     </div>
   </nav>
 );

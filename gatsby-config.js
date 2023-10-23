@@ -1,11 +1,9 @@
 module.exports = {
   siteMetadata: {
-    // Replace the Site URL with your domain, ex. https://example.gov
-    siteUrl: 'https://example.gov',
-    author: 'Foo',
+    siteUrl: 'https://ashwin.run',
+    author: 'Ashwin Ramaswami',
     title: `Ashwin Ramaswami for State Senate`,
-    description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
+    description: `Ashwin Ramaswami for State Senate`,
     navigation: [
       {
         title: '',
