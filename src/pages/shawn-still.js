@@ -14,7 +14,7 @@ import sossa from '../images/sossa.jpg';
 
 export const WhyNot = () => (
   <section className="usa-graphic-list usa-section why-not" style={{paddingTop: 0}}>  {/* usa-section--dark" */}
-  <h1>Why not Shawn Still? Ashwin works on the REAL issues.</h1>
+  <h1>Unlike Shawn Still, Ashwin works on the REAL issues.</h1>
   <h1>In 2020...</h1>
   <div className="grid-container">
     <div className="usa-graphic-list__row grid-row grid-gap">
