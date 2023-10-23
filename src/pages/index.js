@@ -233,7 +233,7 @@ const IndexPage = () => (
           <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Ashwin helped provide state and local courts with technologists to improve court access for people without lawyers.
+              Ashwin helped provide state and local courts in three states with technologists to improve court access for people without lawyers.
             </h3>
             <p>
               <img src={jif} />
