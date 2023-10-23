@@ -9,6 +9,7 @@ import img from "../images/headshot3.jpeg";
 import headshot from "../images/headshot3.jpeg";
 import capitol from "../images/capitol.jpeg";
 import district from "../images/2023SD48.png";
+import { WhyNot } from './shawn-still';
 
 const Callout = (props) => (
   <div {...props}>
@@ -148,6 +149,7 @@ const IndexPage = () => (
       </div>
     </section>
     <hr />
+    <WhyNot />
   </Layout>
 );
 

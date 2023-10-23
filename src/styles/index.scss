@@ -151,3 +151,12 @@ h1 {
     display: inline-block;
   }
 }
+
+.why-not {
+  .usa-media-block {
+    margin-bottom: 0 !important;
+  }
+  p img {
+    display: none;
+  }
+}
