@@ -5,14 +5,15 @@ module.exports = {
     title: `Ashwin Ramaswami for State Senate`,
     description: `Ashwin Ramaswami for State Senate`,
     navigation: [
-      {
-        title: '',
-        items: [{ text: 'Home', link: '/' }],
-      },
+      // {
+      //   title: '',
+      //   items: [{ text: 'Home', link: '/' }],
+      // },
       // {
       //   items: [{ text: 'Blog', link: '/blog' }],
       // },
       {
+        title: '',
         items: [{ text: 'About', link: '/about' }],
       },
       {
@@ -20,9 +21,19 @@ module.exports = {
           { text: 'Issues', link: '/issues' },
         ],
       },
+      // {
+      //   items: [
+      //     { text: 'Why not Shawn Still?', link: '/shawn-still' },
+      //   ],
+      // },
       {
         items: [
-          { text: 'Why not Shawn Still?', link: '/shawn-still' },
+          { text: 'Volunteer', link: '/volunteer' },
+        ],
+      },
+      {
+        items: [
+          { text: 'Donate', link: 'https://secure.actblue.com/' },
         ],
       },
       // {
