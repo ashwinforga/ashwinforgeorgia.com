@@ -107,6 +107,16 @@ hr {
 
 .usa-nav {
   // background: #b2b2ff;
+  @media screen and (max-width: 640px) {
+    display: block;
+    position: static;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    .usa-nav__close {
+      display: none;
+    }
+  }
 }
 
 .usa-media-block__img {
