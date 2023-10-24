@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 // import img from "../images/writing-club.jpg";
 import thind from "../images/thind.jpg";
 import img from "../images/headshot3.jpeg";
-import headshot3 from "../images/headshot3.jpeg";
+import headshot1 from "../images/headshot1.jpeg";
 import capitol from "../images/capitol.jpeg";
 import district from "../images/2023SD48.png";
 import circle from 'uswds/img/circle-124.png';
@@ -46,7 +46,7 @@ const IndexPage = () => (
     <section className="grid-container usa-section usa-prose">
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-6">
-          <img src={headshot3} />
+          <img src={headshot1} />
         </div>
         <div className="tablet:grid-col-6 home-main">
           <h1 className="">
@@ -54,6 +54,9 @@ const IndexPage = () => (
           </h1>
           <p>
             I'm Ashwin Ramaswami. Let's work together on the issues that really matter in Georgia's 48th state senate district.
+          </p>
+          <p>
+            <strong>Let's make transformative investments</strong> in technology, education, transit, public safety, and government capacity. Let's imagine a better future together!
           </p>
           {/* <div className="grid-row grid-gap"> */}
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
@@ -70,19 +73,20 @@ const IndexPage = () => (
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">
           <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
-            tl;dr<br />
-
+            {/* About<br /> */}
             <img src={thind} />
           </h2>
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
             <ul>
-              <li><strong>I'm from Johns Creek, GA</strong> and have experience in software engineering, entrepreneurship, investing, law, and policy.</li>
+              <li><strong>Ashwin is from Johns Creek, GA</strong> and has experience in software engineering, entrepreneurship, investing, law, and policy.</li>
               <li><strong>Incumbent Shawn Still got indicted</strong> for trying to overturn the 2020 election results, while I've worked on securing our elections since 2020.</li>
-              <li><strong>I'd be the first Hindu American to be a Georgia state legislator</strong> and first South Asian to represent this district.</li>
-              <li><strong>Let's make transformative investments</strong> in technology, education, transit, public safety, and government capacity. Let's imagine a better future together!</li>
+              <li><strong>Ashwin would be the first Hindu American to be a Georgia state legislator</strong> and first South Asian to represent this district.</li>
             </ul>
+            <a className="usa-button" href="/about" style={{marginLeft: "2em"}}>
+              Learn More
+            </a>
           </p>
           {/* <p>
             We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on overturning the 2020 election results and gas-powered lawn mowers rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity.

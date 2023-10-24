@@ -106,16 +106,20 @@ hr {
 }
 
 .usa-nav {
-  // background: #b2b2ff;
+  .usa-nav__close {
+    display: none;
+  }
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  position: static;
+  width: 100%;
+  @media screen and (min-width: 640px) {
+    border-top: 1px solid #dfe1e2;
+    padding: 0;
+  }
   @media screen and (max-width: 640px) {
-    display: block;
-    position: static;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    .usa-nav__close {
-      display: none;
-    }
+
   }
 }
 
