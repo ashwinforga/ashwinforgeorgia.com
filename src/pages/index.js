@@ -181,7 +181,7 @@ const IndexPage = () => (
         <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
         <div className="usa-media-block__body">
           <h3 className="usa-graphic-list__heading">
-            Ashwin worked with Secretary of State Raffensperger's office to secure Georgia's elections.
+            Ashwin, as a federal employee, worked with Secretary of State Raffensperger's office to secure Georgia's elections.
           </h3>
           <p>
             <img src={ashwinMvp} />
@@ -237,7 +237,8 @@ const IndexPage = () => (
           <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Ashwin helped provide state and local courts in three states with technologists to improve court access for people without lawyers.
+              As an ABA Steiger Fellow, Ashwin helped Attorney General Chris Carr's Office of Consumer Protection sue Facebook over social media's harms on young children.
+              {/* Ashwin helped provide state and local courts in three states with technologists to improve court access for people without lawyers. */}
             </h3>
             <p>
               <img src={jif} />
