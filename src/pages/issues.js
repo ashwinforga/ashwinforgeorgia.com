@@ -87,8 +87,8 @@ const IndexPage = () => (
       <h3>Public Safety: Let's make our communities safer.</h3>
         <p>
           <ul>
-            <li><strong>Pass commonsense gun safety reform</strong> such as background checks, while standing up for the right to bear arms.</li>
-            <li><strong>Pass commonsense police accountability steps</strong> such as wearing body cameras and having additional training, and invest in other services such as mental health and counseling for non-violent offenses.</li>
+            <li><strong>Protect the right to bear arms</strong> while increasing background checks to make it harder for dangerous people to get guns.</li>
+            <li><strong>Support our police in keeping us safe</strong> by investing in body cameras and training, and invest in other services such as mental health and counseling for non-violent offenses.</li>
             <li><strong>Pass state consumer protection, online safety, and antitrust laws</strong> to keep big tech companies accountable for online harms and children safe on social media.</li>
           </ul>
         </p>

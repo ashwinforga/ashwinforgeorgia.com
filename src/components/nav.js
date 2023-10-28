@@ -49,6 +49,11 @@ const Nav = ({ navigation, secondaryLinks }) => (
             )}
           </li>
         ))}
+        <li className="usa-nav__primary-item">
+          <a className="usa-button usa-nav__link">
+            Donate
+          </a>
+        </li>
       </ul>
       {/* <div className="usa-nav__secondary">
         <ul className="usa-nav__secondary-links">
