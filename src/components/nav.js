@@ -50,7 +50,7 @@ const Nav = ({ navigation, secondaryLinks }) => (
           </li>
         ))}
         <li className="usa-nav__primary-item">
-          <a className="usa-button usa-nav__link">
+          <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/">
             Donate
           </a>
         </li>

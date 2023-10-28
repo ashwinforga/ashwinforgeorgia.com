@@ -31,11 +31,11 @@ module.exports = {
           { text: 'Volunteer', link: '/volunteer' },
         ],
       },
-      {
-        items: [
-          { text: 'Donate', link: 'https://secure.actblue.com/' },
-        ],
-      },
+      // {
+      //   items: [
+      //     { text: 'Donate', link: 'https://secure.actblue.com/' },
+      //   ],
+      // },
       // {
       //   title: 'Document submenu',
       //   items: [

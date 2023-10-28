@@ -1,3 +1,9 @@
+// red - #B42033
+// silver - #CECECE
+// white - #FEFEFE
+// blue - #3C3B6E
+
+
 /*
   Hide compile warnings and notifications, make want to set to true in dev
 */
@@ -92,7 +98,11 @@ h3, h4, h5, h6 {
 
 h1, h2, .usa-logo a {
   font-family: 'Gabarito', serif !important;
-  color: #00008b;
+  color: #3C3B6E;
+}
+
+.usa-button {
+  background-color: #3C3B6E;
 }
 
 hr {
@@ -123,8 +133,14 @@ hr {
   }
 }
 
+li.usa-nav__primary-item {
+  display: flex;
+  align-items: center;
+}
+
 .usa-nav__link.usa-button {
-  color: white;
+  color: white !important;
+  margin: 5px;
 }
 
 .usa-media-block__img {
