@@ -55,7 +55,7 @@ const IndexPage = () => (
       <div className="tablet:grid-col-8 usa-prose">
         <p>
           <ul>
-            <h3>Election Security</h3>
+            <h3>Cybersecurity and Election Security</h3>
             <p>Ashwin worked under both President Trump and President Biden in the federal government, protecting the nation's critical infrastructure — and election systems — from cyberattacks during the 2020 and 2022 elections at the Cybersecurity and Infrastructure Security Agency (CISA).</p>
             <h3>Technology</h3>
             <p>Ashwin has a B.S. in Computer Science from Stanford University and runs a tech consulting business that works to support startups with new ideas around the world.
