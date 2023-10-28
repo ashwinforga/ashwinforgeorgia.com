@@ -60,11 +60,11 @@ const IndexPage = () => (
             <h3>Technology</h3>
             <p>Ashwin has a B.S. in Computer Science from Stanford University and runs a tech consulting business that works to support startups with new ideas around the world.
             </p>
+            <h3>Law and State Government</h3>
+            <p>Ashwin worked as a Janet D. Steiger Fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, helping protect Georgians from business scams and pursue a landmark lawsuit against Facebook around safety of children on social media. Ashwin is also pursuing his J.D. (Class of 2024) at Georgetown University Law Center.</p>
             <h3>Investment</h3>
             <p>While at Schmidt Futures — a philanthropy led by Eric Schmidt, the first CEO of Google — Ashwin established $6 million in new initiatives around open source software, sustaining the digital infrastructure that powers our small businesses. He also worked at Sequoia Capital as a Technology Law & Policy Fellow and helped inform their investment strategy around tech and AI.
             </p>
-            <h3>Law and State Government</h3>
-            <p>Ashwin worked as a Janet D. Steiger Fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, helping protect Georgians from business scams and pursue a landmark lawsuit against Facebook around safety of children on social media. Ashwin is also pursuing his J.D. (Class of 2024) at Georgetown University Law Center.</p>
           </ul>
            
         </p>
