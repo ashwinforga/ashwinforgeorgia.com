@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 import writingClub from "../images/writing-club.jpg";
 import kumar from "../images/kumar.jpeg";
 import twins from "../images/twins.jpg";
-import family from "../images/ashwin-family.jpg";
+import family from "../images/ashwin-family.jpeg";
 import oss from "../images/oss.png";
 import solo from "../images/solo.jpg";
 import formal from "../images/headshot1.jpeg";
