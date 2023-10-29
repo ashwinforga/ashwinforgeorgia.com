@@ -49,10 +49,13 @@ const IndexPage = () => (
             Let's get things done. 👋
           </h1>
           <p>
-            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. It's time for the next generation of leadership to put young people's futures front and center. Let's make transformative investments in public safety, education, technology, transit, and government capacity. Let's imagine a better future together!
+            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District.
           </p>
           <p>
-            
+          <strong>It's time for the next generation of leadership</strong> to put young people's futures front and center.
+          </p>
+          <p>
+          Let's make transformative investments in public safety, education, technology, transit, and government capacity. <strong>Let's imagine a better future together!</strong>
           </p>
           {/* <div className="grid-row grid-gap"> */}
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
