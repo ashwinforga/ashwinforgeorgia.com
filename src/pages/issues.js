@@ -31,7 +31,7 @@ const IndexPage = () => (
             <li><strong>Establish a Metro Atlanta entrepreneurship studio</strong>, a public-private partnership to help create jobs right here and businesses in the public interest.</li>
             <li><strong>Collaborate with the federal government, investors, and philanthropy</strong> to create sustainable technology companies and organizations that work towards the social good.</li>
             <li><strong>Create high-paying jobs</strong> in the technology and public interest sector and attracting the next wave of innovation to GA: AI and digital infrastructure companies.</li>
-            <li><strong>Bring high-speed Internet</strong> throughout Metro Atlanta and Georgia so that all Georgians have the righ access they need.</li>
+            <li><strong>Bring high-speed Internet</strong> throughout Metro Atlanta and Georgia so that all Georgians have the right access they need.</li>
           </ul>
         </p>
       </div>
