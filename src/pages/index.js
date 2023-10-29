@@ -18,30 +18,9 @@ import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
 
-const Callout = (props) => (
-  <div {...props}>
-    <div className="usa-hero__callout">
-      {/* <h2 className="usa-hero__heading">
-        Let's get things done. 👋
-      </h2>
-      <p>
-        I'm Ashwin Ramaswami. Let's work together on the issues that really matter in Georgia's 48th state senate district.
-      </p>
-      <a className="usa-button" href="/">
-        Join Us
-      </a> */}
-    </div>
-  </div>
-)
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    {/* <section className="usa-hero" style={{ backgroundImage: `url(${img})` }}>
-      <div className="grid-container">
-        <Callout className="hidden-mobile" />
-      </div>
-    </section> */}
     <section className="grid-container usa-section usa-prose">
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-6">
@@ -52,7 +31,7 @@ const IndexPage = () => (
             Let's get things done. 👋
           </h1>
           <p>
-            I'm Ashwin Ramaswami. Let's work together on the issues that really matter in Georgia's 48th state senate district.
+          <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. I grew up in Johns Creek, GA. I've worked to make positive change in my community through nonprofits, religious communities, technology startups, law and policy, and investing — all thanks to the wonderful people and resources in my hometown.
           </p>
           <p>
             <strong>Let's make transformative investments</strong> in technology, education, transit, public safety, and government capacity. Let's imagine a better future together!
@@ -68,34 +47,24 @@ const IndexPage = () => (
         </div>
       </div>
       <hr />
-    {/* <Callout className="hidden-desktop" /> */}
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">
           <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
-            {/* About<br /> */}
+            Why now?<br />
             <img src={thind} />
           </h2>
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
             <ul>
-              <li><strong>Ashwin is from Johns Creek, GA</strong> and has experience in software engineering, entrepreneurship, investing, law, and policy.</li>
+              <li><strong>I am from Johns Creek, GA</strong> and have experience in software engineering, entrepreneurship, investing, law, and policy. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.</li>
               <li><strong>Incumbent Shawn Still got indicted</strong> for trying to overturn the 2020 election results, while I've worked on securing our elections since 2020.</li>
-              <li><strong>Ashwin would be the first Hindu American to be a Georgia state legislator</strong> and first South Asian to represent this district.</li>
+              <li><strong>I would be the first Hindu American to be a Georgia state legislator</strong> and first South Asian to represent this district.</li>
             </ul>
             <a className="usa-button" href="/about" style={{marginLeft: "2em"}}>
               Learn More
             </a>
           </p>
-          {/* <p>
-            We’re in a moment where politics is often devoid of substance and focused on show. Incumbent Shawn Still for the 48th state senate district has proved unfit for office, focusing on overturning the 2020 election results and gas-powered lawn mowers rather than the issues that affect our communities every day, such as education, jobs, healthcare costs, public safety, transportation, and government capacity.
-          </p>
-          <p>
-            Increasingly, we are also facing bigger issues around technology, from education and ChatGPT/AI to children's safety on social media, while few in the state legislature actually have the tech experience to understand and address these issues.
-          </p>
-          <p>
-            I'd be a Senator for all, as the . I look forward to bringing my experience in law and federal policy to help address issues in our state.
-          </p> */}
         </div>
       </div>
     </section>

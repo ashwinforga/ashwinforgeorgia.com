@@ -101,8 +101,13 @@ h1, h2, .usa-logo a {
   color: #3C3B6E;
 }
 
-.usa-button {
+.usa-button, .usa-collection__calendar-date-month {
   background-color: #3C3B6E;
+}
+
+.usa-collection__calendar-date-day {
+  border: 1px solid #3C3B6E;
+  color: #3C3B6E;
 }
 
 hr {
@@ -180,6 +185,12 @@ h1 {
 
 .home-main {
   text-align: center;
+  p {
+    text-align: left;
+  }
+  h1 {
+    margin: 0 !important;
+  }
 
   input {
     display: inline-block;

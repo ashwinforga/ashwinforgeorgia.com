@@ -14,7 +14,7 @@ module.exports = {
       // },
       {
         title: '',
-        items: [{ text: 'About', link: '/about' }],
+        items: [{ text: 'Meet Ashwin', link: '/about' }],
       },
       {
         items: [
