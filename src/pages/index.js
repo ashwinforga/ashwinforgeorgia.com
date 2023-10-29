@@ -101,7 +101,7 @@ const IndexPage = () => (
           <ul className="usa-card-group">
             <Issue title="📈 Economy">Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and giving the best and brightest talent a reason to stay here.</Issue>
             <Issue title="📚 Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
-            <Issue title="🛣️ Transit">Let's reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever Metro Atlanta grows.</Issue>
+            <Issue title="🛣️ Transit">Let's reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
             <Issue title="🚓 Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
             {/* TODO: opioids? */}
             <Issue title="🏥 Healthcare">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
