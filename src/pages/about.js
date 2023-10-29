@@ -126,7 +126,7 @@ const Timeline = () => {
             Ashwin graduates from Chattahoochee High School
           </h4>
           <p className="usa-collection__description">
-            Ashwin graduated as salutatorian from Chattahoochee High School to attend Stanford University. He competed nationally in Hooch's quizbowl, National Science Bowl, and Science Olympiad teams — and played the French horn in band. He participated in the Georgia Governor's Honors Program, and in his last year, he enrolled full-time at Georgia Tech through Georgia's Move on When Ready dual enrollment program.
+            Ashwin graduated as salutatorian from Chattahoochee High School to attend Stanford University. He competed nationally in Hooch's quizbowl, National Science Bowl, and Science Olympiad teams; participated in the Georgia Governor's Honors Program; and in his last year, he enrolled full-time at Georgia Tech through Georgia's Move on When Ready dual enrollment program.
           </p>
         </div>
       </li>
@@ -141,19 +141,21 @@ const IndexPage = () => (
       <h1 id="about">Meet Ashwin</h1><br /><br />
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">
-          <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center">
+          <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0 text-center about-images">
             {/* Background and values<br /><br /> */}
 
             {/* <img src={twins} /> */}
             <img src={family} />
-            <img src={cop} />
-            <img src={writingClub} />
-            <img src={kumar} />
-            <img src={friend} />
-            <img src={oss} />
-            <img src={startups} />
-            <img src={nsb} />
-            <img src={frenchHorn} />
+            <div className="hidden-mobile">
+              <img src={cop} />
+              <img src={writingClub} />
+              <img src={kumar} />
+              <img src={friend} />
+              <img src={oss} />
+              <img src={startups} />
+              <img src={nsb} />
+              {/* <img src={frenchHorn} /> */}
+            </div>
           </h2>
         </div>
         <div className="tablet:grid-col-8 usa-prose">

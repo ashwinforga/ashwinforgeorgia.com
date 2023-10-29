@@ -50,6 +50,8 @@ const IndexPage = () => (
         <p>
           <ul>
             <li><strong>Require courses in civics and financial literacy</strong> for all students who graduate from high school.</li>
+            {/* TODO: pay teachers more? */}
+            {/* TODO: giving students a greater voice? */}
             <li><strong>Provide healthy and free meals</strong> in state schools to students who cannot afford it themselves.</li>
             <li><strong>Ensure every high school offers a course on computer science</strong>, that equips every student to learn about software, AI and the ethics behind it.</li>
             <li><strong>Expand Dual Enrollment programs</strong> such as Move on When Ready and the availability of the HOPE Scholarship and Zell Miller Scholarships, so more Georgian students can get a quality education in-state.</li>
@@ -110,7 +112,7 @@ const IndexPage = () => (
             <li><strong>Lower prescription drug costs</strong> by passing a state-level drug pricing transparency law. This will require healthcare companies operating in GA to be more transparent and accountable with drug pricing.</li>
             <li><strong>Provide a tax credit for doctors, nurses, and healthcare professionals</strong>, to thank them for their work during the COVID-19 pandemic and encourage more to join the profession.</li>
             <li><strong>Enact a GA child tax credit</strong>, to help reduce child poverty and incentivize people to have families.</li>
-            <li><strong>Protect women's reproductive rights</strong>. The right to choose shouldn't be dictated by the government.</li>
+            <li><strong>Protect reproductive rights</strong>. The right to choose shouldn't be dictated by the government.</li>
           </ul>
         </p>
       </div>
