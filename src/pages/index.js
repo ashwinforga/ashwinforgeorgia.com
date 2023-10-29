@@ -49,10 +49,10 @@ const IndexPage = () => (
             Let's get things done. 👋
           </h1>
           <p>
-            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. I grew up in Johns Creek, GA. I've worked to make positive change in my community through nonprofits, religious communities, technology startups, law and policy, and investing — all thanks to the wonderful people and resources in my hometown.
+            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. It's time for the next generation of leadership to put young people's futures front and center. Let's make transformative investments in public safety, education, technology, transit, and government capacity. Let's imagine a better future together!
           </p>
           <p>
-            <strong>Let's make transformative investments</strong> in technology, education, transit, public safety, and government capacity. Let's imagine a better future together!
+            
           </p>
           {/* <div className="grid-row grid-gap"> */}
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
@@ -75,10 +75,11 @@ const IndexPage = () => (
         <div className="tablet:grid-col-8 usa-prose">
           <p>
             <ul>
-              <li><strong>I am from Johns Creek, GA</strong> and have experience in software engineering, entrepreneurship, investing, law, and policy. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.</li>
-              <li><strong>It's time for the next generation of leadership</strong> to put young people's futures front and center. Incumbent Shawn Still got indicted for trying to overturn the 2020 election results, while I've worked on securing our elections since 2020.</li>
-              <li><strong>We have a once-in-a-generation opportunity</strong> to make transformative investments in our communities. Did you know that the State of Georgia now has $10.7 billion in surplus cash? We should invest it wisely in our futures.</li>
-              <li><strong>We need diverse leadership that reflects our communities:</strong> I would be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district.</li>
+              <li><strong>I am from Johns Creek, GA.</strong> I've worked to make positive change in my community through nonprofits, religious communities, technology startups, and law and policy — all thanks to the wonderful people and resources in my hometown. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.</li>
+              <li><strong>We have a once-in-a-generation opportunity</strong> to make transformative investments in our communities. Did you know that the State of Georgia now has $10.7 billion in surplus cash? We should invest it wisely in our future.</li>
+              <li><strong>Our current State Senator, Shawn Still, has been indicted</strong> for trying to overturn the 2020 election results. This is a chance to stand up for democracy and show this was unacceptable. I'm committed to accepting the election results and the democratic process.</li>
+              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. I'd be the youngest member of the State Senate and the only State Senator with a computer science degree.</li>
+              {/* TODO: check computer science claim */}
             </ul>
             <a className="usa-button" href="/about" style={{ marginLeft: "2em" }}>
               Meet Ashwin

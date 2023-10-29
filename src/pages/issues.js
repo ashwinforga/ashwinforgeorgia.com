@@ -51,9 +51,8 @@ const IndexPage = () => (
           <ul>
             <li><strong>Require courses in civics and financial literacy</strong> for all students who graduate from high school.</li>
             {/* TODO: pay teachers more? */}
-            {/* TODO: giving students a greater voice? */}
             <li><strong>Provide healthy and free meals</strong> in state schools to students who cannot afford it themselves.</li>
-            <li><strong>Ensure every high school offers a course on computer science</strong>, that equips every student to learn about software, AI and the ethics behind it.</li>
+            <li><strong>Ensure every high school gives students a voice</strong> in governance, so that they can share what policies work best and worst for them.</li>
             <li><strong>Expand Dual Enrollment programs</strong> such as Move on When Ready and the availability of the HOPE Scholarship and Zell Miller Scholarships, so more Georgian students can get a quality education in-state.</li>
             <li><strong>Invest in community colleges</strong> such as Georgia Perimeter College so that they can equip our children with the skills they need to succeed.</li>
           </ul>
