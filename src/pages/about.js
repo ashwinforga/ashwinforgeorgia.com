@@ -201,7 +201,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <hr style={{marginTop: -25, marginBottom: 0}} />
+    {/* <hr style={{marginTop: -25, marginBottom: 0}} /> */}
     <section className="grid-container usa-section usa-prose">
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">

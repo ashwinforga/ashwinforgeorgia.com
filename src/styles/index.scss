@@ -220,20 +220,23 @@ h1 {
       color: white;
       font-size: 3em;
     }
-    p {
-      font-size: 1em;
-    }
+  }
+}
 
-    input {
-      display: inline-block;
-      width: 100%;
-      margin-bottom: 5px;
-    }
+div.hero-text {
+  p {
+    font-size: 1em;
+  }
 
-    a.usa-button {
-      margin-top: 5px;
-      width: 100%;
-    }
+  input {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  a.usa-button {
+    margin-top: 5px;
+    width: 100%;
   }
 }
 
@@ -253,16 +256,21 @@ h1 {
   }
 }
 
+header.usa-header {
+  background: white;
+}
+
 .index-page {
   header.usa-header {
     position: absolute;
     width: 100%;
+    background: none;
   }
   .nav-title {
     visibility: hidden;
   }
   .usa-nav__primary-item {
-    background: none;
+    // background: none;
     a {
       color: white;
     }
@@ -285,4 +293,22 @@ h1 {
       margin-bottom: 0;
     }
   }
+}
+
+.issue {
+  text-align: center;
+  h1 {
+    margin: 0 !important;
+    padding: 0;
+    font-size: 3em;
+  }
+}
+
+section {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  background: #3C3B6E;
 }
