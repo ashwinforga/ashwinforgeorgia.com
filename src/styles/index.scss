@@ -63,18 +63,22 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 
 .usa-hero {
   min-height: 90vh;
-  min-height: calc(100vh - 140px);
   background-size: cover;
   background-repeat: no-repeat;
   // background-position-y: -10%;
 
   @media screen and (max-width: 640px) {
-    min-height: 40vh;
-    min-height: calc(50vh - 48px);
+    min-height: 100vh;
+    .usa-hero__callout {
+      padding-top: 20px;
+      h1 {
+        margin-top: 0 !important;
+      }
+    }
   }
 }
 
-.hidden-desktop {
+.hidden-desktop, .usa-prose .usa-collection__item.hidden-desktop {
   display: none;
 }
 
@@ -84,6 +88,9 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
   .hidden-desktop {
     display: block;
+  }
+  .usa-prose .usa-collection__item.hidden-desktop {
+    display: flex;
   }
 }
 
@@ -124,23 +131,23 @@ hr {
   padding-bottom: 15px;
 }
 
-.usa-nav {
-  .usa-nav__close {
-    display: none;
-  }
-  padding-top: 0;
-  padding-bottom: 0;
-  display: block;
-  position: static;
-  width: 100%;
-  @media screen and (min-width: 640px) {
-    border-top: 1px solid #dfe1e2;
-    padding: 0;
-  }
-  @media screen and (max-width: 640px) {
+// .usa-nav {
+//   .usa-nav__close {
+//     display: none;
+//   }
+//   padding-top: 0;
+//   padding-bottom: 0;
+//   display: block;
+//   position: static;
+//   width: 100%;
+//   @media screen and (min-width: 640px) {
+//     border-top: 1px solid #dfe1e2;
+//     padding: 0;
+//   }
+//   @media screen and (max-width: 640px) {
 
-  }
-}
+//   }
+// }
 
 li.usa-nav__primary-item {
   display: flex;
@@ -208,7 +215,7 @@ h1 {
     top: 0;
     left: 0;
     padding-left: 25px;
-    padding-top: 25px;
+    padding-top: 45px;
     .usa-hero__heading {
       color: white;
       font-size: 3em;
@@ -228,10 +235,54 @@ h1 {
       width: 100%;
     }
   }
-  // background-size: 100% auto;
-  // min-height: 50vw;
-  // > home-main {
-  //   background: white;
-  //   width: 50vw;
-  // }
+}
+
+.usa-nav__inner {
+  display: flex;
+  div.nav-title {
+    // flex: 1;
+    img, div {
+      display: inline-block;
+    }
+  }
+  div.nav-list {
+    flex: 1;
+    ul {
+      justify-content: end;
+    }
+  }
+}
+
+.index-page {
+  header.usa-header {
+    position: absolute;
+    width: 100%;
+  }
+  .nav-title {
+    visibility: hidden;
+  }
+  .usa-nav__primary-item {
+    background: none;
+    a {
+      color: white;
+    }
+  }
+}
+
+.logo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  > div {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.about-ashwin-page {
+  @media screen and (max-width: 640px) {
+    h2 {
+      margin-bottom: 0;
+    }
+  }
 }

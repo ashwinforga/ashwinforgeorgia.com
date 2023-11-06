@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 // import img from "../images/solo-wide.jpg";
 // import img from "../images/writing-club.jpg";
 import smile1 from "../images/smile-1.jpg";
+import smileSquare from "../images/smile-square.jpg";
 import img from "../images/headshot3.jpeg";
 import headshot1 from "../images/smile-2.jpg";
 import capitol from "../images/capitol.jpeg";
@@ -12,7 +13,6 @@ import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
 import suspended from '../images/suspended.png';
 import still2 from '../images/still 2.png';
-import headshot from '../images/headshot-square.jpeg';
 import still from '../images/still.jpeg';
 import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
@@ -36,13 +36,7 @@ const Issue = ({ title, children }) => (
             </li>
 );
 
-const Hero = () => (
-  <section className="usa-hero" style={{backgroundImage: `url(${headshot1})`}}>
-    <div className="grid-container">
-      <div className="usa-hero__callout">
-        <h1 className="usa-hero__heading">
-        Let's get things done.
-        </h1>
+const HeroText = () => (<>
           <p>
             <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
           </p>
@@ -53,16 +47,37 @@ const Hero = () => (
           <a className="usa-button usa-button--outline" href="/">
             Join Us
           </a>
+</>
+);
+
+const Hero = () => (
+  <section className="usa-hero" style={{backgroundImage: `url(${headshot1})`}}>
+    <div className="grid-container">
+      <div className="usa-hero__callout">
+        <h1 className="usa-hero__heading">
+        Let's get things done.
+        </h1>
+        <div className="hidden-mobile">
+          <HeroText />
+        </div>
+        {/* <div className="hidden-desktop" style={{"position": "absolute", "bottom": "5px"}}>
+            <p>
+            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
+          </p>
+        </div> */}
       </div>
     </div>
   </section>
 );
 
 const IndexPage = () => (
-  <Layout>
+  <Layout className="index-page">
     <SEO title="Home" />
     <Hero />
     <section className="grid-container usa-section usa-prose">
+      <div className="hidden-desktop">
+        <HeroText />
+      </div>
       {/* <div className="grid-row grid-gap" style={{backgroundImage: `url(${headshot1})`}}>
         <div className="tablet:grid-col-6">
           <img src={headshot1} />
@@ -122,7 +137,7 @@ const IndexPage = () => (
           <ul className="usa-card-group">
             <Issue title="📈 Economy">Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and giving the best and brightest talent a reason to stay here.</Issue>
             <Issue title="📚 Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
-            <Issue title="🛣️ Transit">Let's reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
+            <Issue title="🌎 Climate">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
             <Issue title="🚓 Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
             {/* TODO: opioids? */}
             <Issue title="🏥 Healthcare">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
@@ -152,7 +167,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="usa-media-block tablet:grid-col">
-            <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
+            <img className="usa-media-block__img" src={smileSquare} alt="Ashwin Ramaswami" />
             <div className="usa-media-block__body">
               <h3 className="usa-graphic-list__heading">
                 Ashwin, as a federal employee, worked with Secretary of State Raffensperger's office to secure Georgia's elections.
@@ -180,7 +195,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="usa-media-block tablet:grid-col">
-              <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
+              <img className="usa-media-block__img" src={smileSquare} alt="Ashwin Ramaswami" />
               <div className="usa-media-block__body">
                 <h3 className="usa-graphic-list__heading">
                   Ashwin's research led Congress to introduce a bill on securing our small businesses through open source software.
@@ -208,7 +223,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="usa-media-block tablet:grid-col">
-              <img className="usa-media-block__img" src={headshot} alt="Ashwin Ramaswami" />
+              <img className="usa-media-block__img" src={smileSquare} alt="Ashwin Ramaswami" />
               <div className="usa-media-block__body">
                 <h3 className="usa-graphic-list__heading">
                   As an ABA Steiger Fellow, Ashwin helped Attorney General Chris Carr's Office of Consumer Protection sue Facebook over social media's harms on young children.

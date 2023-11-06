@@ -67,11 +67,12 @@ const IndexPage = () => (
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
-      <h3>Transit and Transportation: Let's reduce traffic.</h3>
+      <h3>Climate: Let's take care of the environment and reduce traffic.</h3>
         <p>
           <ul>
-            <li><strong>Advocate for <a href="https://atlanta.urbanize.city/post/introducing-atl-trains-revolutionary-approach-metro-commuter-transit">ATL Trains</a></strong> — a public transit system to connect Metro Atlantans, drastically reduce congestion on I-85 / I-75 / I-285, and provide more accessibility to those who cannot drive a car.</li>
+            <li><strong>Address climate change</strong> by investing in green energy and working with federal programs to get funding and jobs in clean energy sectors.</li>
             <li><strong>Invest in better roads, more sidewalks, and more bike lanes</strong> in order to improve our transportation infrastructure. Let's make our suburbs more walkable!</li>
+            <li><strong>Advocate for <a href="https://atlanta.urbanize.city/post/introducing-atl-trains-revolutionary-approach-metro-commuter-transit">ATL Trains</a></strong> — a public transit system to connect Metro Atlantans, drastically reduce congestion on I-85 / I-75 / I-285, and provide more accessibility to those who cannot drive a car.</li>
           </ul>
         </p>
       </div>

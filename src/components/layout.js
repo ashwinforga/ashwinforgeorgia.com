@@ -14,7 +14,7 @@ import Footer from './footer';
 import Header from './header';
 import Nav from './nav';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className = "" }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
   const { title, navigation, secondaryLinks } = data.site.siteMetadata;
 
   return (
-    <>
+    <div className={className}>
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
       </Header>
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 
