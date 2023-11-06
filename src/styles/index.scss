@@ -68,18 +68,52 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   // background-position-y: -10%;
 
   @media screen and (max-width: 640px) {
-    min-height: 100vh;
-    .usa-hero__callout {
-      padding-top: 20px;
+    min-height: 60vh;
+    div.usa-hero__callout {
+      padding-top: 0;
+      padding-left: 30px;
+      padding-right: 30px;
+      top: unset;
+      bottom: 10px;
+      width: 100%;
       h1 {
         margin-top: 0 !important;
       }
     }
   }
+
+  @media screen and (max-height: 700px) {
+    min-height: 85vh;
+    div.usa-hero__callout {
+      padding-top: 0;
+      top: unset;
+      bottom: 10px;
+      width: 100%;
+      h1 {
+        margin-top: 0 !important;
+      }
+    }
+  }
+
+  // @media screen and (max-height: 700px) {
+  //   div.usa-hero__callout {
+  //     margin-top: 0;
+  //     // overflow-y: auto;
+  //   }
+  // }
 }
 
 .hidden-desktop, .usa-prose .usa-collection__item.hidden-desktop {
   display: none;
+}
+
+@media screen and (max-height: 700px) {
+  .hidden-mobile-landscape {
+    display: none;
+  }
+  .show-mobile-landscape {
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -231,12 +265,14 @@ div.hero-text {
   input {
     display: inline-block;
     width: 100%;
+    max-width: 480px;
     margin-bottom: 5px;
   }
 
   a.usa-button {
     margin-top: 5px;
     width: 100%;
+    max-width: 480px;
   }
 }
 

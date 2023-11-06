@@ -37,7 +37,7 @@ const Issue = ({ title, img, href, children }) => (
   </li>
 );
 
-const HeroText = () => (<div className="hero-text">
+const HeroText = (props) => (<div className="hero-text" {...props}>
   <p>
     <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
   </p>
@@ -61,7 +61,7 @@ const Hero = () => (
         <h1 className="usa-hero__heading">
           Let's get things done.
         </h1>
-        <div className="hidden-mobile">
+        <div className="hidden-mobile hidden-mobile-landscape">
           <HeroText />
         </div>
         {/* <div className="hidden-desktop" style={{"position": "absolute", "bottom": "5px"}}>
@@ -168,8 +168,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <section className="grid-container usa-section usa-prose">
-      <div className="hidden-desktop">
-        <HeroText />
+      <div className="hidden-desktop show-mobile-landscape">
+        <HeroText style={{textAlign: "center"}} />
       </div>
       {/* <div className="grid-row grid-gap" style={{backgroundImage: `url(${headshot1})`}}>
         <div className="tablet:grid-col-6">
