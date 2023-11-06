@@ -105,6 +105,10 @@ h1, h2, .usa-logo a {
   background-color: #3C3B6E;
 }
 
+.usa-button.usa-button--outline {
+  background-color: white;
+}
+
 .usa-collection__calendar-date-day {
   border: 1px solid #3C3B6E;
   color: #3C3B6E;
@@ -187,20 +191,6 @@ h1 {
   // display: none;
 }
 
-.home-main {
-  text-align: center;
-  p {
-    text-align: left;
-  }
-  h1 {
-    margin: 0 !important;
-  }
-
-  input {
-    display: inline-block;
-  }
-}
-
 .why-not {
   .usa-media-block {
     margin-bottom: 0 !important;
@@ -208,4 +198,40 @@ h1 {
   p img {
     display: none;
   }
+}
+
+.usa-hero {
+  position: relative;
+  .usa-hero__callout {
+    padding: 0;
+    background: none;
+    top: 0;
+    left: 0;
+    padding-left: 25px;
+    padding-top: 25px;
+    .usa-hero__heading {
+      color: white;
+      font-size: 3em;
+    }
+    p {
+      font-size: 1em;
+    }
+
+    input {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    a.usa-button {
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+  // background-size: 100% auto;
+  // min-height: 50vw;
+  // > home-main {
+  //   background: white;
+  //   width: 50vw;
+  // }
 }

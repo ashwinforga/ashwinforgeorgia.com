@@ -4,13 +4,13 @@ import { Script } from "gatsby"
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import writingClub from "../images/writing-club.jpg";
-import kumar from "../images/kumar.jpeg";
+import thind from "../images/thind.jpg";
 import frenchHorn from "../images/french-horn-cropped.jpg";
 import family from "../images/ashwin-family.jpeg";
 import oss from "../images/oss.png";
 import district from "../images/2023SD48.png";
 import nsb from "../images/nsb.jpeg";
-import cop from "../images/cop.jpg";
+import capitol from "../images/capitol-1.jpg";
 import startups from "../images/startups.jpg";
 import friend from "../images/friend.jpg";
 
@@ -147,9 +147,10 @@ const IndexPage = () => (
             {/* <img src={twins} /> */}
             <img src={family} />
             <div className="hidden-mobile">
-              <img src={cop} />
+              <img src={capitol} />
+              <img src={thind} />
               <img src={writingClub} />
-              <img src={kumar} />
+              {/* <img src={kumar} /> */}
               <img src={friend} />
               <img src={oss} />
               <img src={startups} />

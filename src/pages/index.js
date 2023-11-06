@@ -4,9 +4,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 // import img from "../images/solo-wide.jpg";
 // import img from "../images/writing-club.jpg";
-import thind from "../images/thind.jpg";
+import smile1 from "../images/smile-1.jpg";
 import img from "../images/headshot3.jpeg";
-import headshot1 from "../images/headshot1.jpeg";
+import headshot1 from "../images/smile-2.jpg";
 import capitol from "../images/capitol.jpeg";
 import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
@@ -36,15 +36,38 @@ const Issue = ({ title, children }) => (
             </li>
 );
 
+const Hero = () => (
+  <section className="usa-hero" style={{backgroundImage: `url(${headshot1})`}}>
+    <div className="grid-container">
+      <div className="usa-hero__callout">
+        <h1 className="usa-hero__heading">
+        Let's get things done.
+        </h1>
+          <p>
+            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
+          </p>
+          {/* <div className="grid-row grid-gap"> */}
+          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
+          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" /> <br />
+          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Zip" /> <br />
+          <a className="usa-button usa-button--outline" href="/">
+            Join Us
+          </a>
+      </div>
+    </div>
+  </section>
+);
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Hero />
     <section className="grid-container usa-section usa-prose">
-      <div className="grid-row grid-gap">
+      {/* <div className="grid-row grid-gap" style={{backgroundImage: `url(${headshot1})`}}>
         <div className="tablet:grid-col-6">
           <img src={headshot1} />
         </div>
-        <div className="tablet:grid-col-6 home-main">
+        <div className="tablet:grid-col-12 home-main">
           <h1 className="">
             Let's get things done. 👋
           </h1>
@@ -57,23 +80,21 @@ const IndexPage = () => (
           <p>
           Let's make transformative investments in public safety, education, technology, transit, and government capacity. <strong>Let's imagine a better future together!</strong>
           </p>
-          {/* <div className="grid-row grid-gap"> */}
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" /> <br />
           <input type="text" className="usa-input tablet:grid-col-6" placeholder="Zip" /> <br /> <br />
           <a className="usa-button" href="/">
             Join Us
           </a>
-          {/* </div> */}
         </div>
-      </div>
+      </div> */}
       <hr />
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">
           <h2 className="font-heading-xl margin-top-0 text-center">
             Why now?
           </h2>
-          <img src={thind} />
+          <img src={smile1} />
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
