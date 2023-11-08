@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 // import img from "../images/writing-club.jpg";
 import smile1 from "../images/smile-1.jpg";
 import smileSquare from "../images/smile-square.jpg";
+import sal from "../images/ashwin-sal.jpg";
 import img from "../images/headshot3.jpeg";
 import headshot1 from "../images/smile-2.jpg";
 import capitol from "../images/capitol.jpeg";
@@ -17,6 +18,7 @@ import still from '../images/still.jpeg';
 import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
+import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -202,7 +204,8 @@ const IndexPage = () => (
           <h2 className="font-heading-xl margin-top-0 text-center">
             Why now?
           </h2>
-          <img src={smile1} />
+          <img src={lecture} />
+          <img src={sal} />
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
