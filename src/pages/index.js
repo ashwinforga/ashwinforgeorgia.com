@@ -213,7 +213,7 @@ const IndexPage = () => (
               <li><strong>I am from Johns Creek, GA.</strong> I've worked to make positive change in my community through nonprofits, religious communities, technology startups, and law and policy — all thanks to the wonderful people and resources in my hometown. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.</li>
               <li><strong>We have a once-in-a-generation opportunity</strong> to make transformative investments in our communities. Did you know that the State of Georgia now has $10.7 billion in surplus cash? We should invest it wisely in our future.</li>
               <li><strong>Our current State Senator, Shawn Still, has been indicted</strong> for trying to overturn the 2020 election results. This is a chance to stand up for democracy and show this was unacceptable. I'm committed to accepting the election results and the democratic process.</li>
-              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Hindu American to be a Georgia state legislator and first South Asian to represent this district. I'd be the first Gen Z member of the State Senate and the only State Senator with a computer science degree.</li>
+              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first South Asian to represent this district and first Indian American and Hindu American in the Georgia State Senate. I'd be the first Gen Z member of the State Senate and the only State Senator with a computer science degree.</li>
               {/* TODO: check computer science claim */}
             </ul>
             <div style={{textAlign: "center"}}>
@@ -237,7 +237,6 @@ const IndexPage = () => (
             <Issue href="/issues#education" img="📚" title="Provide Everyone with a World-Class Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
             <Issue href="/issues#climate" img="🌎" title="Protect the Earth and Keep our Homes Beautiful">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
             <Issue href="/issues#economy" img="🚓" title="Invest in Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
-            {/* TODO: opioids? */}
             <Issue href="/issues#healthcare" img="🏥" title="Make Healthcare Affordable">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
             <Issue href="/issues#government" img="⚖️👩🏾‍⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
           </ul>

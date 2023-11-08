@@ -195,7 +195,7 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
-            I was born and grew up in Johns Creek, GA. I'm a second-generation immigrant, an Indian American, a twin brother, and a Hindu. I've worked to make positive change in my community through nonprofits, religious communities, technology startups, law and policy, and investing. This was only made possible through resources around me when growing up: Chattahoochee High School, GA's Dual Enrollment program, and the HOPE and Zell Miller Scholarships. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.
+            I was born and grew up in Johns Creek, GA. I'm a second-generation immigrant, an Indian American, a twin brother, and an engineer. I've worked to make positive change in my community through nonprofits, religious communities, technology startups, law and policy, and investing. This was only made possible through resources around me when growing up: Chattahoochee High School, GA's Dual Enrollment program, and the HOPE and Zell Miller Scholarships. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.
             <Timeline />
           </p>
         </div>
