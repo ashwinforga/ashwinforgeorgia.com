@@ -36,11 +36,11 @@ const IndexPage = () => (
       <h1 id="issues">The Issues</h1><br /><br />
 
       <div className="grid-row grid-gap">
-        <div className="tablet:grid-col-12">
+        {/* <div className="tablet:grid-col-12">
           <h2 className="font-heading-xl margin-top-0 text-center">
             Issues<br />
           </h2>
-        </div>
+        </div> */}
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
             <Issue img="📈" title="Grow a High-Tech Economy for All">
@@ -54,7 +54,7 @@ const IndexPage = () => (
             <Issue img="🏥" title="Make Healthcare Affordable">
               Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and supporting our healthcare workers. Let's provide tax credits to make it easier to raise a family and protect access to safe abortions for those who need it.</Issue>
             <Issue img="⚖️👩🏾‍⚖️" title="Make Government Work Better">
-              Let's build state and local government capacity by paying our state workers competitive wages, bringing better technology to help empower state employees, and securing our elections. Let's pass a state civil rights law to ensure all have equal justice.</Issue>
+              Let's build state and local government capacity by paying workers competitive wages, bringing better technology to help empower state employees, and securing our elections. Let's fund legal aid and our courts and pass a state civil rights law to ensure all have equal justice.</Issue>
           </ul>
         </div>
       </div>

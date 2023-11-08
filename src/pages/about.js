@@ -195,9 +195,12 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
-            I was born and grew up in Johns Creek, GA. I'm a second-generation immigrant, an Indian American, a twin brother, and an engineer. I've worked to make positive change in my community through nonprofits, religious communities, technology startups, law and policy, and investing. This was only made possible through resources around me when growing up: Chattahoochee High School, GA's Dual Enrollment program, and the HOPE and Zell Miller Scholarships. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community.
-            <Timeline />
+            I was born and grew up in Johns Creek, GA. I'm a second-generation immigrant, an Indian American, a twin brother, and an engineer. I've built a career in software engineering, election security, and technology law and policy research.
           </p>
+          <p>
+              I have over seven years of experience working to build tech startups; have worked in the federal government on cybersecurity for three years; and currently run a consulting company around software architecture, technology law and policy. I've attended Georgia Tech, Stanford University, and Georgetown University Law Center. 
+          </p>
+          <Timeline />
         </div>
       </div>
     </section>
