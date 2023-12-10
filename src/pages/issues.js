@@ -53,7 +53,7 @@ const IndexPage = () => (
               Let's keep our communities safe by training police, addressing the opioid epidemic, and passing commonsense gun laws. We also need better consumer protection and antitrust laws to keep big technology companies accountable for online harms such as those on social media.</Issue>
             <Issue img="🏥" title="Make Healthcare Affordable">
               Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and supporting our healthcare workers. Let's provide tax credits to make it easier to raise a family and protect access to safe abortions for those who need it.</Issue>
-            <Issue img="⚖️👩🏾‍⚖️" title="Make Government Work Better">
+            <Issue img="⚖️" title="Make Government Work Better">
               Let's build state and local government capacity by paying workers competitive wages, bringing better technology to help empower state employees, and securing our elections. Let's fund legal aid and our courts and pass a state civil rights law to ensure all have equal justice.</Issue>
           </ul>
         </div>

@@ -1,4 +1,5 @@
 import { Link } from 'gatsby';
+import logo from "../images/ARLogo-full-color.png";
 import React from 'react';
 
 import close from 'uswds/img/close.svg';
@@ -14,7 +15,7 @@ const Nav = ({ navigation, secondaryLinks }) => (
         <li className="usa-nav__primary-item">
         <a href="/">
           {/* <img src="https://ashwin.run/assets/lightning.svg" style={{width: 30}}/> */}
-          <div>Ashwin Ramaswami for State Senate</div>
+          <img src={logo} />
         </a>
         {/* <a href="/"><img src="https://ashwin.run/assets/lightning.svg" style={{width: 30}}/></a> */}
         </li>
@@ -59,11 +60,14 @@ const Nav = ({ navigation, secondaryLinks }) => (
             </li>
           ))}
           <li className="usa-nav__primary-item">
-            <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/">
+            <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
               Donate
             </a>
           </li>
         </ul>
+        {/* <div className="donate">
+          <a href="https://secure.actblue.com/donate/ashwin-for-georgia"><button type="button">Donate</button></a>
+        </div> */}
       </div>
       {/* <div className="usa-nav__secondary">
         <ul className="usa-nav__secondary-links">

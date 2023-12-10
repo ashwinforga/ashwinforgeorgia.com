@@ -22,11 +22,11 @@ import hooch from "../images/hooch.jpeg";
 const images = [
   capitol,
   thind,
-  writingClub,
   codalab,
-  oss,
-  startups,
-  nsb
+  writingClub,
+  // oss,
+  // startups,
+  // nsb
 ];
 
 const Timeline = () => {
@@ -36,7 +36,7 @@ const Timeline = () => {
       <li className="usa-collection__item">
         <div className="usa-collection__calendar-date">
           <time datetime="2020-09-30T12:00:00+01:00"><span className="usa-collection__calendar-date-month">NOV</span>
-            <span className="usa-collection__calendar-date-day">2020</span></time>
+            <span className="usa-collection__calendar-date-day">2020-2023</span></time>
         </div>
         <div className="usa-collection__body">
           <h4 className="usa-collection__heading">
@@ -84,7 +84,7 @@ const Timeline = () => {
       <li className="usa-collection__item hidden-desktop">
         <img src={images[2]} />
       </li>
-      <li className="usa-collection__item">
+      {/* <li className="usa-collection__item">
         <div className="usa-collection__calendar-date">
           <time datetime="2020-09-30T12:00:00+01:00"><span className="usa-collection__calendar-date-month">NOV</span>
             <span className="usa-collection__calendar-date-day">2022</span></time>
@@ -97,18 +97,18 @@ const Timeline = () => {
             While pursuing his J.D. at Georgetown Law, Ashwin was elected to student government and <a href="https://georgetownlawtechreview.org/ai-transcription-isnt-working-for-students-with-disabilities-heres-how-to-fix-it/GLTR-11-2022/">advocated</a> for students with disabilities to have more access to accommodations. He educated the community about why automated transcription tools using AI are not sufficient and can be incorrect and harmful. He also helped raise $1 million to <a target="_blank" href="https://www.law.georgetown.edu/tech-institute/initiatives/georgetown-justice-lab/judicial-innovation/">start</a> the Judicial Innovation Fellowship program at Georgetown, which creates a pathway for technologists and designers to work in state and local courts to improve access to justice for those without access to lawyers.
           </p>
         </div>
-      </li>
+      </li> */}
       <li className="usa-collection__item hidden-desktop">
         <img src={images[3]} />
       </li>
       <li className="usa-collection__item">
         <div className="usa-collection__calendar-date">
-          <time datetime="2020-09-30T12:00:00+01:00"><span className="usa-collection__calendar-date-month">MAR</span>
-            <span className="usa-collection__calendar-date-day">2022</span></time>
+          <time datetime="2020-09-30T12:00:00+01:00"><span className="usa-collection__calendar-date-month">APR</span>
+            <span className="usa-collection__calendar-date-day">2021</span></time>
         </div>
         <div className="usa-collection__body">
           <h4 className="usa-collection__heading">
-            Ashwin invests in open source communities
+            Ashwin invests in technology and security
           </h4>
           <p className="usa-collection__description">
             Every small business relies on open source software (OSS) to run their business, but this little-known part of our digital infrastructure is often maintained by volunteers who don't get paid for their work. While at Schmidt Futures — a philanthropy led by Eric Schmidt, the first CEO of Google — Ashwin created $6 million in new initiatives to help sustain and increase visibility for OSS communities. His research helped inspire a bill in Congress: <a target="_blank" href="https://fedscoop.com/senators-reintroduce-bipartisan-open-source-software-bill/">H.R. 3286, Securing Open Source Software Act.</a> He's also worked across the free culture / open access movement, from the Wikimedia Foundation's legal team to the Linux Foundation's research team.
@@ -150,6 +150,14 @@ const Timeline = () => {
         <img src={images[5]} />
       </li>
       <li className="usa-collection__item">
+        <div className="logo-gallery">
+          <div><img src={hooch} /></div>
+          <div><img src={gatech} style={{marginLeft: 10}} /></div>
+          <div><img src={stanford} /></div>
+          <div><img src={gulc} /></div>
+        </div>
+      </li>
+      {/* <li className="usa-collection__item">
         <div className="usa-collection__calendar-date">
           <time datetime="2020-09-30T12:00:00+01:00"><span className="usa-collection__calendar-date-month">MAY</span>
             <span className="usa-collection__calendar-date-day">2017</span></time>
@@ -161,14 +169,8 @@ const Timeline = () => {
           <p className="usa-collection__description">
             Ashwin graduated as salutatorian from Chattahoochee High School to attend Stanford University. He competed nationally in Hooch's quizbowl, National Science Bowl, and Science Olympiad teams; participated in the Georgia Governor's Honors Program; and in his last year, he enrolled full-time at Georgia Tech through Georgia's Move on When Ready dual enrollment program.
           </p>
-          <div className="logo-gallery">
-            <div><img src={hooch} /></div>
-            <div><img src={gatech} style={{marginLeft: 10}} /></div>
-            <div><img src={stanford} /></div>
-            <div><img src={gulc} /></div>
-          </div>
         </div>
-      </li>
+      </li> */}
       <li className="usa-collection__item hidden-desktop">
         <img src={images[6]} />
       </li>

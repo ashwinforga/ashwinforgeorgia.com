@@ -7,8 +7,8 @@ import SEO from '../components/seo';
 import smile from "../images/smile-4.jpg";
 import smileSquare from "../images/smile-square.jpg";
 import sal from "../images/ashwin-sal.jpg";
-import img from "../images/headshot3.jpeg";
-import headshot1 from "../images/smile-2.jpg";
+import logo from "../images/ARLogo-full-color-white-text.png";
+import cover from "../images/cover.png";
 import capitol from "../images/capitol.jpeg";
 import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
@@ -40,30 +40,36 @@ const Issue = ({ title, img, href, children }) => (
 );
 
 const HeroText = (props) => (<div className="hero-text" {...props}>
-  <p>
+  {/* <p>
     <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
-  </p>
+  </p> */}
   {/* <div className="grid-row grid-gap"> */}
-  <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
-  <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" /> <br />
-  <input type="text" className="usa-input tablet:grid-col-6" placeholder="Zip" /> <br />
-  <a className="usa-button usa-button--outline" href="/">
-    Join Us
-  </a>
-  <a className="usa-button usa-button--outline" target="_blank" href="https://secure.actblue.com">
-    Donate
-  </a>
+  <div className="form">
+    <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" />
+    <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" />
+    <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code" />
+    <a className="usa-button usa-button--outline" href="/">
+      Submit
+    </a>
+    <div className="disclaimer">
+      <input type="checkbox" id="disclaimer" />
+      <label for="disclaimer">
+        Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
+      </label>
+    </div>
+  </div>
 </div>
 );
 
 const Hero = () => (
-  <section className="usa-hero" style={{ backgroundImage: `url(${headshot1})` }}>
+  <section className="usa-hero">
+    <div className="image">
+      <img src={cover} />
+    </div>
     <div className="grid-container">
-      <div className="usa-hero__callout">
-        <h1 className="usa-hero__heading">
-          Let's get things done.
-        </h1>
-        <div className="hidden-mobile hidden-mobile-landscape">
+      <div className="callout">
+        <img src={logo} />
+        <div className="">
           <HeroText />
         </div>
         {/* <div className="hidden-desktop" style={{"position": "absolute", "bottom": "5px"}}>
@@ -170,7 +176,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <section className="grid-container usa-section usa-prose">
-      <div className="hidden-desktop show-mobile-landscape">
+      <div className="hidden-desktop show-mobile">
         <HeroText style={{textAlign: "center"}} />
       </div>
       {/* <div className="grid-row grid-gap" style={{backgroundImage: `url(${headshot1})`}}>
@@ -204,8 +210,12 @@ const IndexPage = () => (
           <h2 className="font-heading-xl margin-top-0 text-center">
             Why now?
           </h2>
-          <img src={lecture} />
-          <img src={smile} />
+          {/* <img src={lecture} /> */}
+          <div className="smile-outer">
+            <div className="smile-container">
+              <img src={smile} />
+            </div>
+          </div>
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
@@ -237,7 +247,7 @@ const IndexPage = () => (
             <Issue href="/issues#climate" img="🌎" title="Protect the Earth and Keep our Homes Beautiful">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
             <Issue href="/issues#economy" img="🚓" title="Invest in Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
             <Issue href="/issues#healthcare" img="🏥" title="Make Healthcare Affordable">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
-            <Issue href="/issues#government" img="⚖️👩🏾‍⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
+            <Issue href="/issues#government" img="⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
