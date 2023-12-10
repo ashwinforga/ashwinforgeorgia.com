@@ -242,12 +242,12 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
-            <Issue href="/issues#economy" img="📈" title="Grow a High-Tech Economy for All">Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and giving the best and brightest talent a reason to stay here.</Issue>
-            <Issue href="/issues#education" img="📚" title="Provide Everyone with a World-Class Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
-            <Issue href="/issues#climate" img="🌎" title="Protect the Earth and Keep our Homes Beautiful">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
+            <Issue href="/issues#government" img="⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
             <Issue href="/issues#economy" img="🚓" title="Invest in Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
             <Issue href="/issues#healthcare" img="🏥" title="Make Healthcare Affordable">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
-            <Issue href="/issues#government" img="⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
+            <Issue href="/issues#economy" img="📈" title="Grow a High-Tech Economy for All">Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and giving the best and brightest talent a reason to stay here.</Issue>
+            <Issue href="/issues#climate" img="🌎" title="Protect the Earth and Our Community">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
+            <Issue href="/issues#education" img="📚" title="Provide Everyone with a World-Class Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>

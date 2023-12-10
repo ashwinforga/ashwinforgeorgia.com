@@ -217,12 +217,13 @@ li.usa-nav__primary-item {
   max-width: none;
   position: absolute;
   left: 0;
-  padding: none;
   margin: none;
   width: 50%;
   height: 100%;
   padding-top: 15vw;
   padding-bottom: 4vw;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
 
   img {
