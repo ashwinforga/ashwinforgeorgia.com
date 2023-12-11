@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -40,31 +40,60 @@ const Issue = ({ title, img, href, children }) => (
 );
 
 const HeroText = (props) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [zip, setZip] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [checked, setChecked] = React.useState(false);
+  const handleChange = useCallback(() => {
+    setChecked(!checked);
+    console.log("HC", checked);
+  }, [checked, setChecked]);
   const submitForm = useCallback(async(e) => {
     e.preventDefault();
-    await fetch("https://api.formium.io/submit/657697a58a8a540001278ec4/website-main", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({"first":"","email":"","phone":"","zipCode":""})
-    })
-  }, []);
+    setLoading(true);
+    console.log(checked);
+    if (phone && !checked) {
+      alert("Please check the box to consent to receiving text updates.");
+      return;
+    }
+    try {
+      await fetch("https://api.formium.io/submit/657697a58a8a540001278ec4/website-main", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, phone, zip })
+      });
+      setLoading(false);
+      alert("Thank you for submitting! We have received your contact information.");
+      setName("");
+      setEmail("");
+      setPhone("");
+      setZip("");
+      setChecked(false);
+    } catch (e) {
+      setLoading(false);
+      alert("There was an error submitting. Please contact contact@ashwinforgeorgia.com.");
+    }
+  }, [name, email, phone, zip, checked, loading, setName, setEmail, setPhone, setChecked, setZip, setLoading]);
+
   return (<div className="hero-text" {...props}>
     {/* <p>
       <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
     </p> */}
     {/* <div className="grid-row grid-gap"> */}
     <div className="form">
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" />
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" />
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" />
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code" />
-      <a className="usa-button usa-button--outline" onClick={submitForm}>
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name*" value={name} onChange={e => setName(e.target.value)} />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email*" value={email} onChange={e => setEmail(e.target.value)}/>
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code*" value={zip} onChange={e => setZip(e.target.value)}/>
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" value={phone} onChange={e => setPhone(e.target.value)}/>
+      <a className="usa-button usa-button--outline" onClick={submitForm} disabled={loading}>
         Submit
       </a>
       <div className="disclaimer">
-        <input type="checkbox" id="disclaimer" />
+        <input type="checkbox" id="disclaimer" checked={checked} onChange={handleChange} />
         <label for="disclaimer">
           Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
         </label>
