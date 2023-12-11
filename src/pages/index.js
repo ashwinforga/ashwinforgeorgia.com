@@ -19,6 +19,7 @@ import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
+import { NavMobile } from '../components/nav';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -204,6 +205,7 @@ const IndexPage = () => (
     <section className="grid-container usa-section usa-prose hidden-desktop show-mobile mobile-hero">
       <HeroText style={{textAlign: "center"}} />
     </section>
+    <NavMobile className="nav-mobile-homepage" />
     <section className="grid-container usa-section usa-prose">
       <div className="grid-row grid-gap why-now">
         <div className="tablet:grid-col-4">

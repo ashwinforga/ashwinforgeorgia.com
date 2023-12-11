@@ -4,22 +4,47 @@ import React from 'react';
 
 import close from 'uswds/img/close.svg';
 
-const Nav = ({ navigation, secondaryLinks }) => (
+export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-desktop " + (className || "")}>
+  <a href="/">
+    <img src={logo} />
+  </a>
+  <div className="nav-list">
+    <div className="donate">
+      <Link className="usa-button usa-nav__link" to="/about">
+        ABOUT
+      </Link>
+    </div>
+    <div className="donate">
+      <Link className="usa-button usa-nav__link" to="/issues">
+        ISSUES
+      </Link>
+    </div>
+    <div className="donate">
+      <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
+        DONATE
+      </a>
+    </div>
+  </div>
+</nav>
+);
+
+const Nav = ({ navigation, secondaryLinks }) => (<>
+
+  <NavMobile />
   <nav role="navigation" className="usa-nav">
     <div className="usa-nav__inner">
       <button className="usa-nav__close">
         <img src={close} alt="close" />
       </button>
       <div className="nav-title">
-      <ul className="usa-accordion usa-nav__primary">
-        <li className="usa-nav__primary-item">
-        <a href="/">
-          {/* <img src="https://ashwin.run/assets/lightning.svg" style={{width: 30}}/> */}
-          <img src={logo} />
-        </a>
-        {/* <a href="/"><img src="https://ashwin.run/assets/lightning.svg" style={{width: 30}}/></a> */}
-        </li>
-      </ul>
+        <ul className="usa-accordion usa-nav__primary">
+          <li className="usa-nav__primary-item">
+            <a href="/">
+              <img src={logo} />
+            </a>
+            {/* <a href="/"><img src="https://ashwin.run/assets/lightning.svg" style={{width: 30}}/></a> */}
+          </li>
+        </ul>
       </div>
       <div className="nav-list">
         <ul className="usa-accordion usa-nav__primary">
@@ -28,9 +53,8 @@ const Nav = ({ navigation, secondaryLinks }) => (
               {navGroup.items.length > 1 ? (
                 <>
                   <button
-                    className={`usa-accordion__button usa-nav__link ${
-                      (idx === 0 && false) ? 'usa-current' : ''
-                    }`}
+                    className={`usa-accordion__button usa-nav__link ${(idx === 0 && false) ? 'usa-current' : ''
+                      }`}
                     aria-controls={`extended-nav-section-${idx}`}
                     aria-expanded={false}
                   >
@@ -77,7 +101,7 @@ const Nav = ({ navigation, secondaryLinks }) => (
         <SearchForm />
       </div> */}
     </div>
-  </nav>
+  </nav></>
 );
 
 export default Nav;
