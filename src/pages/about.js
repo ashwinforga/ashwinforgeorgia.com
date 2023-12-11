@@ -60,7 +60,7 @@ const Timeline = () => {
             Keeping Georgians safe online
           </h4>
           <p className="usa-collection__description">
-            Ashwin was a fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, helping keep Georgians safe online and on social media.
+            Ashwin was a fellow in the Georgia Attorney General's Consumer Protection Division, helping keep Georgians safe online and on social media.
           </p>
         </div>
       </li>
@@ -142,7 +142,7 @@ const Timeline = () => {
             Ashwin begins working with technology startups
           </h4>
           <p className="usa-collection__description">
-          During his first year at Stanford, Ashwin began working with his first technology startup around healthcare regulation. Since then, Ashwin has provided consulting and engineering support for technology startups and technology entrepreneurship and investing.
+            Ashwin began working with his first technology startup around healthcare regulation. Since then, Ashwin has provided consulting and engineering support for technology startups and technology entrepreneurship and investing.
           </p>
         </div>
       </li>
