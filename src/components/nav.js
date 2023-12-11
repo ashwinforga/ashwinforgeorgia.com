@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import logo from "../images/ARLogo-full-color.png";
+import logo from "../images/ARLogo-full-color-white-text.png";
 import React from 'react';
 
 import close from 'uswds/img/close.svg';
@@ -29,7 +29,7 @@ const Nav = ({ navigation, secondaryLinks }) => (
                 <>
                   <button
                     className={`usa-accordion__button usa-nav__link ${
-                      idx === 0 ? 'usa-current' : ''
+                      (idx === 0 && false) ? 'usa-current' : ''
                     }`}
                     aria-controls={`extended-nav-section-${idx}`}
                     aria-expanded={false}
@@ -59,15 +59,12 @@ const Nav = ({ navigation, secondaryLinks }) => (
               )}
             </li>
           ))}
-          <li className="usa-nav__primary-item">
-            <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
-              Donate
-            </a>
-          </li>
         </ul>
-        {/* <div className="donate">
-          <a href="https://secure.actblue.com/donate/ashwin-for-georgia"><button type="button">Donate</button></a>
-        </div> */}
+      </div>
+      <div className="donate">
+        <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
+          DONATE
+        </a>
       </div>
       {/* <div className="usa-nav__secondary">
         <ul className="usa-nav__secondary-links">

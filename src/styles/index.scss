@@ -374,26 +374,76 @@ div.hero-text {
 }
 
 .usa-nav__inner {
+  max-width: none !important;
   display: flex;
+  padding-top: 20px;
   div.nav-title {
     // flex: 1;
+    a {
+      padding: 0 !important;
+    }
+    a::after {
+      // No highlight for selected items
+      display: none;
+    }
     img, div {
       display: inline-block;
     }
     img {
-      max-height: 55px;
+      max-width: 170px;
     }
   }
   div.nav-list {
     flex: 1;
     ul {
-      justify-content: end;
+      justify-content: start;
+      margin-left: 30px;
+      li {
+        a {
+          overflow-wrap: break-word;
+          tab-size: 4;
+          font-feature-settings: "calt" 0,"lnum";
+          font-variant-numeric: lining-nums;
+          -webkit-text-size-adjust: none;
+          -webkit-font-smoothing: antialiased;
+          list-style-type: none;
+          text-align: left;
+          box-sizing: border-box;
+          background-repeat: no-repeat;
+          line-height: calc(.95em + 10px);
+          word-break: break-word;
+          margin: 0;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 1.6em;
+          color: white;
+          text-transform: uppercase;
+          font-size: 0.8vw;
+          font-weight: bold;
+          letter-spacing: 0.25em;
+          white-space: nowrap;
+          transition: 0.2s;
+          padding-bottom: 0.3em;
+          border-bottom: 3px solid #f75c5c;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+  div.donate {
+    flex: 1;
+    max-width: 200px;
+    justify-content: end;
+    a {
+      font-weight: bold;
+      letter-spacing: 0.25em;
+      background-color: rgb(77, 127, 221);
     }
   }
 }
 
 header.usa-header {
-  background: white;
+  background: #002C6D;
 }
 
 .index-page {
@@ -403,12 +453,19 @@ header.usa-header {
     background: none;
   }
   .nav-title {
-    visibility: hidden;
+    display: none;
   }
   .usa-nav__primary-item {
     // background: none;
     a {
       color: white;
+    }
+  }
+
+  .mobile-logo {
+    padding: 10px;
+    img {
+      max-width: 100%;
     }
   }
 }

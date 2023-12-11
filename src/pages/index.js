@@ -216,36 +216,14 @@ const WhyNot = () => (<section className="usa-graphic-list usa-section why-not" 
 const IndexPage = () => (
   <Layout className="index-page">
     <SEO title="Home" />
+    <div className="hidden-desktop show-mobile mobile-logo">
+      <img src={logo} />
+    </div>
     <Hero />
     <section className="grid-container usa-section usa-prose">
       <div className="hidden-desktop show-mobile">
         <HeroText style={{textAlign: "center"}} />
       </div>
-      {/* <div className="grid-row grid-gap" style={{backgroundImage: `url(${headshot1})`}}>
-        <div className="tablet:grid-col-6">
-          <img src={headshot1} />
-        </div>
-        <div className="tablet:grid-col-12 home-main">
-          <h1 className="">
-            Let's get things done. 👋
-          </h1>
-          <p>
-            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District.
-          </p>
-          <p>
-          <strong>It's time for the next generation of leadership</strong> to put young people's futures front and center.
-          </p>
-          <p>
-          Let's make transformative investments in public safety, education, technology, transit, and government capacity. <strong>Let's imagine a better future together!</strong>
-          </p>
-          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" /> <br />
-          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" /> <br />
-          <input type="text" className="usa-input tablet:grid-col-6" placeholder="Zip" /> <br /> <br />
-          <a className="usa-button" href="/">
-            Join Us
-          </a>
-        </div>
-      </div> */}
       <hr />
       <div className="grid-row grid-gap why-now">
         <div className="tablet:grid-col-4">
