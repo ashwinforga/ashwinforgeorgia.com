@@ -14,7 +14,7 @@ const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
     <div className="usa-card__container">
       <div className="usa-card__header">
-        <h1>{img}</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.75 66.87" width="30" height="30"><g dataName="Layer 2"><g fill="#002C6D" dataName="Layer 7"><path d="M34.75 47.9 15.61 28.14l6.63-6.43 12 12.38L62.65 0l7.1 5.91-35 41.99z" class="icon-check_svg__checkmark"></path><path d="m63.72 24-7.64 9.21v1A23.47 23.47 0 1 1 42.8 13.06l6-7.26a32.63 32.63 0 1 0 15 18.45Z" class="icon-check_svg__circle"></path></g></g></svg>
         <a href={href}><h2 className="usa-card__heading">{title}</h2></a>
       </div>
       <div className="usa-card__body">
@@ -44,17 +44,17 @@ const IndexPage = () => (
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
             <Issue img="⚖️" title="Make Government Work Better">
-            Let's build state and local government capacity by paying workers competitive wages, bringing better technology to help empower state employees, and securing our elections. Let's fund legal aid and our courts and pass a comprehensive state civil rights law to ensure all have equal justice.</Issue>
+            Let's build government capacity by paying state employees competitive wages, introducing better technology, and securing our elections. Let's fund our courts and pass a comprehensive state civil rights law to ensure equal justice.</Issue>
             <Issue img="🚓" title="Invest in Public Safety">
             We must keep our communities safe by training police, expanding community safety initiatives, and passing common-sense gun laws. We also need better consumer protection and antitrust laws to keep big technology companies accountable for online harms.</Issue>
             <Issue img="🏥" title="Make Healthcare Affordable">
-            Georgia's healthcare system needs serious reform. Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, protecting the right to choose, expanding family tax credits, and supporting our healthcare workers.</Issue>
+            We need serious reform. Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, protecting the right to choose, expanding family tax credits, and supporting our healthcare workers.</Issue>
             <Issue img="📈" title="Grow a High-Tech Economy for All">
-            Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and creating high-paying jobs in technology and innovation. Let's give the best and brightest talent a reason to stay here instead of leaving.</Issue>
+            Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and creating high-paying jobs in technology and innovation. Let's retain talent and encourage small businesses and entrepreneurship.</Issue>
             <Issue img="🌎" title="Protect the Earth and Our Community">
-            Let's fight climate change by making Georiga a leader in green energy investments and green economy jobs. Our district also deserves better roads to reduce traffic, clean green spaces, and a safer public transit system.</Issue>
+            Let's fight climate change by making Georgia a leader in green energy investments and green economy jobs. Our district also deserves better roads to reduce traffic, clean green spaces, and a safer public transit system.</Issue>
             <Issue img="📚" title="Provide Everyone with a World-Class Education">
-            As someone who grew up in this district, I'll fight to expand access to quality education and invest in our top-tier schools. We need to increase teacher pay, give students more resources and advanced course options, teach students financial literacy, and expand Dual Enrollment and the HOPE Scholarship program.</Issue>
+            I'll fight to expand access to quality education. We need to give students more resources and courses, increase teachers' pay, teach financial literacy, and expand the HOPE Scholarship and Dual Enrollment programs.</Issue>
           </ul>
         </div>
       </div>

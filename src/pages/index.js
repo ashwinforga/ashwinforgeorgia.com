@@ -24,7 +24,7 @@ const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
     <div className="usa-card__container">
       <div className="usa-card__header">
-        <h1>{img}</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.75 66.87" width="30" height="30"><g dataName="Layer 2"><g fill="#002C6D" dataName="Layer 7"><path d="M34.75 47.9 15.61 28.14l6.63-6.43 12 12.38L62.65 0l7.1 5.91-35 41.99z" class="icon-check_svg__checkmark"></path><path d="m63.72 24-7.64 9.21v1A23.47 23.47 0 1 1 42.8 13.06l6-7.26a32.63 32.63 0 1 0 15 18.45Z" class="icon-check_svg__circle"></path></g></g></svg>
         <a href={href}><h2 className="usa-card__heading">{title}</h2></a>
       </div>
       <div className="usa-card__body">
