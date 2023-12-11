@@ -20,12 +20,12 @@ import hooch from "../images/hooch.jpeg";
 
 
 const images = [
-  capitol,
+  // capitol,
   thind,
   codalab,
   writingClub,
   // oss,
-  // startups,
+  startups,
   // nsb
 ];
 
@@ -40,10 +40,10 @@ const Timeline = () => {
         </div>
         <div className="usa-collection__body">
           <h4 className="usa-collection__heading">
-            Ashwin helps secure the 2020 elections
+            Securing the 2020 elections
           </h4>
           <p className="usa-collection__description">
-            Ashwin established and managed a cybersecurity program for state and local election officials while at the Cybersecurity and Infrastructure Security Agency (CISA), supporting election security efforts for both the 2020 and 2022 elections — a program which nearly received <a target="_blank" href="https://fedscoop.com/beyond-biden-cyber-directive-government-agencies-need-to-manage-their-attack-surface/">$50 million</a> in follow-on funding from Congress and is still active today. He worked with states across the country, including GA Secretary of State Brad Raffensperger's office, to flag and fix election security problems.
+            Ashwin established and managed a cybersecurity program for state and local election officials while at the Cybersecurity and Infrastructure Security Agency (CISA), supporting election security efforts for both the 2020 and 2022 elections. He worked with states across the country, including GA Secretary of State Brad Raffensperger's office, to flag and fix election security problems.
           </p>
         </div>
       </li>
@@ -57,10 +57,10 @@ const Timeline = () => {
         </div>
         <div className="usa-collection__body">
           <h4 className="usa-collection__heading">
-            Ashwin helps keep Georgians safe on social media
+            Keeping Georgians safe online
           </h4>
           <p className="usa-collection__description">
-            Ashwin worked as a Janet D. Steiger Fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, helping protect Georgians from business scams and pursuing a <a href="https://www.gpb.org/news/2023/10/26/georgia-32-other-states-going-after-meta-in-federal-court">landmark lawsuit</a> against Facebook around safety of children on social media.
+            Ashwin was a fellow in the Georgia Attorney General's Consumer Protection Division under Georgia Attorney General Chris Carr, helping keep Georgians safe online and on social media.
           </p>
         </div>
       </li>
@@ -74,10 +74,10 @@ const Timeline = () => {
         </div>
         <div className="usa-collection__body">
           <h4 className="usa-collection__heading">
-            Ashwin gives back to the South Asian community
+            Giving back to the South Asian community
           </h4>
           <p className="usa-collection__description">
-            Ashwin began teaching classes at Chinmaya Mission for middle and high schoolers about philosophy and culture, including the Bhagavad Gita. At Georgetown, he founded the Dharmic Law Student Organization (programs for Buddhist, Hindu, Sikh, and Jain students) and helped raise $100K to establish an endowment for these programs at Georgetown. He <a href="https://www.indiaspora.org/blog/100-years-later-embracing-our-legacy-of-dr-bhagat-singh-thind/" target="_blank">wrote about</a>, raised awareness and hosted a panel about the 100th anniversary of <em>US v. Thind</em>, when Dr. Bhagat Singh Thind attempted to get citizenship at the Supreme Court in 1923.
+            Ashwin began teaching classes at Chinmaya Mission for middle and high schoolers about Hindu philosophy and culture, including the Bhagavad Gita. At Georgetown, he founded the Dharmic Law Student Organization (programs for Buddhist, Hindu, Sikh, and Jain students) and helped raise $100K to establish an endowment.
           </p>
         </div>
       </li>
@@ -111,7 +111,7 @@ const Timeline = () => {
             Ashwin invests in technology and security
           </h4>
           <p className="usa-collection__description">
-            Every small business relies on open source software (OSS) to run their business, but this little-known part of our digital infrastructure is often maintained by volunteers who don't get paid for their work. While at Schmidt Futures — a philanthropy led by Eric Schmidt, the first CEO of Google — Ashwin created $6 million in new initiatives to help sustain and increase visibility for OSS communities. His research helped inspire a bill in Congress: <a target="_blank" href="https://fedscoop.com/senators-reintroduce-bipartisan-open-source-software-bill/">H.R. 3286, Securing Open Source Software Act.</a> He's also worked across the free culture / open access movement, from the Wikimedia Foundation's legal team to the Linux Foundation's research team.
+          While at Schmidt Futures, Ashwin created $6 million in new philanthropic initiatives to help sustain and increase visibility for open source software communities, which every small business relies on. His research helped inspire a bill in Congress: H.R.3286, Securing Open Source Software Act. He's also worked across the free culture and open access movement, from the Wikimedia Foundation to the Linux Foundation.
           </p>
         </div>
       </li>
@@ -142,7 +142,7 @@ const Timeline = () => {
             Ashwin begins working with technology startups
           </h4>
           <p className="usa-collection__description">
-            During his first year at Stanford, Ashwin began working with his first technology startup around healthcare regulation. Since then, Ashwin has provided consulting and engineering support for technology startups including Nooks, Skiff, Pulsar, and Eventive; and worked for technology companies including Google and NCR in Atlanta. He's also worked in venture capital and investing at Sequoia Capital.
+          During his first year at Stanford, Ashwin began working with his first technology startup around healthcare regulation. Since then, Ashwin has provided consulting and engineering support for technology startups and technology entrepreneurship and investing.
           </p>
         </div>
       </li>

@@ -3,8 +3,10 @@ import logo from 'uswds/img/logo-img.png';
 
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
-    <div className="footer-section-bottom bg-base-lighter">
-      <div className="grid-container">
+    <div className="">
+      <div className="">
+        {/* Contact us at contact@ashwinforgeorgia.com.<br /><br /> */}
+        Paid for by Ashwin for Georgia Inc.
         {/* <div className="grid-row padding-3">
           <div className="tablet:grid-col">
             <div className="logo-links">
