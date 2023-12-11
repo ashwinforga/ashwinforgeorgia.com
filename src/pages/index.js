@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -39,27 +39,40 @@ const Issue = ({ title, img, href, children }) => (
   </li>
 );
 
-const HeroText = (props) => (<div className="hero-text" {...props}>
-  {/* <p>
-    <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
-  </p> */}
-  {/* <div className="grid-row grid-gap"> */}
-  <div className="form">
-    <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" />
-    <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" />
-    <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code" />
-    <a className="usa-button usa-button--outline" href="/">
-      Submit
-    </a>
-    <div className="disclaimer">
-      <input type="checkbox" id="disclaimer" />
-      <label for="disclaimer">
-        Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
-      </label>
+const HeroText = (props) => {
+  const submitForm = useCallback(async(e) => {
+    e.preventDefault();
+    await fetch("https://api.formium.io/submit/657697a58a8a540001278ec4/website-main", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({"first":"","email":"","phone":"","zipCode":""})
+    })
+  }, []);
+  return (<div className="hero-text" {...props}>
+    {/* <p>
+      <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
+    </p> */}
+    {/* <div className="grid-row grid-gap"> */}
+    <div className="form">
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name" />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email" />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code" />
+      <a className="usa-button usa-button--outline" onClick={submitForm}>
+        Submit
+      </a>
+      <div className="disclaimer">
+        <input type="checkbox" id="disclaimer" />
+        <label for="disclaimer">
+          Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
+        </label>
+      </div>
     </div>
   </div>
-</div>
-);
+  );
+}
 
 const Hero = () => (
   <section className="usa-hero">

@@ -26,11 +26,12 @@ module.exports = {
       //     { text: 'Why not Shawn Still?', link: '/shawn-still' },
       //   ],
       // },
-      {
-        items: [
-          { text: 'Volunteer', link: '/volunteer' },
-        ],
-      },
+      // TODO: re-add Volunteer
+      // {
+      //   items: [
+      //     { text: 'Volunteer', link: '/volunteer' },
+      //   ],
+      // },
       // {
       //   items: [
       //     { text: 'Donate', link: 'https://secure.actblue.com/' },
