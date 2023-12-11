@@ -216,7 +216,7 @@ li.usa-nav__primary-item {
   background: none;
   max-width: none;
   position: absolute;
-  left: 0;
+  right: 0;
   margin: none;
   width: 50%;
   height: 100%;
@@ -240,10 +240,10 @@ li.usa-nav__primary-item {
   content: '';
   z-index: -1;
   position: absolute;
-  inset: 0 -60vw 0 0;
-  background: linear-gradient(to right, #002C6D 0%, #002C6D 100%);
-  -webkit-mask-image: linear-gradient( to right, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
-  mask-image: linear-gradient( to right, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
+  inset: 0 0 0 -60vw;
+  background: linear-gradient(to left, #002C6D 0%, #002C6D 100%);
+  -webkit-mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
+  mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
   pointer-events: none;
   @media screen and (max-width: 640px) {
     display: none;
@@ -252,7 +252,7 @@ li.usa-nav__primary-item {
 
 .usa-hero > div.image {
   width: 60%;
-  margin-left: 40%;
+  margin-left: 0%;
   z-index: -2;
   img {
     display: block;
@@ -415,8 +415,8 @@ div.hero-text {
   div.nav-list {
     flex: 1;
     ul {
-      justify-content: start;
-      margin-left: 30px;
+      justify-content: end;
+      margin-right: 30px;
       li {
         a {
           overflow-wrap: break-word;

@@ -91,21 +91,16 @@ const HeroText = (props) => {
 
 const Hero = () => (
   <section className="usa-hero">
-    <div className="image">
-      <img src={cover} />
-    </div>
     <div className="grid-container">
       <div className="callout">
         <img src={logo} />
         <div className="">
           <HeroText />
         </div>
-        {/* <div className="hidden-desktop" style={{"position": "absolute", "bottom": "5px"}}>
-            <p>
-            <strong>I'm Ashwin Ramaswami, and I'm running to be your next State Senator</strong> for the 48th District. Let's imagine a better future together!
-          </p>
-        </div> */}
       </div>
+    </div>
+    <div className="image">
+      <img src={cover} />
     </div>
   </section>
 );
