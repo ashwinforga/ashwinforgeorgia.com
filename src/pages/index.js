@@ -220,11 +220,10 @@ const IndexPage = () => (
       <img src={logo} />
     </div>
     <Hero />
+    <section className="grid-container usa-section usa-prose hidden-desktop show-mobile mobile-hero">
+      <HeroText style={{textAlign: "center"}} />
+    </section>
     <section className="grid-container usa-section usa-prose">
-      <div className="hidden-desktop show-mobile">
-        <HeroText style={{textAlign: "center"}} />
-      </div>
-      <hr />
       <div className="grid-row grid-gap why-now">
         <div className="tablet:grid-col-4">
           <h2 className="font-heading-xl margin-top-0 text-center">
