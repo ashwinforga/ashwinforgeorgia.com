@@ -14,7 +14,7 @@ module.exports = {
       // },
       {
         title: '',
-        items: [{ text: 'Meet Ashwin', link: '/about' }],
+        items: [{ text: 'About', link: '/about' }],
       },
       {
         items: [
@@ -158,7 +158,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/federalist-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/android-chrome-256x256.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,
