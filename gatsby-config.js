@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://ashwin.run',
+    siteUrl: 'https://ashwinforgeorgia.com',
     author: 'Ashwin Ramaswami',
     title: `Ashwin Ramaswami for State Senate`,
     description: `Ashwin Ramaswami for State Senate`,
