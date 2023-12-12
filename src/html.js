@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
+        <meta property="og:image" content="https://ashwinforgeorgia.com/images/preview.jpeg" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
