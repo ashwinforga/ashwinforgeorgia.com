@@ -225,7 +225,7 @@ const IndexPage = () => (
               <li>"<strong>I am from Johns Creek, GA and the only candidate who grew up in this district.</strong> I've worked to make positive change in my community through nonprofits, religious communities, technology startups, and law and policy — all thanks to the wonderful people and resources in my hometown. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community."</li>
               <li><strong>We have a once-in-a-generation opportunity</strong> to make transformative investments in our communities. Did you know that the State of Georgia now has $10.7 billion in surplus cash? We should invest it wisely in our future.</li>
               <li><strong>Our current State Senator, Shawn Still, has been indicted</strong> for trying to overturn the 2020 election results. This is a chance to stand up for democracy and show this was unacceptable. I'm committed to accepting the election results and the democratic process.</li>
-              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Indian American in the Georgia State Senate, first Gen Z member, and the only State Senator with a computer science degree.</li>
+              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Indian American in the Georgia State Senate, first Gen Z member, and the only State Senator with a computer science and a law degree.</li>
             </ul>
             <div style={{textAlign: "center"}}>
               <a className="usa-button" href="/about">
