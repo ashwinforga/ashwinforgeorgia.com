@@ -34,7 +34,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
 
 // Your custom SASS/CSS goes here
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 64em) {
   .tablet\:width-1\/3 {
     width: 33%;
   }
@@ -43,7 +43,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 64em) {
   .paginate-link {
     display: initial;
   }
@@ -52,7 +52,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 64em) {
   .paginate-link {
     display: none;
   }
@@ -70,7 +70,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   padding-bottom: 0;
   // background-position-y: -10%;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 64em) {
     min-height: 60vh;
     div.usa-hero__callout {
       padding-top: 0;
@@ -119,7 +119,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 64em) {
   .hidden-mobile {
     display: none;
   }
@@ -182,11 +182,11 @@ hr {
 //   display: block;
 //   position: static;
 //   width: 100%;
-//   @media screen and (min-width: 640px) {
+//   @media screen and (min-width: 64em) {
 //     border-top: 1px solid #dfe1e2;
 //     padding: 0;
 //   }
-//   @media screen and (max-width: 640px) {
+//   @media screen and (max-width: 64em) {
 
 //   }
 // }
@@ -231,7 +231,7 @@ li.usa-nav__primary-item {
     margin-bottom: 8px;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 64em) {
     display: none;
   }
 }
@@ -245,7 +245,7 @@ li.usa-nav__primary-item {
   -webkit-mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
   mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
   pointer-events: none;
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 64em) {
     display: none;
   }
 }
@@ -262,7 +262,7 @@ li.usa-nav__primary-item {
     max-height: 100%;
     object-fit: cover;
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 64em) {
     width: 100%;
     margin-left: 0;
   }
@@ -372,7 +372,7 @@ div.hero-text {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 64em) {
   .mobile-hero {
     background-color: #002C6D;
     div.hero-text {
@@ -501,7 +501,7 @@ header.usa-header {
   }
   .nav-mobile.nav-mobile-homepage {
     display: none;
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 64em) {
       & {
         display: block;
       }
@@ -533,7 +533,7 @@ header.usa-header {
 }
 
 .about-ashwin-page {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 64em) {
     h2 {
       margin-bottom: 0;
     }

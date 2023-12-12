@@ -20,6 +20,11 @@ export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-
       </Link>
     </div>
     <div className="donate">
+      <a className="usa-button usa-nav__link" target="_blank" href="https://forms.gle/BWTTmJEyPzfZc48v8">
+        VOLUNTEER
+      </a>
+    </div>
+    <div className="donate">
       <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
         DONATE
       </a>
@@ -83,6 +88,16 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
               )}
             </li>
           ))}
+          <li className="usa-nav__primary-item">
+            <a
+              className="usa-nav__link"
+              activeClassName="usa-current"
+              target="_blank"
+              href="https://forms.gle/BWTTmJEyPzfZc48v8"
+            >
+              <span>Volunteer</span>
+            </a>
+          </li>
         </ul>
       </div>
       <div className="donate">
