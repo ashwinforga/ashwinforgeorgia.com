@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Socials from './socials';
 
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
     <div className="">
       <p className="">
+        <Socials />
         Paid for by Ashwin for Georgia Inc.
         <br />
         PO Box 4433, Alpharetta, GA 30023

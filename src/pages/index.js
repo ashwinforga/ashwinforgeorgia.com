@@ -15,6 +15,7 @@ import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
 import suspended from '../images/suspended.png';
 import still2 from '../images/still 2.png';
 import still from '../images/still.jpeg';
+import Socials from "../components/socials";
 import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
@@ -42,7 +43,7 @@ const HeroText = (props) => {
   const handleChange = useCallback(() => {
     setChecked(!checked);
   }, [checked, setChecked]);
-  const submitForm = useCallback(async(e) => {
+  const submitForm = useCallback(async (e) => {
     e.preventDefault();
     setLoading(true);
     if (phone && !checked) {
@@ -73,9 +74,9 @@ const HeroText = (props) => {
   return (<div className="hero-text" {...props}>
     <div className="form">
       <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name*" value={name} onChange={e => setName(e.target.value)} />
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email*" value={email} onChange={e => setEmail(e.target.value)}/>
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code*" value={zip} onChange={e => setZip(e.target.value)}/>
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" value={phone} onChange={e => setPhone(e.target.value)}/>
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email*" value={email} onChange={e => setEmail(e.target.value)} />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code*" value={zip} onChange={e => setZip(e.target.value)} />
+      <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" value={phone} onChange={e => setPhone(e.target.value)} />
       <a className="usa-button usa-button--outline" onClick={submitForm} disabled={loading}>
         Submit
       </a>
@@ -85,6 +86,9 @@ const HeroText = (props) => {
           Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
         </label>
       </div>
+    </div>
+    <div style={{ marginTop: "1rem" }}>
+      <Socials />
     </div>
   </div>
   );
@@ -203,7 +207,7 @@ const IndexPage = () => (
     </div>
     <Hero />
     <section className="grid-container usa-section usa-prose hidden-desktop show-mobile mobile-hero">
-      <HeroText style={{textAlign: "center"}} />
+      <HeroText style={{ textAlign: "center" }} />
     </section>
     <NavMobile className="nav-mobile-homepage" />
     <section className="grid-container usa-section usa-prose">
@@ -227,7 +231,7 @@ const IndexPage = () => (
               <li><strong>Our current State Senator, Shawn Still, has been indicted</strong> for trying to overturn the 2020 election results. This is a chance to stand up for democracy and show this was unacceptable. I'm committed to accepting the election results and the democratic process.</li>
               <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Indian American in the Georgia State Senate, first Gen Z member, and the only State Senator with a computer science and a law degree.</li>
             </ul>
-            <div style={{textAlign: "center"}}>
+            <div style={{ textAlign: "center" }}>
               <a className="usa-button" href="/about">
                 Meet Ashwin
               </a>
