@@ -1,38 +1,16 @@
 import React from 'react';
-import logo from 'uswds/img/logo-img.png';
+import { Link } from 'gatsby';
 
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
     <div className="">
-      <div className="">
-        {/* Contact us at contact@ashwinforgeorgia.com.<br /><br /> */}
-        Paid for by Ashwin for Georgia Inc.<br />
-        contact@ashwinforgeorgia.com
-        {/* <div className="grid-row padding-3">
-          <div className="tablet:grid-col">
-            <div className="logo-links">
-              <a className="footer-logo media_link" href="https://18f.gsa.gov">
-                <img src={logo} width="50" alt="Agency logo" />
-              </a>
-            </div>
-          </div>
-          <div className="tablet:grid-col"></div>
-          <div className="tablet:grid-col">
-            <ul className="add-list-reset">
-              <li>Footer link</li>
-              <li>Footer link</li>
-              <li>Footer link</li>
-            </ul>
-          </div>
-          <div className="tablet:grid-col">
-            <ul className="add-list-reset">
-              <li>Footer link</li>
-              <li>Footer link</li>
-              <li>Footer link</li>
-            </ul>
-          </div>
-        </div> */}
-      </div>
+      <p className="">
+        Paid for by Ashwin for Georgia Inc.
+        <br />
+        <Link to="/privacy" className=''>Privacy&nbsp;Policy</Link>
+        <span> </span>
+        <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a>
+      </p>
     </div>
   </footer>
 );
