@@ -214,7 +214,7 @@ const IndexPage = () => (
             About Senate District 48<br />
           </h2>
           <p>
-            Senate District 48 contains parts of North Fulton County, South Forsyth County, and North Gwinnett County and parts of Johns Creek, Cumming, and Sugar Hill. To see if you live in the district, check your voter registration at <a target="_blank" href="https://mvp.sos.ga.gov/">mvp.sos.ga.gov</a> or look up your address on <a target="_blank" href="https://georgia.redistrictingandyou.org/?districtType=sd&propA=current_2012&propB=genassm_20211104&selected=-84.150,34.082&opacity=2#%26map=12.29/34.15027/-84.1564">this search tool</a>.
+            Senate District 48 contains parts of North Fulton County, South Forsyth County, and North Gwinnett County and parts of Johns Creek, Cumming, Sugar Hill, Suwanee, Alpharetta, and Buford. To see if you live in the district, check your voter registration at <a target="_blank" href="https://mvp.sos.ga.gov/">mvp.sos.ga.gov</a> or look up your address on <a target="_blank" href="https://georgia.redistrictingandyou.org/?districtType=sd&propA=current_2012&propB=genassm_20211104&selected=-84.150,34.082&opacity=2#%26map=12.29/34.15027/-84.1564">this search tool</a>.
           </p>
         </div>
         <div className="tablet:grid-col-8 usa-prose">
