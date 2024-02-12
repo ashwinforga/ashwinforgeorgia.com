@@ -54,7 +54,7 @@ const HeroText = (props) => {
       setPhone("");
     } catch (e) {
       setLoading(false);
-      alert("There was an error opening the form. Please contact contact@ashwinforgeorgia.com.");
+      window.location.href = prefilledFormUrl;
     }
   }, [name, email, phone, loading, setName, setEmail, setPhone, setLoading]);
 
