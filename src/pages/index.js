@@ -37,55 +37,35 @@ const HeroText = (props) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [zip, setZip] = useState("");
   const [loading, setLoading] = useState(false);
-  const [checked, setChecked] = React.useState(false);
-  const handleChange = useCallback(() => {
-    setChecked(!checked);
-  }, [checked, setChecked]);
   const submitForm = useCallback(async (e) => {
     e.preventDefault();
     setLoading(true);
-    if (phone && !checked) {
-      alert("Please check the box to consent to receiving text updates.");
-      return;
-    }
+
+    let prefilledFormUrl = `https://docs.google.com/forms/d/e/1FAIpQLSeXuJ4XYVvyTkBuhLmHtnBUD8h_s4YySNrkrQtT2haS839OMg/viewform?entry.1833137286=${encodeURIComponent(name)}&entry.128759263=${encodeURIComponent(email)}&entry.815752677=${encodeURIComponent(phone)}`
+
     try {
-      await fetch("https://api.formium.io/submit/657697a58a8a540001278ec4/website-main", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name, email, phone, zip })
-      });
+      // Open the form in a new tab
+      window.open(prefilledFormUrl, "_blank").focus();
+
       setLoading(false);
-      alert("Thank you for submitting! We have received your contact information.");
       setName("");
       setEmail("");
       setPhone("");
-      setZip("");
-      setChecked(false);
     } catch (e) {
       setLoading(false);
-      alert("There was an error submitting. Please contact contact@ashwinforgeorgia.com.");
+      alert("There was an error opening the form. Please contact contact@ashwinforgeorgia.com.");
     }
-  }, [name, email, phone, zip, checked, loading, setName, setEmail, setPhone, setChecked, setZip, setLoading]);
+  }, [name, email, phone, setName, setEmail, setPhone, setLoading]);
 
   return (<div className="hero-text" {...props}>
     <div className="form">
       <input type="text" className="usa-input tablet:grid-col-6" placeholder="Name*" value={name} onChange={e => setName(e.target.value)} />
       <input type="text" className="usa-input tablet:grid-col-6" placeholder="Email*" value={email} onChange={e => setEmail(e.target.value)} />
-      <input type="text" className="usa-input tablet:grid-col-6" placeholder="ZIP Code*" value={zip} onChange={e => setZip(e.target.value)} />
       <input type="text" className="usa-input tablet:grid-col-6" placeholder="Phone" value={phone} onChange={e => setPhone(e.target.value)} />
       <a className="usa-button usa-button--outline" onClick={submitForm} disabled={loading}>
         Submit
       </a>
-      <div className="disclaimer">
-        <input type="checkbox" id="disclaimer" checked={checked} onChange={handleChange} />
-        <label for="disclaimer">
-          Sign up here to receive text updates. By providing your mobile number, you agree to recurring committee and donation messages from Ashwin for Georgia Inc. Message and data rates may apply.
-        </label>
-      </div>
     </div>
     <div style={{ marginTop: "1rem" }}>
       <Socials />
