@@ -56,7 +56,7 @@ const HeroText = (props) => {
       setLoading(false);
       alert("There was an error opening the form. Please contact contact@ashwinforgeorgia.com.");
     }
-  }, [name, email, phone, setName, setEmail, setPhone, setLoading]);
+  }, [name, email, phone, loading, setName, setEmail, setPhone, setLoading]);
 
   return (<div className="hero-text" {...props}>
     <div className="form">
