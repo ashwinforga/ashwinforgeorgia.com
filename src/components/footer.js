@@ -7,6 +7,8 @@ const Footer = () => (
     <div className="">
       <p className="">
         <Socials />
+        @ashwinforga
+        <br />
         Paid for by Ashwin for Georgia Inc.
         <br />
         PO Box 4433, Alpharetta, GA 30023
