@@ -28,7 +28,7 @@ const DonationPopup = () => {
   return (
     <CSSTransition in={showPopup} timeout={500} classNames="fade" unmountOnExit>
       <div style={{ zIndex: "100", position: "relative" }} ref={nodeRef}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "#002C6D", minHeight: "100vh", minWidth: "100vw", position: "fixed" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "#002C6DD0", minHeight: "100vh", minWidth: "100vw", position: "fixed" }}>
           <div className='usa-card__container' style={{ backgroundColor: "white", borderRadius: "10px", margin: "-10px", overflow: "hidden", display: "flex", flexDirection: "row", maxWidth: "800px" }}>
             <div className="mobile-hidden tablet:grid-col-6" style={{ margin: "0" }}>
               <img src={cover} alt="Photo of Ashwin" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
