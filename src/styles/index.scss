@@ -61,6 +61,26 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
 }
 
+@media screen and (max-width: 40em) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
 
 .usa-hero {
   min-height: 90vh;

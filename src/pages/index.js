@@ -21,6 +21,7 @@ import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 import { NavMobile } from '../components/nav';
+import DonationPopup from '../components/donation-popup';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -182,6 +183,7 @@ const WhyNot = () => (<section className="usa-graphic-list usa-section why-not" 
 const IndexPage = () => (
   <Layout className="index-page">
     <SEO title="Home" />
+    <DonationPopup />
     <div className="hidden-desktop show-mobile mobile-logo">
       <img src={logo} />
     </div>
