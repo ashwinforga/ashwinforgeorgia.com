@@ -44,7 +44,7 @@ const IndexPage = () => (
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
             <Issue img="⚖️" title="Make Government Work Better">
-            Let's build government capacity by paying state employees competitive wages, introducing better technology, and securing our elections. Let's fund our courts and pass a comprehensive state civil rights law to ensure equal justice. Let's work towards campaign finance reform. I pledge to not take donations from corporate PACs.</Issue>
+            Let's pay state employees competitive wages, introduce better technology, and secure our elections. Let's fund our courts and pass a state civil rights law. Let's do campaign finance reform. I pledge to not take donations from corporate PACs.</Issue>
             <Issue img="🚓" title="Invest in Public Safety">
             We must keep our communities safe by training police, expanding community safety initiatives, and passing common-sense gun laws. We also need better consumer protection and antitrust laws to keep big technology companies accountable for online harms.</Issue>
             <Issue img="🏥" title="Make Healthcare Affordable">
