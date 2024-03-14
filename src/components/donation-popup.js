@@ -37,11 +37,11 @@ const DonationPopup = () => {
               <img src={logo} alt="Ashwin Ramaswami for State Senate" style={{ height: "120px", objectFit: "scale-down" }} />
               <h2 style={{ textAlign: "center" }}>Join our campaign!</h2>
               <div className="" style={{ justifyContent: "center", margin: "0 auto", display: "flex", flexWrap: "wrap", maxWidth: "400px", gap: "0.5rem" }}>
-                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=100" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$100</Link>
-                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=250" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$250</Link>
-                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=1000" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$1,000</Link>
-                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=2000" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$2,000</Link>
-                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=3300" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$3,300</Link>
+                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=25" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$100</Link>
+                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=100" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$250</Link>
+                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=250" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$1,000</Link>
+                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=500" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$2,000</Link>
+                <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=1000" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$3,300</Link>
                 <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>Donate</Link>
               </div>
               <p style={{ textAlign: "center", fontWeight: "500" }}>
