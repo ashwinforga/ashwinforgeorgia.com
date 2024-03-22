@@ -67,6 +67,12 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
   }
 }
 
+@media screen and (min-width: 40em) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
 .fade-enter {
   opacity: 0;
 }
