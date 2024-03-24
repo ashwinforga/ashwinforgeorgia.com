@@ -21,6 +21,11 @@ module.exports = {
           { text: 'Issues', link: '/issues' },
         ],
       },
+      {
+        items: [
+          { text: 'Media', link: '/media' },
+        ],
+      },
       // {
       //   items: [
       //     { text: 'Why not Shawn Still?', link: '/shawn-still' },

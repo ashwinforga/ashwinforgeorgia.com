@@ -453,9 +453,12 @@ div.donate {
 }
 
 .nav-mobile {
+  .nav-list {
+    text-align: center;
+  }
   img, .nav-list > div {
     margin: auto;
-    display: block;
+    display: inline-block;
   }
   img {
     max-width: 300px;
@@ -674,5 +677,23 @@ footer {
 
   a {
     color: white !important;
+  }
+}
+
+.grid-media {
+  .img-container {
+    height: 50px;
+    img {
+      max-width: 140px;
+    }
+  }
+  li {
+    text-align: left;
+  }
+  .usa-card__header {
+    padding-bottom: 0;
+  }
+  a {
+    font-weight: bold;
   }
 }
