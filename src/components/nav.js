@@ -20,9 +20,9 @@ export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-
       </Link>
     </div>
     <div className="donate">
-      <a className="usa-button usa-nav__link" to="/media">
+      <Link className="usa-button usa-nav__link" to="/media">
         MEDIA
-      </a>
+      </Link>
     </div>
     <div className="donate">
       <a className="usa-button usa-nav__link" target="_blank" href="https://forms.gle/BWTTmJEyPzfZc48v8">
