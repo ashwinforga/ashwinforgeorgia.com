@@ -270,6 +270,7 @@ const IndexPage = () => (
             <Endorsement title="Georgia Democratic Whip Rep." name="Sam Park" />
             <Endorsement title="Fmr. Sen." name="Jason Carter" />
             <Endorsement title="HD50 Rep." name="Michelle Au" />
+            <Endorsement title="U.S. Congressman" name="Ro Khanna" />
             <Endorsement title="HD97 Rep." name="Ruwa Romman" />
             <Endorsement title="HD80 Rep." name="Long Tran" />
             <Endorsement title="HD68 Rep." name="Derrick Jackson" />
