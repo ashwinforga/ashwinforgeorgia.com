@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpages_uswds_gatsby=self.webpackChunkpages_uswds_gatsby||[]).push([[513],{4170:function(e,t,n){n.r(t),n.d(t,{WhyNot:function(){return u}});var l=n(7294),s=n(5920),a=n(8183);const u=()=>l.createElement("div",null);t.default=()=>l.createElement(s.Z,null,l.createElement(a.Z,{title:"Why not Shawn Still?"}),l.createElement(u,null))}}]);
+//# sourceMappingURL=component---src-pages-shawn-still-js-188816d32979fc3a0519.js.map
