@@ -5,6 +5,8 @@ import SEO from '../components/seo';
 // import img from "../images/solo-wide.jpg";
 // import img from "../images/writing-club.jpg";
 import smile from "../images/smile-4.jpg";
+import democrats from "../images/democrats-photo.jpeg";
+import townHall from "../images/town-hall.jpeg";
 import smileSquare from "../images/smile-square.jpg";
 import sal from "../images/ashwin-sal.jpg";
 import logo from "../images/ARLogo-full-color-white-text.png";
@@ -213,7 +215,8 @@ const IndexPage = () => (
           {/* <img src={lecture} /> */}
           <div className="smile-outer">
             <div className="smile-container">
-              <img src={smile} />
+              <img src={democrats} />
+              <img src={townHall} />
             </div>
           </div>
         </div>

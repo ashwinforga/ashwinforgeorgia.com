@@ -660,10 +660,12 @@ body {
   position: relative;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
-  justify-content: center;
+  justify-content: space-between;
+  background: white;
   -webkit-box-align: center;
-  align-items: center;
+  align-items: start;
   border: 10px solid white!important;
   height: 446.031px;
   width: 100%;
