@@ -24,6 +24,7 @@ import sossa from '../images/sossa.jpg';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 import { NavMobile } from '../components/nav';
 import DonationPopup from '../components/donation-popup';
+import { Link } from 'gatsby';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -211,9 +212,9 @@ const IndexPage = () => (
         <div className="usa-prose">
           <p className="bold-quote">
             "I’m <strong>Ashwin Ramaswami,</strong> I was born and raised right here in Johns Creek and I truly love my hometown.</p>
-            <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. But most importantly, I’m ready to get to work for our community in the Georgia Senate.</p>
-            <p>I’m ready to build an economy that works for working families, ensure every child has the right to a world-class education, pass common sense gun safety laws, protect every family’s freedom to control their reproductive healthcare, and continue to defend our democracy from threats foreign and domestic.</p>
-            <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
+          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. But most importantly, I’m ready to get to work for our community in the Georgia Senate.</p>
+          <p>I’m ready to build an economy that works for working families, ensure every child has the right to a world-class education, pass common sense gun safety laws, protect every family’s freedom to control their reproductive healthcare, and continue to defend our democracy from threats foreign and domestic.</p>
+          <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
           </p>
           <p className="signature"><img src={signature} /></p>
           <p>
@@ -224,20 +225,35 @@ const IndexPage = () => (
               <a className="usa-button" href="/issues">
                 The Issues
               </a>
-              <a className="usa-button" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button">
-                Donate
-              </a>
             </div>
           </p>
         </div>
       </div>
       <hr />
       <div className="grid-row grid-gap">
-      <div className="tablet:grid-col-6">
+        <div className="tablet:grid-col-6">
           <img src={capitol} />
         </div>
         <div className="tablet:grid-col-6">
           <img src={democrats} />
+        </div>
+        <div className="tablet:grid-col-6">
+          <iframe width="100%" height="310" src="https://www.youtube.com/embed/VU1EVNaoSfk?si=G4d1GoVjZckzT2hd&amp;start=239" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="tablet:grid-col-6">
+          <iframe width="100%" height="310" src="https://www.youtube.com/embed/Zhn6IqZr4ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+      <hr />
+      <div className="grid-row grid-gap grid-donate">
+        <div className="tablet:grid-col-12"><h1 style={{ marginTop: "0 !important" }}>Join our campaign!</h1></div>
+        <div className="tablet:grid-col-12" style={{ justifyContent: "center", margin: "0 auto", display: "flex", flexWrap: "wrap", width: "100%", maxWidth: "1000px", gap: "0.5rem" }}>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button&amount=25" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$25</Link>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button&amount=100" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$100</Link>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button&amount=250" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$250</Link>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button&amount=500" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$500</Link>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button&amount=1000" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$1,000</Link>
+          <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>Donate</Link>
         </div>
       </div>
       <hr />

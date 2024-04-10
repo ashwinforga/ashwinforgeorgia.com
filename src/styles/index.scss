@@ -696,9 +696,16 @@ footer {
   }
   .usa-card__header {
     padding-bottom: 0;
+    text-align: center;
   }
   a {
     font-weight: bold;
+  }
+}
+
+.grid-donate {
+  h1 {
+    margin-top: 0 !important;
   }
 }
 

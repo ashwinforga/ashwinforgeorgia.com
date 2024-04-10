@@ -39,7 +39,7 @@ const DonationPopup = () => {
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zhn6IqZr4ec?si=eU0mEd28r7t4DX6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <h2 style={{ textAlign: "center" }}>Join our campaign!</h2>
-              <div className="" style={{ justifyContent: "center", margin: "0 auto", display: "flex", flexWrap: "wrap", maxWidth: "400px", gap: "0.5rem" }}>
+              <div className="" style={{ justifyContent: "center", margin: "0 auto", display: "flex", flexWrap: "wrap", maxWidth: "450px", gap: "0.25rem" }}>
                 <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=25" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$25</Link>
                 <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=100" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$100</Link>
                 <Link to="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=popup&amount=250" className="usa-button tablet:grid-col-3" style={{ backgroundColor: "#002C6D", color: "white" }}>$250</Link>
