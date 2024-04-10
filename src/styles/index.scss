@@ -458,12 +458,20 @@ div.donate {
   .nav-list {
     text-align: center;
   }
-  img, .nav-list > div {
+  .nav-list > div {
     margin: auto;
     display: inline-block;
   }
+  div.donate {
+    margin: 5px;
+    a {
+      margin: 0;
+    }
+  }
   img {
     max-width: 300px;
+    margin: auto;
+    display: block;
     margin-bottom: 20px;
     margin-top: 10px;
   }
@@ -568,18 +576,6 @@ header.usa-header {
     h2 {
       margin-bottom: 0;
     }
-  }
-}
-
-.issue {
-  text-align: center;
-  h1 {
-    margin: 0 !important;
-    padding: 0;
-    font-size: 3em;
-  }
-  h2 {
-    font-weight: normal;
   }
 }
 
@@ -715,5 +711,76 @@ footer {
     // font-weight: bold;
   }
   img {
+  }
+}
+
+h2.usa-card__heading {
+  font-weight: normal;
+}
+
+.issues {
+  background-size: cover;
+  background-position-x: center;
+  // max-width: none;
+  img.ready-to-work {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .issue-group {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    float: right;
+    padding: 20px;
+    li.issue {
+      list-style-type: none;
+      h2 {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.issues-2 {
+  padding-top: 20px;
+  h3 {
+    svg {
+      display: inline-block;
+      margin-right: 15px;
+      transform: translateY(5px);
+    }
+    margin-bottom: 10px;
+  }
+
+  details {
+    // display: inline-block;
+    // margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e4eaef;
+    border-radius: 5px;
+    summary {
+      // text-decoration: underline;
+      // color: #0070E0;
+      // ::marker {
+      //   display: none;
+      // }
+    }
+  }
+
+  summary::after {
+    content: "More details";
+  }
+  
+  details[open] summary::after {
+    content: "More details";
+  }
+  details[open] {
+
   }
 }
