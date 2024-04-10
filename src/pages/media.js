@@ -23,7 +23,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Media" />
     <section className="grid-container usa-section usa-prose grid-media">
-      <h1 id="media">Media</h1><br /><br />
+      {/* <h1 id="media">Media</h1><br /><br /> */}
       <div className="grid-row grid-gap">
         {/* <div className="tablet:grid-col-12">
           <h2 className="font-heading-xl margin-top-0 text-center">
@@ -38,6 +38,28 @@ const IndexPage = () => (
             <Article title="Ashwin Ramaswami becomes first Gen Z Indian-American running for Georgia Senate seat" img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Hindu_logo.svg/2560px-The_Hindu_logo.svg.png" quote="Ashwin Ramaswami has become the first Indian-American from Gen Z to run for a State or federal legislature in the U.S., indicative of a new breed of young politicians emerging from the community." href="https://www.thehindu.com/news/international/ashwin-ramaswami-becomes-first-gen-z-indian-american-running-for-georgia-senate-seat/article67862739.ece" date="February 19, 2024" />
             <Article title="Integrity first: Ashwin Ramaswami launches historic campaign for Georgia State Senate" img="https://nripulse.com/wp-content/uploads/2023/08/NRIPulse_Logo_RGB_Website1.jpg" quote="If elected, Ramaswami will be the first member of the Indian American and Hindu-American communities and the first Gen Z State Senator in the Georgia state legislature. In his exclusive with NRI Pulse, Ramaswami spoke about his motivation to run, his priorities for the state, the importance of representation, his stance on gun control, reproductive rights, and much more." href="https://nripulse.com/integrity-first-ashwin-ramaswami-launches-historic-campaign-for-georgia-state-senate/" date="January 9, 2024" />
             <Article title="Meet The Candidate Running Against A Georgia State Senator Indicted With Trump In Fake Electors Plot" img="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Forbes_logo.svg/2560px-Forbes_logo.svg.png" quote="I decided to run because I wanted to make sure that others would have the same opportunities as I had...The federal government can only do so much, we have to play our part in terms of what we're willing to support." href="https://www.forbes.com/video/6343478031112/meet-the-candidate-running-against-a-georgia-state-senator-indicted-with-trump-in-fake-electors-plot/?sh=1da5c2fe7838" date="December 19, 2023" />
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section className="grid-container usa-section usa-prose grid-media">
+      <h1>Press Kit</h1>
+      <div className="grid-row grid-gap">
+        {/* <div className="tablet:grid-col-12">
+          <h2 className="font-heading-xl margin-top-0 text-center">
+            Issues<br />
+          </h2>
+        </div> */}
+        <div className="tablet:grid-col-12">
+          <ul>
+            <li>Headshots:&nbsp;
+              <a download href="/press-kit/headshot-1.jpg">1</a>&nbsp;
+              <a download href="/press-kit/headshot-2.jpg">2</a>&nbsp;
+              <a download href="/press-kit/headshot-3.jpg">3</a>&nbsp;
+              <a download href="/press-kit/headshot-4.jpg">4</a>&nbsp;
+              <a download href="/press-kit/headshot-5.jpg">5</a>&nbsp;
+              <a download href="/press-kit/headshot-6.png">6</a>&nbsp;
+            </li>
           </ul>
         </div>
       </div>
