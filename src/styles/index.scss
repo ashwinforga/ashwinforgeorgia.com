@@ -3,6 +3,8 @@
 // white - #FEFEFE
 // blue - #002C6D
 
+$blue: #002C6D;
+// $blue: rgb(95, 112, 163);
 
 /*
   Hide compile warnings and notifications, make want to set to true in dev
@@ -173,11 +175,11 @@ h3, h4, h5, h6 {
 h1, h2, .usa-logo a, input[type=text] {
   font-family: 'Gabarito', serif !important;
   font-family: 'Kanit', serif !important;
-  color: #002C6D;
+  color: $blue;
 }
 
 .usa-button, .usa-collection__calendar-date-month {
-  background-color: #002C6D;
+  background-color: $blue;
 }
 
 .usa-button.usa-button--outline {
@@ -185,8 +187,8 @@ h1, h2, .usa-logo a, input[type=text] {
 }
 
 .usa-collection__calendar-date-day {
-  border: 1px solid #002C6D;
-  color: #002C6D;
+  border: 1px solid $blue;
+  color: $blue;
 }
 
 hr {
@@ -267,7 +269,7 @@ li.usa-nav__primary-item {
   z-index: -1;
   position: absolute;
   inset: 0 0 0 -60vw;
-  background: linear-gradient(to left, #002C6D 0%, #002C6D 100%);
+  background: linear-gradient(to left, $blue 0%, $blue 100%);
   -webkit-mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
   mask-image: linear-gradient( to left, rgba(255,255,255, 1) 40%, rgba(255,255,255, 0.966) 42.125%, rgba(255,255,255, 0.92) 43.975%, rgba(255,255,255, 0.864) 45.65%, rgba(255,255,255, 0.8) 47.15%, rgba(255,255,255, 0.73) 48.525%, rgba(255,255,255, 0.654) 49.85%, rgba(255,255,255, 0.574) 51.125%, rgba(255,255,255, 0.493) 52.4%, rgba(255,255,255, 0.411) 53.725%, rgba(255,255,255, 0.33) 55.125%, rgba(255,255,255, 0.252) 56.675%, rgba(255,255,255, 0.179) 58.4%, rgba(255,255,255, 0.111) 60.325%, rgba(255,255,255, 0.051) 62.525%, rgba(255,255,255, 0) 100%);
   pointer-events: none;
@@ -400,7 +402,7 @@ div.hero-text {
 
 @media screen and (max-width: 64em) {
   .mobile-hero {
-    background-color: #002C6D;
+    background-color: $blue;
     div.hero-text {
       .form {
         max-width: 100%;
@@ -506,7 +508,7 @@ div.nav-list {
 }
 
 header.usa-header {
-  background: #002C6D;
+  background: $blue;
 }
 
 .usa-nav__primary-item {
@@ -587,12 +589,16 @@ section {
 }
 
 body {
-  background: #002C6D;
+  background: $blue;
 }
 
 .why-now {
-  ul li {
-    margin-bottom: 1.5em;
+  padding-top: 30px;
+  .usa-prose {
+    margin: auto;
+  }
+  .bold-quote {
+    // color: rgb(95, 112, 163);
   }
 }
 
@@ -606,7 +612,7 @@ body {
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   font-size: calc(16px + .2vw);
-  color: #002C6D;
+  color: $blue;
   font-weight: 400;
   box-sizing: border-box;
   background-repeat: no-repeat;
@@ -648,7 +654,7 @@ body {
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   font-size: calc(16px + .2vw);
-  color: #002C6D;
+  color: $blue;
   font-weight: 400;
   text-align: center;
   box-sizing: border-box;
@@ -672,7 +678,7 @@ body {
 }
 
 footer {
-  background: #002C6D;
+  background: $blue;
   color: white;
   padding: 20px;
   text-align: center;
