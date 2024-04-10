@@ -211,26 +211,21 @@ const IndexPage = () => (
         <div className="usa-prose">
           <p className="bold-quote">
             "I’m <strong>Ashwin Ramaswami,</strong> I was born and raised right here in Johns Creek and I truly love my hometown.</p>
-          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. But most importantly, I’m ready to get to work for our community in the Georgia Senate.</p>
-          <p>I’m ready to build an economy that works for working families, ensure every child has the right to a world-class education, pass common sense gun safety laws, protect every family’s freedom to control their reproductive healthcare, and continue to defend our democracy from threats foreign and domestic.</p>
-          <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
+            <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. But most importantly, I’m ready to get to work for our community in the Georgia Senate.</p>
+            <p>I’m ready to build an economy that works for working families, ensure every child has the right to a world-class education, pass common sense gun safety laws, protect every family’s freedom to control their reproductive healthcare, and continue to defend our democracy from threats foreign and domestic.</p>
+            <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
           </p>
           <p className="signature"><img src={signature} /></p>
           <p>
-            {/* <ul>
-              
-              <li>"<strong>I am from Johns Creek, GA and the only candidate who grew up in this district.</strong> I've worked to make positive change in my community through nonprofits, religious communities, technology startups, and law and policy — all thanks to the wonderful people and resources in my hometown. It's time for me to pay it forward and help advocate for the futures of young people — and everyone — in our community."</li>
-              <li><strong>I am running as a Democrat in District 48,</strong> which includes parts of Johns Creek, Cumming, Sugar Hill, Suwanee, Alpharetta, and Buford.</li>
-              <li><strong>We have a once-in-a-generation opportunity</strong> to make transformative investments in our communities. Did you know that the State of Georgia now has $10.7 billion in surplus cash? We should invest it wisely in our future.</li>
-              <li><strong>Our current State Senator, Shawn Still, has been indicted</strong> for trying to overturn the 2020 election results. This is a chance to stand up for democracy and show this was unacceptable. I'm committed to accepting the election results and the democratic process.</li>
-              <li><strong>We need diverse leadership</strong> that reflects our communities. I would be the first Indian American in the Georgia State Senate, first Gen Z member, and the only State Senator with a computer science and a law degree.</li>
-            </ul> */}
             <div style={{ textAlign: "center" }}>
               <a className="usa-button" href="/about">
                 Meet Ashwin
               </a>
               <a className="usa-button" href="/issues">
                 The Issues
+              </a>
+              <a className="usa-button" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-button">
+                Donate
               </a>
             </div>
           </p>
@@ -244,26 +239,7 @@ const IndexPage = () => (
         <div className="tablet:grid-col-6">
           <img src={democrats} />
         </div>
-        {/* <div className="tablet:grid-col-6">
-          <img src={townHall} />
-        </div> */}
-          {/* <div className="smile-outer">
-            <div className="smile-container">
-              <img src={democrats} />
-              <img src={townHall} />
-            </div>
-          </div> */}
       </div>
-        {/* <div className="tablet:grid-col-12">
-          <ul className="usa-card-group">
-            <Issue href="/issues#government" img="⚖️" title="Make Government Work Better">Let's build state and local government capacity by empowering workers with technology and ensuring they are paid competitive wages.</Issue>
-            <Issue href="/issues#economy" img="🚓" title="Invest in Public Safety">Let's be smarter at keeping our communities safe by training police, passing commonsense gun laws, and focusing on consumer protection.</Issue>
-            <Issue href="/issues#healthcare" img="🏥" title="Make Healthcare Affordable">Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, and helping our healthcare workers.</Issue>
-            <Issue href="/issues#economy" img="📈" title="Grow a High-Tech Economy for All">Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and giving the best and brightest talent a reason to stay here.</Issue>
-            <Issue href="/issues#climate" img="🌎" title="Protect the Earth and Our Community">Let's address the climate crisis and reduce traffic by investing in roads, sidewalks, and a safe public transit system, which is needed more than ever as Metro Atlanta grows.</Issue>
-            <Issue href="/issues#education" img="📚" title="Provide Everyone with a World-Class Education">Let's give all Georgians access to a quality education by paying teachers more, investing in <em>all</em> schools and community colleges, and giving our students a greater voice.</Issue>
-          </ul>
-        </div> */}
       <hr />
       <div className="grid-row grid-gap grid-endorsements">
         <div className="tablet:grid-col-12">

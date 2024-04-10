@@ -106,7 +106,7 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
         </ul>
       </div>
       <div className="donate">
-        <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
+        <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-nav">
           DONATE
         </a>
       </div>
