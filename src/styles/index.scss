@@ -191,6 +191,10 @@ h1, h2, .usa-logo a, input[type=text] {
   color: $blue;
 }
 
+.usa-collection__calendar-date {
+  // display: none;
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -575,6 +579,17 @@ header.usa-header {
   @media screen and (max-width: 64em) {
     h2 {
       margin-bottom: 0;
+    }
+  }
+
+  section.section-about {
+    background-size: cover;
+    background-position-x: left;
+
+    > div {
+      background: white;
+      max-width: 500px;
+      padding: 10px;
     }
   }
 }

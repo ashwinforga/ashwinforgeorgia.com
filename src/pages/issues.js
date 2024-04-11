@@ -57,10 +57,6 @@ const DetailedIssue = ({ title, summary, children }) => (
       </details>
     </div>
 
-
-
-
-
   </div>
 )
 

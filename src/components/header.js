@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import headshot1 from '../images/headshot1.jpeg';
 
 const Header = ({ children, siteTitle }) => (
   <header className="usa-header usa-header--extended" role="banner">
