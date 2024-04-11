@@ -64,41 +64,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Issues" />
     <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${writingClub})` }}>
-
-
-      {/* TODO: Add campaign finance reform somewhere. */}
-
       <div className="grid-row grid-gap">
-        {/* <div className="tablet:grid-col-12">
-          <h2 className="font-heading-xl margin-top-0 text-center">
-            Issues<br />
-          </h2>
-        </div> */}
         <div className="tablet:grid-col-12">
           <ul className="issue-group">
             <img className="ready-to-work" src={readyToWork} />
-            <Issue img="⚖️" title="Building an Economy of the Future">
+            <Issue title="Building an Economy of the Future">
               I will work to make Georgia a sustainable tech hub that attracts the jobs of the future, while supporting small businesses and entrepreneurship. Every student in Georgia deserves a world-class education.</Issue>
-            <Issue img="🚓" title="Protecting and Defending Democracy">
+            <Issue title="Protecting and Defending Democracy">
               In 2020, I worked day and night to protect our schools, hospitals, and elections as a nonpartisan civil servant at America’s cyber defense agency. I will protect your right to vote from election deniers and partisan extremists.</Issue>
-            <Issue img="🏥" title="Keeping our Communities Safe">
+            <Issue title="Keeping our Communities Safe">
               I know how important it is to pass common-sense gun laws to protect our families and neighborhoods. I am committed to expanding resources to support mental health and combat the opioid epidemic.</Issue>
-            <Issue img="📈" title="Making Healthcare Affordable to All">
+            <Issue title="Making Healthcare Affordable to All">
               I know we can lower costs and improve care for those who need it most by expanding Medicaid, lowering drug costs, expanding affordable childcare, and supporting people with disabilities.</Issue>
-            <Issue img="🌎" title="Protecting Reproductive Healthcare">
+            <Issue title="Protecting Reproductive Healthcare">
               In the Georgia Senate, I will fight to ensure every family has the freedom to make their reproductive healthcare decisions without government interference, from abortion care to IVF treatments.</Issue>
-            {/* <Issue img="⚖️" title="Make Government Work Better">
-            Let's pay state employees competitive wages, introduce better technology, and secure our elections. Let's fund our courts and pass a state civil rights law. Let's do campaign finance reform. I pledge to not take donations from corporate PACs.</Issue>
-            <Issue img="🚓" title="Invest in Public Safety">
-            We must keep our communities safe by training police, expanding community safety initiatives, and passing common-sense gun laws. We also need better consumer protection and antitrust laws to keep big technology companies accountable for online harms.</Issue>
-            <Issue img="🏥" title="Make Healthcare Affordable">
-            We need serious reform. Let's lower costs and improve care for those who need it most by expanding Medicaid, lowering drug prices, protecting the right to choose, expanding family tax credits, and supporting our healthcare workers.</Issue>
-            <Issue img="📈" title="Grow a High-Tech Economy for All">
-            Let's make Metro Atlanta a sustainable tech hub for the South by attracting investment and creating high-paying jobs in technology and innovation. Let's retain talent and encourage small businesses and entrepreneurship.</Issue>
-            <Issue img="🌎" title="Protect the Earth and Our Community">
-            Let's fight climate change by making Georgia a leader in green energy investments and green economy jobs. Our district also deserves better roads to reduce traffic, clean green spaces, and a safer public transit system.</Issue>
-            <Issue img="📚" title="Provide Everyone with a World-Class Education">
-            I'll fight to expand access to quality education. We need to give students more resources and courses, increase teachers' pay, teach financial literacy, and expand the HOPE Scholarship and Dual Enrollment programs.</Issue> */}
           </ul>
         </div>
       </div>
@@ -109,7 +88,7 @@ const IndexPage = () => (
         <em>Have a question on any of these issues or a topic that is not listed?</em> Send us an email at <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a> or open an issue on <a href="https://github.com/ashwinforga/ashwinforgeorgia.com/issues">GitHub</a>.
         <div className="grid-row grid-gap">
 
-        <DetailedIssue title="Medicaid Expansion" summary={<>My top priority upon winning this election is expanding Medicaid. I want to start with common sense reforms that cut red tape and save taxpayers money, and Medicaid expansion achieves these goals.</>}>
+          <DetailedIssue title="Medicaid Expansion" summary={<>My top priority upon winning this election is expanding Medicaid. I want to start with common sense reforms that cut red tape and save taxpayers money, and Medicaid expansion achieves these goals.</>}>
             <p>Because we have not expanded Medicaid, Georgia taxpayers’ federal taxes are left on the table and are instead used to subsidize Medicaid programs in states such as California and New York. We need to make sure this money is not left on the table and is instead used to benefit Georgians. We should replace Pathways to Coverage, which is spending Georgian taxpayer money on expensive red tape that insures less Georgians, with full Medicaid expansion.</p>
 
             <p>Not expanding Medicaid has resulted in hospital closures across Georgia, undermined our healthcare system, and left over 400,000 Georgians uninsured. Medicaid expansion is a solution that both red and blue states have already enacted. Expansion would efficiently use the state’s resources in combination with available federal dollars to cover hundreds of thousands of Georgians and shore up our hospital system.</p>
@@ -122,7 +101,6 @@ const IndexPage = () => (
             <p>I will work towards common-sense zoning reforms that allow more diverse types of housing, including mixed-use developments, to be built in commercial and office zones. I will also advocate for a transit-oriented development strategy around MARTA and other public transit in Metro Atlanta.</p>
 
             <p>I believe that we need to expand programs such as the Low-Income Housing Tax Credit (LIHTC) and amend state law to increase tenant protections, such as preventing landlords from discriminating against tenants who pay using Housing Choice Vouchers, a housing assistance program.</p>
-
 
           </DetailedIssue>
 
@@ -171,9 +149,23 @@ const IndexPage = () => (
 
           </DetailedIssue>
 
-        </div>
+          <DetailedIssue title="Addressing the Climate Crisis" summary={<>I plan to ensure Georgia is a leader in green energy, and that we protect the natural environment and invest in multi-model transportation and public transit.</>}>
+            <p>I plan to invest in reducing regulatory and bureaucratic barriers to green energy, such as by encouraging grid sharing, and to create regulatory incentives to promote green energy such as higher fuel emission standards. I plan to encourage entrepreneurship and the venture capital ecosystem to incentivize the creation and commercialization of more green energy technologies in the United States. I am committed to using key investments in our communities to address climate change such as making our public transit system safer.</p>
 
-        <hr />
+            <p>It’s difficult to live in my district without a car. This disconnects and isolates our communities and makes it less accessible for those who may not have access to cars, such as children or those with disabilities, to navigate our community. I’m committed to expanding options for multi-modal transportation throughout our district, whether that includes public transit or more walkable trails and routes across our district.</p>
+
+          </DetailedIssue>
+
+          <DetailedIssue title="Civil Rights" summary={<>I am committed to passing a comprehensive state civil rights bill. I will advocate to include and respect everyone in the community: minorities, LGBTQ+ people, and people with disabilities.</>}>
+            <p>Georgia has some of the <a target="_blank" href="https://www.acluga.org/en/press-releases/aclu-georgia-executive-director-andrea-young-applauds-report-calling-comprehensive">weakest nondiscrimination protections</a> in the nation. All Georgians deserve equal protection under the law, and I am committed to passing a comprehensive civil rights bill to ensure this is the case.</p>
+
+            <p>I am committed to ensuring the LGBTQ+ community has full and equal rights. I will ensure we have safe schools and learning environments for LGBTQ+ youth, parental rights for LGBTQ+ couples, and adequate state funding for addressing the HIV epidemic.</p>
+
+            <p>I will advocate for the disability community. I will work to <a target="_blank" href="https://www.motherjones.com/politics/2024/04/georgia-republicans-bipartisan-disability-workers-sub-minimum-wage/">end the subminimum wage</a>, so that workers with disabilities cannot be paid as little as $2.50 / hr for work they perform. We should expand <a target="_blank" href="https://gcdd.org/images/Blogs/2016/dd_waivers_conversion_rev_020516.pdf">funding for COMP and NOW waivers</a> to support for individuals with intellectual or developmental disabilities.</p>
+
+          </DetailedIssue>
+
+        </div>
       </div>
     </section>
 
