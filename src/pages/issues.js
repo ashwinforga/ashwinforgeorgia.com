@@ -85,7 +85,7 @@ const IndexPage = () => (
     <section className="grid-container usa-section issues-2 usa-prose">
       <div>
         <h1>More Issues</h1>
-        <em>Have a question on any of these issues or a topic that is not listed?</em> Send us an email at <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a> or open an issue on <a href="https://github.com/ashwinforga/ashwinforgeorgia.com/issues">GitHub</a>.
+        <em>Have a question on any of these issues or a topic that is not listed?</em> Send us an email at <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a> or open an issue on <a target="_blank" href="https://github.com/ashwinforga/ashwinforgeorgia.com/issues">GitHub</a>.
         <div className="grid-row grid-gap">
 
           <DetailedIssue title="Medicaid Expansion" summary={<>My top priority upon winning this election is expanding Medicaid. I want to start with common sense reforms that cut red tape and save taxpayers money, and Medicaid expansion achieves these goals.</>}>
