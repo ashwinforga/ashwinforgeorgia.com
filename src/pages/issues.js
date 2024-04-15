@@ -47,7 +47,7 @@ const IndexPage = () => (
             <Issue title="Protecting and Defending Democracy">
               In 2020, I worked day and night to protect our schools, hospitals, and elections as a nonpartisan civil servant at America’s cyber defense agency. I will protect your right to vote from election deniers and partisan extremists.</Issue>
             <Issue title="Keeping our Communities Safe">
-              I know how important it is to pass common-sense gun laws to protect our families and neighborhoods. I am committed to expanding resources to support mental health and combat the opioid epidemic.</Issue>
+              I know how important it is to pass common-sense gun safety laws to protect our families and neighborhoods. I am committed to expanding resources to support mental health and combat the opioid epidemic.</Issue>
             <Issue title="Making Healthcare Affordable to All">
               I know we can lower costs and improve care for those who need it most by expanding Medicaid, lowering drug costs, expanding affordable childcare, and supporting people with disabilities.</Issue>
             <Issue title="Protecting Reproductive Healthcare">

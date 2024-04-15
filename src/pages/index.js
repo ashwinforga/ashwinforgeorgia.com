@@ -211,9 +211,9 @@ const IndexPage = () => (
       <div className="grid-row grid-gap why-now">
         <div className="usa-prose">
           <p className="bold-quote">
-            "I’m <strong>Ashwin Ramaswami,</strong> I was born and raised right here in Johns Creek and I truly love my hometown.</p>
-          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. But most importantly, I’m ready to get to work for our community in the Georgia Senate in District 48.</p>
-          <p>I’m ready to build an economy that works for working families, ensure every child has the right to a world-class education, pass common sense gun safety laws, protect every family’s freedom to control their reproductive healthcare, and continue to defend our democracy from threats foreign and domestic.</p>
+            "I’m <strong>Ashwin Ramaswami,</strong> I was born and raised right here in Johns Creek and I’m ready to get to work for our community in the Georgia Senate in District 48.</p>
+          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. I attended Stanford University and Georgetown University Law Center, but decided to work in public service: cybersecurity and election security in the federal government.</p>
+          <p>I’m ready to provide everyone with a world-class education, promote small businesses and builds an economy ready for the technology of the future, pass common-sense gun safety laws, and protect access to reproductive healthcare. And I will always lead with integrity and stand up for our democracy, our civil servants, and our poll workers.</p>
           <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
           </p>
           <p className="signature"><img src={signature} /></p>
