@@ -17,6 +17,7 @@ import gatech from "../images/gatech.png";
 import stanford from "../images/stanford.png";
 import gulc from "../images/gulc.png";
 import hooch from "../images/hooch.jpeg";
+import ashwinSerious from "../images/ashwin-serious-cropped-2.jpg"
 
 
 const images = [
@@ -126,7 +127,7 @@ const Timeline = () => {
 const IndexPage = () => (
   <Layout className="about-ashwin-page">
     <SEO title="Meet Ashwin" />
-    <section className="grid-container usa-section usa-prose section-about" style={{ backgroundImage: `url(${reporter})` }}>
+    <section className="grid-container usa-section usa-prose section-about" style={{ backgroundImage: `url(${ashwinSerious})` }}>
       {/* <h1 id="about">Meet Ashwin</h1><br /><br /> */}
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-12 usa-prose">

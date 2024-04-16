@@ -38,7 +38,7 @@ const DetailedIssue = ({ title, summary, children }) => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Issues" />
-    <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${ashwinSerious})` }}>
+    <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${writingClub})` }}>
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-12">
           <ul className="issue-group">

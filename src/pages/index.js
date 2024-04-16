@@ -10,7 +10,7 @@ import townHall from "../images/town-hall.jpeg";
 import smileSquare from "../images/smile-square.jpg";
 import sal from "../images/ashwin-sal.jpg";
 import logo from "../images/ARLogo-full-color-white-text.png";
-import cover from "../images/cover.png";
+import cover from "../images/ashwin-serious-cropped.jpg";
 import capitol from "../images/ashwin-capitol.jpeg";
 import circle from 'uswds/img/circle-124.png';
 import ashwinMvp from '../images/ashwin-mvp-cropped.jpg';
