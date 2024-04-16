@@ -752,6 +752,10 @@ h2.usa-card__heading {
     margin-bottom: 20px;
   }
 
+  div.grid-row > div {
+    padding-right: 0;
+  }
+
   .issue-group {
     max-width: 500px;
     margin: auto;

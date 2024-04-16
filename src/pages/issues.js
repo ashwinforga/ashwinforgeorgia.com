@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import readyToWork from "../images/ready-to-work.jpg";
 import writingClub from "../images/writing-club-cropped.jpg";
+import ashwinSerious from "../images/ashwin-serious-cropped.jpg"
 
 const Issue = ({ title, img, href, children }) => (
   <li className="tablet:grid-col-12 issue">
@@ -37,7 +38,7 @@ const DetailedIssue = ({ title, summary, children }) => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Issues" />
-    <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${writingClub})` }}>
+    <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${ashwinSerious})` }}>
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-12">
           <ul className="issue-group">
