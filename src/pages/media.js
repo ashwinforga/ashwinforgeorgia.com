@@ -3,6 +3,14 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import headshot1 from '../press-kit/headshot-1.jpg';
+import headshot2 from '../press-kit/headshot-2.jpg';
+import headshot3 from '../press-kit/headshot-3.jpg';
+import headshot4 from '../press-kit/headshot-4.jpg';
+import headshot5 from '../press-kit/headshot-5.jpg';
+import headshot6 from '../press-kit/headshot-6.png';
+
+
 const Article = ({ title, img, quote, href, date }) => (
   <li className="usa-card tablet:grid-col-6 issue">
     <div className="usa-card__container">
@@ -53,12 +61,12 @@ const IndexPage = () => (
         <div className="tablet:grid-col-12">
           <ul>
             <li>Headshots:&nbsp;
-              <a download href="/press-kit/headshot-1.jpg">1</a>&nbsp;
-              <a download href="/press-kit/headshot-2.jpg">2</a>&nbsp;
-              <a download href="/press-kit/headshot-3.jpg">3</a>&nbsp;
-              <a download href="/press-kit/headshot-4.jpg">4</a>&nbsp;
-              <a download href="/press-kit/headshot-5.jpg">5</a>&nbsp;
-              <a download href="/press-kit/headshot-6.png">6</a>&nbsp;
+              <a download href={headshot1}>1</a>&nbsp;
+              <a download href={headshot2}>2</a>&nbsp;
+              <a download href={headshot3}>3</a>&nbsp;
+              <a download href={headshot4}>4</a>&nbsp;
+              <a download href={headshot5}>5</a>&nbsp;
+              <a download href={headshot6}>6</a>&nbsp;
             </li>
           </ul>
         </div>
