@@ -21,6 +21,7 @@ import Socials from "../components/socials";
 import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
+import stacked from '../images/StackedPAC.png';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 import { NavMobile } from '../components/nav';
 import DonationPopup from '../components/donation-popup';
@@ -279,7 +280,7 @@ const IndexPage = () => (
             <Endorsement title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
 
-            <Endorsement img="https://private-user-images.githubusercontent.com/1689183/324062690-919d8d77-9a28-4c8e-962a-2beb084322b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM1Njg5NTEsIm5iZiI6MTcxMzU2ODY1MSwicGF0aCI6Ii8xNjg5MTgzLzMyNDA2MjY5MC05MTlkOGQ3Ny05YTI4LTRjOGUtOTYyYS0yYmViMDg0MzIyYjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQxOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MTlUMjMxNzMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZTRkZDE4NmJmYTZmMTk4NGRkNWJjZmE1MmIxNWNjZjIzOWM2YzBjNTY2YmMwNTZmNzg1Zjc2ZTY2OGRmMGViYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.RwQk1p8eWM_715YUcbJFsGN6oxzS699HpRDKOxMj9d0" href="https://www.stackedpac.org/" alt="StackedPAC" />
+            <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
             <Endorsement img="https://leaderswedeserve.com/wp-content/uploads/2023/07/leaders_we_deserve-logo-a-1-3.png" alt="Leaders We Deserve" />
             <Endorsement img="https://schlosser.io/img/res/800/teams/thenext50.png" alt="The Next 50" />
             <Endorsement img="https://lh5.googleusercontent.com/ExhSA2l0RqoFyf3nNIvOZ17zbjpxPJYp44On5zWraZs_2R7CIHVA-YzrDGwuT7mA8rf6jsUqJraHsA1-xxUztRJUgA5u6BBDNfjU0u_kqKy1IpYqY_pz-WtJZdAz_DmNreLHwgzQ3a693Sq_5q0BMI2M81fahRrsmklCVbt9M7jHqixHbgfUGGoprg" alt="314 Action Fund" />
