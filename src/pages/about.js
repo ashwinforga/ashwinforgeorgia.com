@@ -33,6 +33,8 @@ const images = [
 const Timeline = () => {
   return (<div className="tablet:grid-col-12">
     <p>Hi, I'm Ashwin, from Johns Creek, GA. I <a target="_blank" href="https://www.nbcnews.com/politics/2024-election/gen-z-democrat-georgia-fake-elector-state-senate-rcna144294">quit my job in election security</a> in order to serve our community and protect our democracy. <strong>Here's what I've done...</strong></p>
+
+    <p>Georgia needs elected officials with expertise in the technology of the future. I’ve helped build startups and worked at the intersection of law and technology-with cybersecurity, AI and election integrity experience that helps me provide a unique perspective at the Georgia Capitol and beyond.</p>
     {/* <h3 className="site-preview-heading">Here's what I've done...</h3> */}
     <ul className="usa-collection">
       <li className="usa-collection__item">
