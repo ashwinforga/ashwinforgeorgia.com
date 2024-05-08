@@ -267,6 +267,8 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
+            <Endorsement title="U.S. Representative GA 7th District" name="Lucy McBath" />
+            <Endorsement title="SD55 Sen." name="Gloria Butler" />
             <Endorsement title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
             <Endorsement title="Georgia Democratic Whip Rep." name="Sam Park" />
             <Endorsement title="Fmr. Sen." name="Jason Carter" />
@@ -279,7 +281,8 @@ const IndexPage = () => (
             <Endorsement title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
             <Endorsement title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
-
+            
+            <Endorsement img="https://www.gcvoters.org/wp-content/uploads/2020/01/GCV-Green.png" href="https://www.gcvoters.org/" alt="Georgia Conservation Voters Logo" />
             <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
             <Endorsement img="https://leaderswedeserve.com/wp-content/uploads/2023/07/leaders_we_deserve-logo-a-1-3.png" alt="Leaders We Deserve" />
             <Endorsement img="https://schlosser.io/img/res/800/teams/thenext50.png" alt="The Next 50" />
