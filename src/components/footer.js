@@ -16,6 +16,8 @@ const Footer = () => (
         <Link to="/privacy" className=''>Privacy&nbsp;Policy</Link>
         <span> </span>
         <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a>
+        <span> </span>
+        <a href="tel:770-515-9732">770-515-9732</a>
       </p>
     </div>
   </footer>
