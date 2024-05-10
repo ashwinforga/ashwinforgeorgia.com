@@ -267,8 +267,8 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
-            <Endorsement title="U.S. Representative GA 7th District" name="Lucy McBath" />
-            <Endorsement title="SD55 Sen." name="Gloria Butler" />
+            <Endorsement title="U.S. Representative" name="Lucy McBath" />
+            <Endorsement title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
             <Endorsement title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
             <Endorsement title="Georgia Democratic Whip Rep." name="Sam Park" />
             <Endorsement title="Fmr. Sen." name="Jason Carter" />
