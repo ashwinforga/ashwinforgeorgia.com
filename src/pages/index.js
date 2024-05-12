@@ -289,6 +289,7 @@ const IndexPage = () => (
             <Endorsement img="https://lh5.googleusercontent.com/ExhSA2l0RqoFyf3nNIvOZ17zbjpxPJYp44On5zWraZs_2R7CIHVA-YzrDGwuT7mA8rf6jsUqJraHsA1-xxUztRJUgA5u6BBDNfjU0u_kqKy1IpYqY_pz-WtJZdAz_DmNreLHwgzQ3a693Sq_5q0BMI2M81fahRrsmklCVbt9M7jHqixHbgfUGGoprg" href="https://314action.org/" alt="314 Action Fund" />
             <Endorsement img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GJBUrD-lmA2Bamk7mRj1ovILIk4g53Inm-A3mZM-UA&s" href="https://www.saforamerica.org/" alt="South Asians for America" />
             <Endorsement name="Indian American Impact Fund" />
+            <Endorsement name="Voices of Muslims" />
 
             <Endorsement name="Dream for America" />
             <Endorsement title="Targeted District" name="The 2030 Project" />
