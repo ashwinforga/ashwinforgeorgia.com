@@ -295,6 +295,7 @@ const IndexPage = () => (
             <Endorsement title="Targeted District" name="The 2030 Project" />
             <Endorsement name="REAL Action, Inc." />
             <Endorsement name="Path to Progress" />
+            <Endorsement name="College Democrats of America" />
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
