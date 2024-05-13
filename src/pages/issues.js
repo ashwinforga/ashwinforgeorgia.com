@@ -124,7 +124,7 @@ const IndexPage = () => (
 
           </DetailedIssue>
 
-          <DetailedIssue title="Addressing the Climate Crisis" summary={<>I plan to ensure Georgia is a leader in green energy, and that we protect the natural environment and invest in multi-model transportation and public transit.</>}>
+          <DetailedIssue title="Addressing the Climate Crisis" summary={<>I plan to ensure Georgia is a leader in green energy, and that we protect the natural environment and invest in multi-modal transportation and public transit.</>}>
             <p>I plan to invest in reducing regulatory and bureaucratic barriers to green energy, such as by encouraging grid sharing, and to create regulatory incentives to promote green energy such as higher fuel emission standards. I plan to encourage entrepreneurship and the venture capital ecosystem to incentivize the creation and commercialization of more green energy technologies in the United States. I am committed to using key investments in our communities to address climate change such as making our public transit system safer.</p>
 
             <p>It’s difficult to live in my district without a car. This disconnects and isolates our communities and makes it less accessible for those who may not have access to cars, such as children or those with disabilities, to navigate our community. I’m committed to expanding options for multi-modal transportation throughout our district, whether that includes public transit or more walkable trails and routes across our district.</p>
