@@ -281,6 +281,7 @@ const IndexPage = () => (
             <Endorsement title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
             <Endorsement title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
+            <Endorsement title="CA Assemblymember" name="Evan Low" />
             
             <Endorsement img="https://www.gcvoters.org/wp-content/uploads/2020/01/GCV-Green.png" href="https://www.gcvoters.org/" alt="Georgia Conservation Voters Logo" />
             <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
