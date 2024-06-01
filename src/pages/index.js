@@ -21,11 +21,44 @@ import Socials from "../components/socials";
 import leafblowers from '../images/leaf blowers.jpeg';
 import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
-import stacked from '../images/StackedPAC.png';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 import { NavMobile } from '../components/nav';
 import DonationPopup from '../components/donation-popup';
 import { Link } from 'gatsby';
+
+import au from '../images/endorsements/au.jpeg';
+import blackman from '../images/endorsements/blackman.jpeg';
+import butler from '../images/endorsements/butler.jpeg';
+import carden from '../images/endorsements/carden.jpeg';
+import carter from '../images/endorsements/carter.jpeg';
+import duggal from '../images/endorsements/duggal.jpeg';
+import islam from '../images/endorsements/islam.jpeg';
+import jackson from '../images/endorsements/jackson.jpeg';
+import kannan from '../images/endorsements/kannan.jpeg';
+import khanna from '../images/endorsements/khanna.jpeg';
+import low from '../images/endorsements/low.jpeg';
+import mcbath from '../images/endorsements/mcbath.jpeg';
+import parent from '../images/endorsements/parent.jpeg';
+import park from '../images/endorsements/park.jpeg';
+import romman from '../images/endorsements/romman.jpeg';
+import tran from '../images/endorsements/tran.jpeg';
+
+import newPolitics from '../images/endorsements/new-politics.png';
+import collegeDems from '../images/endorsements/collegedems.png';
+import pathToProgress from '../images/endorsements/pathtoprogress.jpeg';
+import realActionInc from '../images/endorsements/realactioninc.jpeg';
+import _2030Project from '../images/endorsements/2030.png';
+import dreamForAmerica from '../images/endorsements/dreamforamerica.png';
+import voicesOfMuslims from '../images/endorsements/voices-of-muslims.png';
+import runForSomething from '../images/endorsements/rfs.jpeg';
+import safa from '../images/endorsements/safa.png';
+import _314 from '../images/endorsements/314actionfund.png';
+import theNext50 from '../images/endorsements/thenext50.png';
+import leadersWeDeserve from '../images/endorsements/lwd.png';
+import stacked from '../images/endorsements/stacked.png';
+import gcv from '../images/endorsements/gcv.png';
+import iaImpact from '../images/endorsements/ia-impact.png';
+import moms from '../images/endorsements/moms.png';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -38,14 +71,16 @@ const Issue = ({ title, img, href, children }) => (
   </li>
 );
 
-const Endorsement = ({ title, name, href, img, alt }) => (
+const Endorsement = ({ title, name, href, img, headshot, alt }) => (
   <li className="usa-card tablet:grid-col-3 issue">
-    <div className="usa-card__container">
-      <div className="usa-card__header">
+    <div className="usa-card__container" style={{border: 0}}>
+      <div className="usa-card__header" style={{textAlign: "center", padding: 0, height: "100%", display: "flex", flexDirection: "column"}}>
+        {headshot && <img src={headshot} />}
         <h4>{title}</h4>
         <h2 className="usa-card__heading">{name}</h2>
-        {img && !href && <img src={img} alt={alt} />}
-        {img && href && <a target="_blank" href={href}><img src={img} alt={alt} /></a>}
+        {/* {img && !href && <img src={img} alt={alt} style={{margin: "auto"}} />}
+        {img && href && <a target="_blank" href={href}><img src={img} alt={alt} style={{margin: "auto"}} /></a>} */}
+        <img src={img} alt={alt} style={{margin: "auto"}} />
       </div>
     </div>
   </li>
@@ -267,36 +302,40 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
-            <Endorsement title="U.S. Representative" name="Lucy McBath" />
-            <Endorsement title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
-            <Endorsement title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
-            <Endorsement title="Georgia Democratic Whip Rep." name="Sam Park" />
-            <Endorsement title="Fmr. Sen." name="Jason Carter" />
-            <Endorsement title="HD50 Rep." name="Michelle Au" />
-            <Endorsement title="U.S. Congressman" name="Ro Khanna" />
-            <Endorsement title="SD7 Sen." name="Nabilah Islam" />
-            <Endorsement title="HD97 Rep." name="Ruwa Romman" />
-            <Endorsement title="HD80 Rep." name="Long Tran" />
-            <Endorsement title="HD68 Rep." name="Derrick Jackson" />
-            <Endorsement title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
-            <Endorsement title="Fmr. State House Candidate" name="Om Duggal" />
-            <Endorsement title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
-            <Endorsement title="CA Assemblymember" name="Evan Low" />
-            
-            <Endorsement img="https://www.gcvoters.org/wp-content/uploads/2020/01/GCV-Green.png" href="https://www.gcvoters.org/" alt="Georgia Conservation Voters Logo" />
-            <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
-            <Endorsement img="https://leaderswedeserve.com/wp-content/uploads/2023/07/leaders_we_deserve-logo-a-1-3.png" href="https://leaderswedeserve.com/" alt="Leaders We Deserve" />
-            <Endorsement img="https://schlosser.io/img/res/800/teams/thenext50.png" href="https://thenext50.us/" alt="The Next 50" />
-            <Endorsement img="https://lh5.googleusercontent.com/ExhSA2l0RqoFyf3nNIvOZ17zbjpxPJYp44On5zWraZs_2R7CIHVA-YzrDGwuT7mA8rf6jsUqJraHsA1-xxUztRJUgA5u6BBDNfjU0u_kqKy1IpYqY_pz-WtJZdAz_DmNreLHwgzQ3a693Sq_5q0BMI2M81fahRrsmklCVbt9M7jHqixHbgfUGGoprg" href="https://314action.org/" alt="314 Action Fund" />
-            <Endorsement img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GJBUrD-lmA2Bamk7mRj1ovILIk4g53Inm-A3mZM-UA&s" href="https://www.saforamerica.org/" alt="South Asians for America" />
-            <Endorsement name="Indian American Impact Fund" />
-            <Endorsement name="Voices of Muslims" />
+            <Endorsement headshot={mcbath} title="U.S. Representative" name="Lucy McBath" />
+            <Endorsement headshot={butler} title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
+            <Endorsement headshot={parent} title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
+            <Endorsement headshot={park} title="Georgia Democratic Whip Rep." name="Sam Park" />
+            <Endorsement headshot={carter} title="Fmr. Sen." name="Jason Carter" />
+            <Endorsement headshot={au} title="HD50 Rep." name="Michelle Au" />
+            <Endorsement headshot={khanna} title="U.S. Congressman" name="Ro Khanna" />
+            <Endorsement headshot={islam} title="SD7 Sen." name="Nabilah Islam" />
+            <Endorsement headshot={romman} title="HD97 Rep." name="Ruwa Romman" />
+            <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
+            <Endorsement headshot={jackson} title="HD68 Rep." name="Derrick Jackson" />
+            <Endorsement headshot={carden} title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
+            <Endorsement headshot={blackman} title="Fmr. Candidate, Georgia Public Service Commission" name="Daniel Blackman" />
+            <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
+            <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
+            <Endorsement headshot={low} title="CA Assemblymember" name="Evan Low" />
 
-            <Endorsement name="Dream for America" />
-            <Endorsement title="Targeted District" name="The 2030 Project" />
-            <Endorsement name="REAL Action, Inc." />
-            <Endorsement name="Path to Progress" />
-            <Endorsement name="College Democrats of America" />
+            <Endorsement img={leadersWeDeserve} href="https://leaderswedeserve.com/" alt="Leaders We Deserve" />
+            <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
+            <Endorsement img={theNext50} href="https://thenext50.us/" alt="The Next 50" />
+            <Endorsement img={_314} href="https://314action.org/" alt="314 Action Fund" />
+            <Endorsement img={safa} href="https://www.saforamerica.org/" alt="South Asians for America" />
+            <Endorsement img={gcv} href="https://www.gcvoters.org/" alt="Georgia Conservation Voters Logo" />
+            <Endorsement img={newPolitics} alt="New Politics" />
+            <Endorsement img={iaImpact} alt="Indian American Impact Fund" />
+            <Endorsement img={voicesOfMuslims} alt="Voices of Muslims" />
+            <Endorsement img={runForSomething} alt="Run for Something" />
+            <Endorsement img={moms} alt="Moms Demand Action Gun Sense Candidate" />
+
+            <Endorsement img={dreamForAmerica} alt="Dream for America" />
+            <Endorsement img={_2030Project} alt="The 2030 Project" />
+            <Endorsement img={realActionInc} alt="REAL Action, Inc." />
+            <Endorsement img={pathToProgress} alt="Path to Progress" />
+            <Endorsement img={collegeDems} alt="College Democrats of America" />
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
