@@ -20,7 +20,7 @@ const faq = () => (
   <Layout>
     <SEO title="Frequently Asked Questions" />
     <section className="grid-container usa-section usa-prose faq">
-      <h1>FAQ</h1>
+      <h1>Frequently Asked Questions</h1>
       <div className="faq-container">
         <DetailedFAQ question="What are your views on how Georgia should recruit and retain educators, given the ongoing nationwide shortage of professional educators? ">
           Educators are some of our most valuable employees, and they should be
