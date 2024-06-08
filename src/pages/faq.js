@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 
 const DetailedFAQ = ({ question, children }) => {
   return (
-    <div className="tablet:grid-col-12 faq-item-container">
+    <div className="faq-item-container">
       <details>
         <summary className="faq-question">
           <strong>{question}</strong>
