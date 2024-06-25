@@ -251,7 +251,7 @@ const IndexPage = () => (
         <div className="usa-prose">
           <p className="bold-quote">
             "I’m <strong>Ashwin Ramaswami,</strong> I was born and raised right here in Johns Creek and I’m ready to get to work for our community in the Georgia Senate for District 48.</p>
-          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. I attended Stanford University and Georgetown University Law Center, but decided to work in public service: cybersecurity and election security in the federal government.</p>
+          <p>I’m the son of immigrants, I’m a computer scientist, and I’m Gen Z. I hold a B.S. in Computer Science from Stanford University and a J.D. from Georgetown University Law Center, and decided to work in public service: cybersecurity and election security in the federal government.</p>
           <p>I’m ready to provide everyone with a world-class education, build an economy ready for the technology of the future, pass common-sense gun safety laws, and protect access to reproductive healthcare. And I will always lead with integrity and stand up for our democracy, our civil servants, and our poll workers.</p>
           <p>I truly believe we can live in that Georgia - that’s why I’m running for Georgia State Senate. It’s time to reduce the extreme polarization in politics and work together on the issues that matter to us. <strong>I hope I can count on your support and your vote.</strong>"
           </p>
@@ -310,7 +310,7 @@ const IndexPage = () => (
             <Endorsement headshot={park} title="Georgia Democratic Whip Rep." name="Sam Park" />
             <Endorsement headshot={carter} title="Fmr. Sen." name="Jason Carter" />
             <Endorsement headshot={au} title="HD50 Rep." name="Michelle Au" />
-            <Endorsement headshot={khanna} title="U.S. Congressman" name="Ro Khanna" />
+            <Endorsement headshot={khanna} title="U.S. Representative" name="Ro Khanna" />
             <Endorsement headshot={islam} title="SD7 Sen." name="Nabilah Islam" />
             <Endorsement headshot={romman} title="HD97 Rep." name="Ruwa Romman" />
             <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
