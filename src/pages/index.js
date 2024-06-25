@@ -59,6 +59,8 @@ import stacked from '../images/endorsements/stacked.png';
 import gcv from '../images/endorsements/gcv.png';
 import iaImpact from '../images/endorsements/ia-impact.png';
 import moms from '../images/endorsements/moms.png';
+import gahsdems from '../images/endorsements/gahsdems.jpeg';
+import mentalhealthnow from '../images/endorsements/mentalhealthnow.png';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -336,6 +338,9 @@ const IndexPage = () => (
             <Endorsement img={realActionInc} alt="REAL Action, Inc." />
             <Endorsement img={pathToProgress} alt="Path to Progress" />
             <Endorsement img={collegeDems} alt="College Democrats of America" />
+
+            <Endorsement img={gahsdems} alt="Georgia High School Democrats" />
+            <Endorsement img={mentalhealthnow} href="https://mentalhealthnow.us/" alt="Mental Health now" />
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
