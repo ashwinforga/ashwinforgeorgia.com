@@ -313,6 +313,7 @@ const IndexPage = () => (
             <Endorsement headshot={carter} title="Fmr. Sen." name="Jason Carter" />
             <Endorsement headshot={au} title="HD50 Rep." name="Michelle Au" />
             <Endorsement headshot={khanna} title="U.S. Representative" name="Ro Khanna" />
+            <Endorsement headshot={rahman} title="SD5 Sen." name="Sheikh Rahman" />
             <Endorsement headshot={islam} title="SD7 Sen." name="Nabilah Islam" />
             <Endorsement headshot={romman} title="HD97 Rep." name="Ruwa Romman" />
             <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
@@ -322,7 +323,7 @@ const IndexPage = () => (
             <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
             <Endorsement headshot={low} title="CA Assemblymember" name="Evan Low" />
-            <Endorsement headshot={rahman} title="SD5 Sen." name="Sheikh Rahman" />
+            
 
 
             <Endorsement img={leadersWeDeserve} href="https://leaderswedeserve.com/" alt="Leaders We Deserve" />
