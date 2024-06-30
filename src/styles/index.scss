@@ -740,6 +740,8 @@ h2.usa-card__heading {
   font-weight: normal;
 }
 
+
+
 .issues {
   background-size: cover;
   background-position-x: center;
@@ -816,3 +818,35 @@ h2.usa-card__heading {
 
   }
 }
+
+.faq {
+  border-radius: 1em;
+}
+.faq-container {
+  // padding: auto; 
+  color:#002C6D;
+  // max-width: 90%;
+}
+
+.faq-item-container {
+  transition: background-color 0.3s;
+  padding: 1em 2em;
+  background-color: #d1e7f5;
+  margin: 1em;
+  border-radius: .5em;
+}
+
+.faq-item-container:hover {
+  background-color: #a6d0e5;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  transition: max-height 0.3s ease-out;
+}
+
+// .faq-question {
+//   display: flex;
+//   justify-content: space-between;
+//   font-weight: bold;
+// }

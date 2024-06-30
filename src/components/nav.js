@@ -25,12 +25,17 @@ export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-
       </Link>
     </div>
     <div className="donate">
-      <a className="usa-button usa-nav__link" target="_blank" href="https://forms.gle/BWTTmJEyPzfZc48v8">
+      <Link className="usa-button usa-nav__link" to="/faq">
+        FAQ
+      </Link>
+    </div>
+    <div className="donate">
+      <a className="usa-button usa-nav__link" target="_blank" href="https://forms.gle/BWTTmJEyPzfZc48v8" rel="noreferrer">
         VOLUNTEER
       </a>
     </div>
     <div className="donate">
-      <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia">
+      <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia" rel="noreferrer">
         DONATE
       </a>
     </div>
@@ -98,7 +103,7 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
               className="usa-nav__link"
               activeClassName="usa-current"
               target="_blank"
-              href="https://forms.gle/BWTTmJEyPzfZc48v8"
+              href="https://forms.gle/BWTTmJEyPzfZc48v8" rel="noreferrer"
             >
               <span>Volunteer</span>
             </a>
@@ -106,7 +111,7 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
         </ul>
       </div>
       <div className="donate">
-        <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-nav">
+        <a className="usa-button usa-nav__link" target="_blank" href="https://secure.actblue.com/donate/ashwin-for-georgia?refcode=website-nav" rel="noreferrer">
           DONATE
         </a>
       </div>
