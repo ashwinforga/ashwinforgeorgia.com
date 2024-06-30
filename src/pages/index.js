@@ -42,6 +42,8 @@ import parent from '../images/endorsements/parent.jpeg';
 import park from '../images/endorsements/park.jpeg';
 import romman from '../images/endorsements/romman.jpeg';
 import tran from '../images/endorsements/tran.jpeg';
+import rahman from '../images/endorsements/rahman.jpeg';
+
 
 import newPolitics from '../images/endorsements/new-politics.png';
 import collegeDems from '../images/endorsements/collegedems.png';
@@ -320,6 +322,8 @@ const IndexPage = () => (
             <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
             <Endorsement headshot={low} title="CA Assemblymember" name="Evan Low" />
+            <Endorsement headshot={rahman} title="SD5 Sen." name="Sheikh Rahman" />
+
 
             <Endorsement img={leadersWeDeserve} href="https://leaderswedeserve.com/" alt="Leaders We Deserve" />
             <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
