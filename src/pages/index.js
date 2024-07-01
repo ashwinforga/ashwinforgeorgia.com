@@ -42,8 +42,8 @@ import parent from '../images/endorsements/parent.jpeg';
 import park from '../images/endorsements/park.jpeg';
 import romman from '../images/endorsements/romman.jpeg';
 import tran from '../images/endorsements/tran.jpeg';
+import ossoff from '../images/endorsements/ossoff.jpeg';
 import rahman from '../images/endorsements/rahman.jpeg';
-
 
 import newPolitics from '../images/endorsements/new-politics.png';
 import collegeDems from '../images/endorsements/collegedems.png';
@@ -306,6 +306,7 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
+            <Endorsement headshot={ossoff} title="US Senator" name="Jon Ossoff" />
             <Endorsement headshot={mcbath} title="U.S. Representative" name="Lucy McBath" />
             <Endorsement headshot={butler} title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
             <Endorsement headshot={parent} title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
@@ -323,8 +324,6 @@ const IndexPage = () => (
             <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
             <Endorsement headshot={low} title="CA Assemblymember" name="Evan Low" />
-            
-
 
             <Endorsement img={leadersWeDeserve} href="https://leaderswedeserve.com/" alt="Leaders We Deserve" />
             <Endorsement img={stacked} href="https://www.stackedpac.org/" alt="StackedPAC" />
