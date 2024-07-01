@@ -313,8 +313,8 @@ const IndexPage = () => (
             <Endorsement headshot={carter} title="Fmr. Sen." name="Jason Carter" />
             <Endorsement headshot={au} title="HD50 Rep." name="Michelle Au" />
             <Endorsement headshot={khanna} title="U.S. Representative" name="Ro Khanna" />
-            <Endorsement headshot={rahman} title="SD5 Sen." name="Sheikh Rahman" />
             <Endorsement headshot={islam} title="SD7 Sen." name="Nabilah Islam" />
+            <Endorsement headshot={rahman} title="SD5 Sen." name="Sheikh Rahman" />
             <Endorsement headshot={romman} title="HD97 Rep." name="Ruwa Romman" />
             <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
             <Endorsement headshot={jackson} title="HD68 Rep." name="Derrick Jackson" />
