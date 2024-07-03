@@ -44,6 +44,7 @@ import romman from '../images/endorsements/romman.jpeg';
 import tran from '../images/endorsements/tran.jpeg';
 import ossoff from '../images/endorsements/ossoff.jpeg';
 import rahman from '../images/endorsements/rahman.jpeg';
+import thompson from '../images/endorsements/thompson.jpg';
 
 import newPolitics from '../images/endorsements/new-politics.png';
 import collegeDems from '../images/endorsements/collegedems.png';
@@ -320,6 +321,7 @@ const IndexPage = () => (
             <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
             <Endorsement headshot={jackson} title="HD68 Rep." name="Derrick Jackson" />
             <Endorsement headshot={carden} title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
+            <Endorsement headshot={thompson} title="Lawrenceville City Councilman" name="Austin Thompson" />
             <Endorsement headshot={blackman} title="Fmr. Candidate, Georgia Public Service Commission" name="Daniel Blackman" />
             <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
