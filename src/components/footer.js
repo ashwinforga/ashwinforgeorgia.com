@@ -17,7 +17,7 @@ const Footer = () => (
         <span> </span>
         <a href="mailto:contact@ashwinforgeorgia.com">contact@ashwinforgeorgia.com</a>
         <span> </span>
-        <a href="tel:770-515-9732">770-515-9732</a>
+        <a href="tel:678-460-7034">678-460-7034</a>
       </p>
     </div>
   </footer>

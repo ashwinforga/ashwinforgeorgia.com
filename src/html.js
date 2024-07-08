@@ -23,7 +23,7 @@ export default function HTML(props) {
         fbq('init', '518002613883849');
         fbq('track', 'PageView');`}
         </script>
-        <noscript><img height="1" width="1" style="display:none"
+        <noscript><img height="1" width="1" style={{display: "none"}}
         src="https://www.facebook.com/tr?id=518002613883849&ev=PageView&noscript=1"
         /></noscript>
         {props.headComponents}
