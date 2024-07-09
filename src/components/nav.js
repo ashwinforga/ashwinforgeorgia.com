@@ -98,7 +98,7 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
               className="usa-nav__link"
               activeClassName="usa-current"
               target="_blank"
-              href="https://forms.gle/BWTTmJEyPzfZc48v8"
+              href="https://www.mobilize.us/ashwinforgeorgia/"
             >
               <span>Volunteer</span>
             </a>
