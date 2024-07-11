@@ -103,13 +103,14 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a download href={a_capitol}>
-                <img src={a_capitol} alt="Capitol" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
-              </a>
-            </li>
-            <li>
               <a download href={a_serious}>
                 <img src={a_serious} alt="Serious" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+              
+            </li>
+            <li>
+              <a download href={a_capitol}>
+                <img src={a_capitol} alt="Capitol" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
