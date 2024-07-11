@@ -71,66 +71,60 @@ const IndexPage = () => (
           </h2>
         </div> */}
         <div className="tablet:grid-col-12">
-          <li>Headshots:&nbsp;</li>
           <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', alignItems: 'center' }}>
             <li>
               <a download href={headshot1}>
-                <img src={headshot1} alt="Headshot 1" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot1} alt="Headshot 1" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={headshot2}>
-                <img src={headshot2} alt="Headshot 2" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot2} alt="Headshot 2" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={headshot3}>
-                <img src={headshot3} alt="Headshot 3" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot3} alt="Headshot 3" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={headshot4}>
-                <img src={headshot4} alt="Headshot 4" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot4} alt="Headshot 4" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={headshot5}>
-                <img src={headshot5} alt="Headshot 5" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot5} alt="Headshot 5" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={headshot6}>
-                <img src={headshot6} alt="Headshot 6" style={{ width: '150px', height: 'auto', display: 'block' }} />
+                <img src={headshot6} alt="Headshot 6" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
-          </ul>
-          <li>Action Shots:&nbsp;</li>
-          <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', alignItems: 'center' }}>
             <li>
               <a download href={a_capitol}>
-                <img src={a_capitol} alt="Capitol" style={{ width: '220px', height: 'auto', display: 'block' }} />
+                <img src={a_capitol} alt="Capitol" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={a_serious}>
-                <img src={a_serious} alt="Serious" style={{ width: '220px', height: 'auto', display: 'block' }} />
+                <img src={a_serious} alt="Serious" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={democrats}>
-                <img src={democrats} alt="Democrats" style={{ width: '220px', height: 'auto', display: 'block' }} />
+                <img src={democrats} alt="Democrats" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
             <li>
               <a download href={writing}>
-                <img src={writing} alt="Writing" style={{ width: '220px', height: 'auto', display: 'block' }} />
+                <img src={writing} alt="Writing" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
               </a>
             </li>
           </ul>
-
-
-
         </div>
+
       </div>
     </section>
   </Layout>
