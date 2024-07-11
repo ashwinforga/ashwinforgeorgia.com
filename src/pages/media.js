@@ -10,6 +10,13 @@ import headshot4 from '../press-kit/headshot-4.jpg';
 import headshot5 from '../press-kit/headshot-5.jpg';
 import headshot6 from '../press-kit/headshot-6.png';
 
+//import a_capitol2 from '../images/capitol-1.jpg';
+//import cover from '../images/cover.png';
+
+import a_capitol from '../images/ashwin-capitol.jpeg';
+import a_serious from '../images/ashwin-serious-cropped.jpg';
+import democrats from '../images/democrats-photo.jpeg';
+import writing from '../images/writing-club-cropped.jpg';
 
 const Article = ({ title, img, quote, href, date }) => (
   <li className="usa-card tablet:grid-col-6 issue">
@@ -64,17 +71,61 @@ const IndexPage = () => (
           </h2>
         </div> */}
         <div className="tablet:grid-col-12">
-          <ul>
-            <li>Headshots:&nbsp;
-              <a download href={headshot1}>1</a>&nbsp;
-              <a download href={headshot2}>2</a>&nbsp;
-              <a download href={headshot3}>3</a>&nbsp;
-              <a download href={headshot4}>4</a>&nbsp;
-              <a download href={headshot5}>5</a>&nbsp;
-              <a download href={headshot6}>6</a>&nbsp;
+          <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', alignItems: 'center' }}>
+            <li>
+              <a download href={headshot1}>
+                <img src={headshot1} alt="Headshot 1" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={headshot2}>
+                <img src={headshot2} alt="Headshot 2" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={headshot3}>
+                <img src={headshot3} alt="Headshot 3" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={headshot4}>
+                <img src={headshot4} alt="Headshot 4" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={headshot5}>
+                <img src={headshot5} alt="Headshot 5" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={headshot6}>
+                <img src={headshot6} alt="Headshot 6" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={a_serious}>
+                <img src={a_serious} alt="Serious" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+              
+            </li>
+            <li>
+              <a download href={a_capitol}>
+                <img src={a_capitol} alt="Capitol" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={democrats}>
+                <img src={democrats} alt="Democrats" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
+            </li>
+            <li>
+              <a download href={writing}>
+                <img src={writing} alt="Writing" style={{ width: 'auto', height: '180px', objectFit: 'cover', display: 'block' }} />
+              </a>
             </li>
           </ul>
         </div>
+
       </div>
     </section>
   </Layout>
