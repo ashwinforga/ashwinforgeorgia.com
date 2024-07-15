@@ -64,6 +64,7 @@ import iaImpact from '../images/endorsements/ia-impact.png';
 import moms from '../images/endorsements/moms.png';
 import gahsdems from '../images/endorsements/gahsdems.jpeg';
 import mentalhealthnow from '../images/endorsements/mentalhealthnow.png';
+import cgcandidate from '../images/endorsements/CGCandidate.png';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -347,6 +348,7 @@ const IndexPage = () => (
 
             <Endorsement img={gahsdems} alt="Georgia High School Democrats" />
             <Endorsement img={mentalhealthnow} href="https://mentalhealthnow.us/" alt="Mental Health now" />
+            <Endorsement img={cgcandidate} alt="Candidates for Common Good" />
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
