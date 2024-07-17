@@ -44,6 +44,7 @@ import romman from '../images/endorsements/romman.jpeg';
 import tran from '../images/endorsements/tran.jpeg';
 import ossoff from '../images/endorsements/ossoff.jpeg';
 import rahman from '../images/endorsements/rahman.jpeg';
+import thompson from '../images/endorsements/thompson.jpg';
 
 import newPolitics from '../images/endorsements/new-politics.png';
 import collegeDems from '../images/endorsements/collegedems.png';
@@ -63,6 +64,7 @@ import iaImpact from '../images/endorsements/ia-impact.png';
 import moms from '../images/endorsements/moms.png';
 import gahsdems from '../images/endorsements/gahsdems.jpeg';
 import mentalhealthnow from '../images/endorsements/mentalhealthnow.png';
+import cgcandidate from '../images/endorsements/CGCandidate.png';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
@@ -306,7 +308,7 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
-            <Endorsement headshot={ossoff} title="U.S. Senator" name="Jon Ossoff" />
+            <Endorsement headshot={ossoff} title="US Senator" name="Jon Ossoff" />
             <Endorsement headshot={mcbath} title="U.S. Representative" name="Lucy McBath" />
             <Endorsement headshot={butler} title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
             <Endorsement headshot={parent} title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
@@ -320,6 +322,7 @@ const IndexPage = () => (
             <Endorsement headshot={tran} title="HD80 Rep." name="Long Tran" />
             <Endorsement headshot={jackson} title="HD68 Rep." name="Derrick Jackson" />
             <Endorsement headshot={carden} title="Gwinnett County District 1 Commissioner" name="Kirkland Carden" />
+            <Endorsement headshot={thompson} title="Lawrenceville City Councilman" name="Austin Thompson" />
             <Endorsement headshot={blackman} title="Fmr. Candidate, Georgia Public Service Commission" name="Daniel Blackman" />
             <Endorsement headshot={duggal} title="Fmr. State House Candidate" name="Om Duggal" />
             <Endorsement headshot={kannan} title="Chair of Forsyth County Dems" name="Kannan Udayarajan" />
@@ -345,6 +348,7 @@ const IndexPage = () => (
 
             <Endorsement img={gahsdems} alt="Georgia High School Democrats" />
             <Endorsement img={mentalhealthnow} href="https://mentalhealthnow.us/" alt="Mental Health now" />
+            <Endorsement img={cgcandidate} alt="Candidates for Common Good" />
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>

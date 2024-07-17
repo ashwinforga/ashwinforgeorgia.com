@@ -25,7 +25,7 @@ export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-
       </Link>
     </div>
     <div className="donate">
-      <a className="usa-button usa-nav__link" target="_blank" href="https://forms.gle/BWTTmJEyPzfZc48v8">
+      <a className="usa-button usa-nav__link" target="_blank" href="https://www.mobilize.us/ashwinforgeorgia/">
         VOLUNTEER
       </a>
     </div>
@@ -98,7 +98,7 @@ const Nav = ({ navigation, secondaryLinks }) => (<>
               className="usa-nav__link"
               activeClassName="usa-current"
               target="_blank"
-              href="https://forms.gle/BWTTmJEyPzfZc48v8"
+              href="https://www.mobilize.us/ashwinforgeorgia/"
             >
               <span>Volunteer</span>
             </a>
