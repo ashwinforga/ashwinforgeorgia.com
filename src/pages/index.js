@@ -306,7 +306,7 @@ const IndexPage = () => (
         </div>
         <div className="tablet:grid-col-12">
           <ul className="usa-card-group">
-            <Endorsement headshot={ossoff} title="US Senator" name="Jon Ossoff" />
+            <Endorsement headshot={ossoff} title="U.S. Senator" name="Jon Ossoff" />
             <Endorsement headshot={mcbath} title="U.S. Representative" name="Lucy McBath" />
             <Endorsement headshot={butler} title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
             <Endorsement headshot={parent} title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
