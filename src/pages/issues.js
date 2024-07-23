@@ -108,6 +108,19 @@ const IndexPage = () => (
 
           </DetailedIssue>
 
+
+          <DetailedIssue title="Addressing the Climate Crisis" summary={<>I plan to ensure Georgia is a leader in green energy, and that we protect the natural environment and invest in multi-modal transportation and public transit.</>}>
+            <p>Georgia is one of the states most vulnerable to the effects of climate change. From extreme heat to flooding and droughts, climate change is impacting the lives of all Georgians. This includes farmers who’ve lost income, Georgians with respiratory issues that have been exacerbated by worsened air quality, and unhoused individuals who’ve tragically died due to extreme heat. As a member of the Georgia State Senate, my work will always be grounded in this fact: human-created climate change is an existential threat to communities in Georgia and across the country and globe, and only with bold policy decisions across all levels of government will we be able to accomplish the monumental task of defeating this threat.</p>
+
+            <p>I’m committed to pursuing climate solutions that center and promote economic opportunities for Georgians, a goal we can all get behind. This includes working with Georgia Power to increase our state’s use of renewable energy, supporting legislation to create more financial incentives that promote the use of solar power, continuing the bipartisan efforts that have made Georgia a hub for the growing EV industry, and providing state funding to nonprofit programs such as the Capital Good Fund’s Georgia BRIGHT initiative.
+            </p>
+
+            <p>I will also be a strong advocate for expanded public transportation and expanding options for multi-modal transportation throughout our district. I will support efforts to provide financial and logistical assistance to local school districts interested in introducing electric buses. I will also work to support the immediate needs of those communities currently facing the worst effects of climate change, including unhoused populations and Georgians living in our state’s coastal regions.</p>
+
+            <p>I will advocate for reforms to the Georgia Public Service Commission so that it can finally hold elections and be responsive to the democratic will of the people — elections have been suspended for several years due to a lawsuit, which has allowed existing members to make climate-unfriendly decisions. Lastly, I will work with my colleagues to reintroduce the Clean Energy Act which would transition our state to 100% clean energy by 2050.</p>
+
+          </DetailedIssue>
+
           <DetailedIssue title="Gun Safety" summary={<>I support commonsense gun safety legislation such as safe storage legislation and additional background checks, which respects the Second Amendment and protects communities.</>}>
             <p>I’m all for law-abiding gun owners to have and use guns, but we must protect our communities to ensure that guns don’t fall in the wrong hands. It’s easier to get a gun than it is to get a driver’s license in Georgia. We need to add basic protections such as effective background checks and red flag laws, and prioritize campus safety by reducing gun violence in schools.</p>
 
@@ -121,18 +134,6 @@ const IndexPage = () => (
             <p>I will work to create an independent redistricting commission for the state legislature so that incumbents cannot gerrymander their way into staying into office. We need to provide more resources and a pipeline for more technologists to join the state government, so that they can make government processes more streamlined and intuitive for the public to use. Finally, I will work to boost investments into increased ethics oversight, both for elected officials and agencies of government.</p>
 
             <p>We must also revise the Georgia Open Meetings Act and Open Records Act to close loopholes that allow officials to circumvent the public records requirements. For example, the Open Records Act does not apply to the General Assembly, and I will work to ensure it does apply to the General Assembly. As Justice Brandeis wrote, “Sunlight is said to be the best of disinfectants.”</p>
-
-          </DetailedIssue>
-
-          <DetailedIssue title="Addressing the Climate Crisis" summary={<>I plan to ensure Georgia is a leader in green energy, and that we protect the natural environment and invest in multi-modal transportation and public transit.</>}>
-            <p>Georgia is one of the states most vulnerable to the effects of climate change. From extreme heat to flooding and droughts, climate change is impacting the lives of all Georgians. This includes farmers who’ve lost income, Georgians with respiratory issues that have been exacerbated by worsened air quality, and unhoused individuals who’ve tragically died due to extreme heat. As a member of the Georgia State Senate, my work will always be grounded in this fact: human-created climate change is an existential threat to communities in Georgia and across the country and globe, and only with bold policy decisions across all levels of government will we be able to accomplish the monumental task of defeating this threat.</p>
-
-            <p>I’m committed to pursuing climate solutions that center and promote economic opportunities for Georgians, a goal we can all get behind. This includes working with Georgia Power to increase our state’s use of renewable energy, supporting legislation to create more financial incentives that promote the use of solar power, continuing the bipartisan efforts that have made Georgia a hub for the growing EV industry, and providing state funding to nonprofit programs such as the Capital Good Fund’s Georgia BRIGHT initiative.
-            </p>
-
-            <p>I will also be a strong advocate for expanded public transportation and expanding options for multi-modal transportation throughout our district. I will support efforts to provide financial and logistical assistance to local school districts interested in introducing electric buses. I will also work to support the immediate needs of those communities currently facing the worst effects of climate change, including unhoused populations and Georgians living in our state’s coastal regions.</p>
-
-            <p>I will advocate for reforms to the Georgia Public Service Commission so that it can finally hold elections and be responsive to the democratic will of the people — elections have been suspended for several years due to a lawsuit, which has allowed existing members to make climate-unfriendly decisions. Lastly, I will work with my colleagues to reintroduce the Clean Energy Act which would transition our state to 100% clean energy by 2050.</p>
 
           </DetailedIssue>
 
