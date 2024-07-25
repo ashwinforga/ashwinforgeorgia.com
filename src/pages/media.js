@@ -63,7 +63,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="grid-container usa-section usa-prose grid-media">
-      <h1>Press Kit</h1>
+      <a href='https://drive.google.com/drive/folders/1wxlsAyegUto90i6R9VkLMjSjXBUr6QLi?usp=sharing'><h1>Press Kit</h1></a>
       <div className="grid-row grid-gap">
         {/* <div className="tablet:grid-col-12">
           <h2 className="font-heading-xl margin-top-0 text-center">
