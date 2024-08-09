@@ -69,6 +69,8 @@ import cgcandidate from '../images/endorsements/CGCandidate.png';
 import climatecabinet from '../images/endorsements/climatecabinet.png';
 import redclay from '../images/endorsements/redclay.png';
 
+import hrc from '../images/endorsements/hrcpac.png';
+
 const Issue = ({ title, img, href, children }) => (
   <li className="usa-card tablet:grid-col-4 issue">
     <div className="usa-card__container">
@@ -356,6 +358,8 @@ const IndexPage = () => (
             <Endorsement img={climatecabinet} href="https://climatecabinet.org/candidates/ashwin-ramaswami" alt="Climate Cabinet Action Fund" />
             <Endorsement img={redclay} href="https://redclaydems.org/about-us/2024-endorsements/" alt="Red Clay Dems" />
             
+            <Endorsement img={hrc} href="https://www.hrc.org/in-your-area/georgia" alt="Human Rights Campaign" />
+
           </ul>
           {/* <div style={{ textAlign: "center" }}>
             <a href="/issues" className="usa-button">Learn More</a>
