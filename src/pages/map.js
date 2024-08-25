@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const MapPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Map" />
     <h1>Map</h1>
     <p><a href="https://www.senate.ga.gov/senators/Documents/Maps/2023SD48.pdf">Click here</a></p>
     <Helmet>
