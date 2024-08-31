@@ -13,8 +13,9 @@ import Banner from './banner';
 import Footer from './footer';
 import Header from './header';
 import Nav from './nav';
+import DonationPopup from './donation-popup';
 
-const Layout = ({ children, className = "" }) => {
+const Layout = ({ children, className = "", donationPopup = false }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -43,6 +44,7 @@ const Layout = ({ children, className = "" }) => {
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
+      {donationPopup && <DonationPopup />}
       {/* <Banner /> */}
       <div className="usa-overlay" />
       <Header siteTitle={title}>

@@ -36,7 +36,7 @@ const DetailedIssue = ({ title, summary, children }) => (
 )
 
 const IndexPage = () => (
-  <Layout>
+  <Layout donationPopup={true}>
     <SEO title="Issues" />
     <DonationPopup />
     <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${writingClub})` }}>

@@ -23,7 +23,6 @@ import jif from '../images/jif-fellows.jpeg';
 import sossa from '../images/sossa.jpg';
 import lecture from '../images/ashwin-bv-lecture-cropped.jpg';
 import { NavMobile } from '../components/nav';
-import DonationPopup from '../components/donation-popup';
 import { Link } from 'gatsby';
 
 import au from '../images/endorsements/au.jpeg';
@@ -244,9 +243,8 @@ const WhyNot = () => (<section className="usa-graphic-list usa-section why-not" 
 </section>);
 
 const IndexPage = () => (
-  <Layout className="index-page">
+  <Layout className="index-page" donationPopup={true}>
     <SEO title="Home" />
-    <DonationPopup />
     <div className="hidden-desktop show-mobile mobile-logo">
       <img src={logo} />
     </div>
