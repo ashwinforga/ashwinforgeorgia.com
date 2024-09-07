@@ -4,7 +4,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import readyToWork from "../images/ready-to-work.jpg";
 import writingClub from "../images/writing-club-cropped.jpg";
-import DonationPopup from '../components/donation-popup';
 
 const Issue = ({ title, img, href, children }) => (
   <li className="tablet:grid-col-12 issue">
@@ -38,12 +37,11 @@ const DetailedIssue = ({ title, summary, children }) => (
 const IndexPage = () => (
   <Layout donationPopup={true}>
     <SEO title="Issues" />
-    <DonationPopup />
     <section className="grid-container usa-section issues usa-prose" style={{ backgroundImage: `url(${writingClub})` }}>
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-12">
           <ul className="issue-group">
-            <img className="ready-to-work" src={readyToWork} />
+            <img className="ready-to-work" src={readyToWork} alt="Candidate ready to work" />
             <Issue title="Building an Economy of the Future">
               I will work to make Georgia a sustainable tech hub that attracts the jobs of the future, while supporting small businesses and entrepreneurship. Every student in Georgia deserves a world-class education.</Issue>
             <Issue title="Protecting and Defending Democracy">
