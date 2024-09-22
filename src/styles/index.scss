@@ -816,3 +816,22 @@ h2.usa-card__heading {
 
   }
 }
+
+
+iframe {
+  aspect-ratio: 16 / 9;
+}
+
+.voter-alert button {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.voter-alert {
+  .nav-mobile {
+    display: none;
+  }
+}
