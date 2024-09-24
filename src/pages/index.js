@@ -315,10 +315,10 @@ const IndexPage = () => (
           <ul className="usa-card-group">
             <Endorsement headshot={ossoff} title="U.S. Senator" name="Jon Ossoff" />
             <Endorsement headshot={mcbath} title="U.S. Representative" name="Lucy McBath" />
-            <Endorsement headshot={bourdeaux} title="U.S. Representative" name="Carolyn Bourdeaux" />
             <Endorsement headshot={butler} title="Georgia Democratic Caucus Leader Sen." name="Gloria Butler" />
             <Endorsement headshot={parent} title="Georgia Democratic Caucus Chair Sen." name="Elena Parent" />
             <Endorsement headshot={park} title="Georgia Democratic Whip Rep." name="Sam Park" />
+            <Endorsement headshot={bourdeaux} title="Fmr. U.S. Representative" name="Carolyn Bourdeaux" />
             <Endorsement headshot={carter} title="Fmr. Sen." name="Jason Carter" />
             <Endorsement headshot={au} title="HD50 Rep." name="Michelle Au" />
             <Endorsement headshot={khanna} title="U.S. Representative" name="Ro Khanna" />
