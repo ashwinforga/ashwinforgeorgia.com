@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
-        <meta property="og:image" content="https://ashwinforgeorgia.com/images/preview-2.png" />
+        <meta property="og:image" content="https://ashwinforgeorgia.com/images/preview-3.jpeg" />
         <script>{`!function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
