@@ -373,7 +373,7 @@ const IndexPage = () => (
         </div>
       </div>
       <hr/>
-      <VotersInfo/>
+     
     </section> 
     {/* <hr />
     <WhyNot /> */}
