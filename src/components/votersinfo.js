@@ -6,7 +6,7 @@ const VotersInfo = () => (
       <h2 className="font-heading-xl margin-y-3 text-center">What Voters Need to Know</h2>
       
       <p className="margin-bottom-4">
-        Voters, especially women, middle partisans on both sides, young, and non-white voters need to read in the mail, (hear on the radio, and watch on see on cable news) that Shawn Still supports Georgia's abortion ban, opposes all common sense gun safety, and has been indicted on 7 felony counts as a leader in the Fake Elector scheme in Georgia to steal their votes.
+        Voters, especially women, middle partisans on both sides, young, and voters from minority communities need to read in the mail that Shawn Still supports Georgia's abortion ban, opposes all common sense gun safety laws, and has been indicted on 7 felony counts as a leader in the Fake Elector scheme in Georgia to steal their votes.
       </p>
       
       <h3 className="font-heading-lg text-primary-darker margin-top-4">Summary</h3>
@@ -24,7 +24,7 @@ const VotersInfo = () => (
       </p>
       
       <p className="margin-bottom-4">
-        Shawn Still was indicted as part of the election interference chaos during the counting of votes in Fulton County after the 2020 election. He is facing 7 felony charges for forging illegal documents as a fake elector and trying to overturn elections in Georgia. He even sued Secretary of State Brad Raffensperger to overturn election results. Because of his felony indictment, Governor Brian Kemp launched an investigation into Still.
+        Shawn Still was indicted as part of the election interference chaos during the counting of votes in Fulton County after the 2020 election. He is facing 7 felony charges for forging illegal documents as a fake elector and trying to overturn elections in Georgia. He even sued Secretary of State Brad Raffensperger to overturn the election results. Because of his felony indictment, Governor Brian Kemp launched an investigation into Still.
       </p>
       <h3 className="font-heading-lg text-primary-darker margin-top-4">Campaign B-roll Footage</h3>
       <p className="margin-bottom-2">
