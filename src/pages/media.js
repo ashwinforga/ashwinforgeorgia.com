@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import VotersInfo from '../components/votersinfo';
 
 import headshot1 from '../press-kit/headshot-1.jpg';
 import headshot2 from '../press-kit/headshot-2.jpg';
@@ -128,6 +129,9 @@ const IndexPage = () => (
         </div>
 
       </div>
+    </section>
+    <section className='grid-container usa-section usa-prose grid-media'>
+      <VotersInfo/>
     </section>
   </Layout>
 );
