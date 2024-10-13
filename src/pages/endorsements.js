@@ -45,7 +45,7 @@ import moms from '../images/endorsements/moms.png';
 import gahsdems from '../images/endorsements/gahsdems.jpeg';
 import mentalhealthnow from '../images/endorsements/mentalhealthnow.png';
 import cgcandidate from '../images/endorsements/CGCandidate.png';
-import gae from '../images/endorsements/gae.png';
+import gae from '../images/endorsements/GAE.png';
 import georgia_stonewall from '../images/endorsements/georgia_stonewall.jpg';
 import ibew from '../images/endorsements/IBEW_LOCAL_613.jpg';
 import momsrising from '../images/endorsements/momsrising.jpg';
