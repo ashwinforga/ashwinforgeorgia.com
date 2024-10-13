@@ -17,14 +17,13 @@ module.exports = {
         items: [{ text: 'About', link: '/about' }],
       },
       {
-        items: [
-          { text: 'Issues', link: '/issues' },
-        ],
+        items: [{ text: 'Endorsements', link: '/endorsements' }],
       },
       {
-        items: [
-          { text: 'Media', link: '/media' },
-        ],
+        items: [{ text: 'Issues', link: '/issues' }],
+      },
+      {
+        items: [{ text: 'Media', link: '/media' }],
       },
       // {
       //   items: [
@@ -163,7 +162,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/android-chrome-256x256.png`
+        icon: `src/images/android-chrome-256x256.png`,
       },
     },
     `gatsby-plugin-sitemap`,
