@@ -15,6 +15,11 @@ export const NavMobile = ({ className }) => (<nav className={"nav-mobile hidden-
       </Link>
     </div>
     <div className="donate">
+      <Link className="usa-button usa-nav__link" to="/endorsements">
+        Endorsements
+      </Link>
+    </div>
+    <div className="donate">
       <Link className="usa-button usa-nav__link" to="/issues">
         ISSUES
       </Link>
