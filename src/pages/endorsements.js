@@ -10,6 +10,7 @@ import butler from '../images/endorsements/butler.jpeg';
 import carden from '../images/endorsements/carden.jpeg';
 import carter from '../images/endorsements/carter.jpeg';
 import duggal from '../images/endorsements/duggal.jpeg';
+import hogg from '../images/endorsements/hogg.jpg';
 import islam from '../images/endorsements/islam.jpeg';
 import jackson from '../images/endorsements/jackson.jpeg';
 import kannan from '../images/endorsements/kannan.jpeg';
@@ -22,6 +23,7 @@ import romman from '../images/endorsements/romman.jpeg';
 import tran from '../images/endorsements/tran.jpeg';
 import ossoff from '../images/endorsements/ossoff.jpeg';
 import rahman from '../images/endorsements/rahman.jpeg';
+import sheth from '../images/endorsements/sheth.png';
 import thompson from '../images/endorsements/thompson.jpg';
 import bourdeaux from '../images/endorsements/bourdeaux.png';
 import young from '../images/endorsements/young.jpg';
@@ -55,6 +57,15 @@ import climatecabinet from '../images/endorsements/climatecabinet.png';
 import redclay from '../images/endorsements/redclay.png';
 import georgiaequality from '../images/endorsements/georgiaequality.png';
 import hrc from '../images/endorsements/hrcpac.png';
+import galeo from '../images/endorsements/galeo.png';
+import gmgs from '../images/endorsements/gmgs.png';
+import great_than_pac from '../images/endorsements/great_than_pac.png';
+import harvard_college_democrats from '../images/endorsements/harvard_college_democrats.png';
+import ppsa from '../images/endorsements/ppsa.jpg';
+import reproductive_freedom_for_all from '../images/endorsements/reproductive_freedom_for_all.png';
+import ydatl from '../images/endorsements/ydatl.jpg';
+import aaaf from '../images/endorsements/aaaf.png';
+import aapi_victory_alliance from '../images/endorsements/aapi_victory_alliance.png';
 
 const Endorsement = ({ title, name, href, img, headshot, alt }) => (
   <li className="usa-card tablet:grid-col-3 issue">
@@ -196,7 +207,16 @@ function Endorsements() {
                 title="CA Assemblymember"
                 name="Evan Low"
               />
-
+              <Endorsement
+                headshot={hogg}
+                title="Gun Control Activist"
+                name="David Hogg"
+              />
+              <Endorsement
+                headshot={sheth}
+                title="Professor of Marketing at Emory Unisersity"
+                name="Jagdish Sheth"
+              />
               <Endorsement
                 img={leadersWeDeserve}
                 href="https://leaderswedeserve.com/"
@@ -285,6 +305,47 @@ function Endorsements() {
                 alt="MomsRising - Moms Seal of Approval"
               />
               <Endorsement img={UCFW} alt="UFCW Local 1996" />
+              <Endorsement
+                img={gmgs}
+                alt="Georgia Majority for Gun Safety 2024 Candidate Pledge
+"
+              />
+              <Endorsement
+                img={harvard_college_democrats}
+                alt="Harvard College Democrats
+"
+              />
+              <Endorsement
+                img={ydatl}
+                alt="YDATL
+"
+              />
+              <Endorsement
+                img={aapi_victory_alliance}
+                alt="AAAPI Victorry Alliance
+"
+              />
+              <Endorsement
+                img={ppsa}
+                alt="Planned Parenthood Southeast Advocates
+"
+              />
+              <Endorsement img={galeo} alt="GALEO Impact Fund" />
+              <Endorsement
+                img={aaaf}
+                alt="AAAF
+"
+              />
+              <Endorsement
+                img={great_than_pac}
+                alt="Greater Than PAC
+"
+              />
+              <Endorsement
+                img={reproductive_freedom_for_all}
+                alt="Reproductive Freedom for All
+"
+              />
             </ul>
             {/* <div style={{ textAlign: "center" }}>
         <a href="/issues" className="usa-button">Learn More</a>
