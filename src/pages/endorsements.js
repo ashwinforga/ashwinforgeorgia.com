@@ -66,6 +66,7 @@ import reproductive_freedom_for_all from '../images/endorsements/reproductive_fr
 import ydatl from '../images/endorsements/ydatl.jpg';
 import aaaf from '../images/endorsements/aaaf.png';
 import aapi_victory_alliance from '../images/endorsements/aapi_victory_alliance.png';
+import future_dems from '../images/endorsements/future_dems.jpeg';
 
 const Endorsement = ({ title, name, href, img, headshot, alt }) => (
   <li className="usa-card tablet:grid-col-3 issue">
@@ -346,6 +347,7 @@ function Endorsements() {
                 alt="Reproductive Freedom for All
 "
               />
+              <Endorsement img={future_dems} alt="Future Dems" />
             </ul>
             {/* <div style={{ textAlign: "center" }}>
         <a href="/issues" className="usa-button">Learn More</a>
