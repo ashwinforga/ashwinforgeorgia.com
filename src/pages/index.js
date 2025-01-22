@@ -267,7 +267,7 @@ const WhyNot = () => (
 );
 
 const IndexPage = () => (
-  <Layout className="index-page" donationPopup={true}>
+  <Layout className="index-page" donationPopup={false}>
     <SEO title="Ashwin Ramaswami for State Senate" />
     <div className="hidden-desktop show-mobile mobile-logo">
       <img src={logo} />
