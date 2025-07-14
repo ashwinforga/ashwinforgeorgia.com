@@ -115,7 +115,7 @@ const HeroText = (props) => {
         <a
           className="usa-button usa-button--outline"
           onClick={submitForm}
-          disabled={loading}
+          disabled={true}
         >
           Submit
         </a>
@@ -355,7 +355,7 @@ const IndexPage = () => (
         </div>
       </div>
       <hr />
-      <div className="grid-row grid-gap grid-donate">
+      {/* <div className="grid-row grid-gap grid-donate">
         <div className="tablet:grid-col-12">
           <h1 style={{ marginTop: '0 !important' }}>Join our campaign!</h1>
         </div>
@@ -414,8 +414,8 @@ const IndexPage = () => (
             Donate
           </Link>
         </div>
-      </div>
-      <hr />
+      </div> */}
+      {/* <hr /> */}
     </section>
     {/* <hr />
     <WhyNot /> */}
