@@ -268,7 +268,11 @@ const WhyNot = () => (
 
 const IndexPage = () => (
   <Layout className="index-page" donationPopup={false}>
-    <SEO title="Ashwin Ramaswami for State Senate" />
+    <SEO
+      title="Ashwin Ramaswami for State Senate"
+      robots="index,follow"
+      canonical="https://ashwin.run"
+    />
     <div className="hidden-desktop show-mobile mobile-logo">
       <img src={logo} />
     </div>
